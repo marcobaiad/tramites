@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f3f4f1fdb09afb1fbc403649025fb60",
+    "revision": "24be6d5394427160385eecd92474229b",
     "url": "/tramites/index.html"
   },
   {
-    "revision": "45e0074f67dd1ef85c3d",
-    "url": "/tramites/static/css/main.b01f3a3c.chunk.css"
+    "revision": "ae2f2203b9ac47792309",
+    "url": "/tramites/static/css/main.df9e7dfd.chunk.css"
   },
   {
-    "revision": "88dc2a1be4d6c7a82408",
-    "url": "/tramites/static/js/2.0fe1034b.chunk.js"
+    "revision": "672d821db48d2a0e3551",
+    "url": "/tramites/static/js/2.f024ded5.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/tramites/static/js/2.0fe1034b.chunk.js.LICENSE.txt"
+    "url": "/tramites/static/js/2.f024ded5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "45e0074f67dd1ef85c3d",
-    "url": "/tramites/static/js/main.0b225ebf.chunk.js"
+    "revision": "ae2f2203b9ac47792309",
+    "url": "/tramites/static/js/main.a4da1fb4.chunk.js"
   },
   {
     "revision": "d90ed03366098e9f05c4",
@@ -25,7 +25,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "b14d48d99f3221a27f8252e968b456f7",
-    "url": "/tramites/static/media/headerImgresize.b14d48d9.PNG"
+    "url": "/tramites/static/media/headerImgresize .b14d48d9.jpg"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
