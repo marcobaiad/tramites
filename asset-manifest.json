@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tramites/static/css/main.5c836b57.chunk.css",
+    "main.css": "/tramites/static/css/main.b01f3a3c.chunk.css",
     "main.js": "/tramites/static/js/main.0b225ebf.chunk.js",
     "main.js.map": "/tramites/static/js/main.0b225ebf.chunk.js.map",
     "runtime-main.js": "/tramites/static/js/runtime-main.3699a4e9.js",
@@ -8,17 +8,17 @@
     "static/js/2.0fe1034b.chunk.js": "/tramites/static/js/2.0fe1034b.chunk.js",
     "static/js/2.0fe1034b.chunk.js.map": "/tramites/static/js/2.0fe1034b.chunk.js.map",
     "index.html": "/tramites/index.html",
-    "precache-manifest.be35074915569c01d0a1e144a9db1256.js": "/tramites/precache-manifest.be35074915569c01d0a1e144a9db1256.js",
+    "precache-manifest.1fb8f0bba43d37cde2ed59cca515e31e.js": "/tramites/precache-manifest.1fb8f0bba43d37cde2ed59cca515e31e.js",
     "service-worker.js": "/tramites/service-worker.js",
-    "static/css/main.5c836b57.chunk.css.map": "/tramites/static/css/main.5c836b57.chunk.css.map",
+    "static/css/main.b01f3a3c.chunk.css.map": "/tramites/static/css/main.b01f3a3c.chunk.css.map",
     "static/js/2.0fe1034b.chunk.js.LICENSE.txt": "/tramites/static/js/2.0fe1034b.chunk.js.LICENSE.txt",
-    "static/media/Header.css": "/tramites/static/media/headerImgresize.7b1a09e7.PNG",
+    "static/media/Header.css": "/tramites/static/media/headerImgresize.b14d48d9.PNG",
     "static/media/logo.svg": "/tramites/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3699a4e9.js",
     "static/js/2.0fe1034b.chunk.js",
-    "static/css/main.5c836b57.chunk.css",
+    "static/css/main.b01f3a3c.chunk.css",
     "static/js/main.0b225ebf.chunk.js"
   ]
 }
