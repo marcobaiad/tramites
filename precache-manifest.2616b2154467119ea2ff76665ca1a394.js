@@ -1,47 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ba94a4870354eadbd1e8aedbbdf60cf",
+    "revision": "59d8d183e46a5a3fd96ee4a8e5f7cc74",
     "url": "/tramites/index.html"
   },
   {
-    "revision": "23646e6706cced4c0865",
+    "revision": "cc7f8250ccc204bf5035",
     "url": "/tramites/static/css/3.7534b09b.chunk.css"
   },
   {
-    "revision": "e5352b93ec3c24705696",
-    "url": "/tramites/static/css/main.79f38c2e.chunk.css"
+    "revision": "37bdb3862642fc907c8b",
+    "url": "/tramites/static/css/main.e105053b.chunk.css"
   },
   {
-    "revision": "75bc27a758e186612213",
-    "url": "/tramites/static/js/2.51df5b46.chunk.js"
+    "revision": "4dffd54867f21cecc5fc",
+    "url": "/tramites/static/js/2.a233187f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/tramites/static/js/2.51df5b46.chunk.js.LICENSE.txt"
+    "url": "/tramites/static/js/2.a233187f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "23646e6706cced4c0865",
-    "url": "/tramites/static/js/3.e4dd8e9e.chunk.js"
+    "revision": "cc7f8250ccc204bf5035",
+    "url": "/tramites/static/js/3.74b4c207.chunk.js"
   },
   {
-    "revision": "30b7376981b2c4142892",
-    "url": "/tramites/static/js/4.8e6ac98b.chunk.js"
+    "revision": "706a06a363091c72187c",
+    "url": "/tramites/static/js/4.a52a2fc6.chunk.js"
   },
   {
-    "revision": "e5352b93ec3c24705696",
-    "url": "/tramites/static/js/main.076dc15f.chunk.js"
+    "revision": "37bdb3862642fc907c8b",
+    "url": "/tramites/static/js/main.c3e8a709.chunk.js"
   },
   {
-    "revision": "d4a65271aa9408bc916c",
-    "url": "/tramites/static/js/runtime-main.7bd5b878.js"
-  },
-  {
-    "revision": "b14d48d99f3221a27f8252e968b456f7",
-    "url": "/tramites/static/media/headerImgresize .b14d48d9.jpg"
+    "revision": "258203d16206747221ee",
+    "url": "/tramites/static/js/runtime-main.3c8ac3f8.js"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/tramites/static/media/logo.5d5d9eef.svg"
+  },
+  {
+    "revision": "34f4750836c0fd7f3d65d647705e85de",
+    "url": "/tramites/static/media/montoJubilados.34f47508.JPG"
+  },
+  {
+    "revision": "5b5804325c2459dbf1f678c04b1c6ded",
+    "url": "/tramites/static/media/montoasignaciones.5b580432.JPG"
   },
   {
     "revision": "c58064a090e2902e766066ebb448d58c",
