@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/tramites/static/css/main.7c59aff9.chunk.css",
-    "main.js": "/tramites/static/js/main.ff0e0db4.chunk.js",
-    "main.js.map": "/tramites/static/js/main.ff0e0db4.chunk.js.map",
-    "runtime-main.js": "/tramites/static/js/runtime-main.5d2e9f65.js",
-    "runtime-main.js.map": "/tramites/static/js/runtime-main.5d2e9f65.js.map",
-    "static/js/2.6d5a333d.chunk.js": "/tramites/static/js/2.6d5a333d.chunk.js",
-    "static/js/2.6d5a333d.chunk.js.map": "/tramites/static/js/2.6d5a333d.chunk.js.map",
-    "static/css/3.7534b09b.chunk.css": "/tramites/static/css/3.7534b09b.chunk.css",
-    "static/js/3.e4a24145.chunk.js": "/tramites/static/js/3.e4a24145.chunk.js",
-    "static/js/3.e4a24145.chunk.js.map": "/tramites/static/js/3.e4a24145.chunk.js.map",
-    "static/js/4.5c727ce9.chunk.js": "/tramites/static/js/4.5c727ce9.chunk.js",
-    "static/js/4.5c727ce9.chunk.js.map": "/tramites/static/js/4.5c727ce9.chunk.js.map",
+    "main.css": "/tramites/static/css/main.d4fbfb78.chunk.css",
+    "main.js": "/tramites/static/js/main.b75741e7.chunk.js",
+    "main.js.map": "/tramites/static/js/main.b75741e7.chunk.js.map",
+    "runtime-main.js": "/tramites/static/js/runtime-main.124de6b5.js",
+    "runtime-main.js.map": "/tramites/static/js/runtime-main.124de6b5.js.map",
+    "static/js/2.cd609834.chunk.js": "/tramites/static/js/2.cd609834.chunk.js",
+    "static/js/2.cd609834.chunk.js.map": "/tramites/static/js/2.cd609834.chunk.js.map",
+    "static/css/3.4525cb9b.chunk.css": "/tramites/static/css/3.4525cb9b.chunk.css",
+    "static/js/3.02fe4cd0.chunk.js": "/tramites/static/js/3.02fe4cd0.chunk.js",
+    "static/js/3.02fe4cd0.chunk.js.map": "/tramites/static/js/3.02fe4cd0.chunk.js.map",
+    "static/js/4.d753663c.chunk.js": "/tramites/static/js/4.d753663c.chunk.js",
+    "static/js/4.d753663c.chunk.js.map": "/tramites/static/js/4.d753663c.chunk.js.map",
     "index.html": "/tramites/index.html",
-    "precache-manifest.491744ffa97a9544e8f077864f903b83.js": "/tramites/precache-manifest.491744ffa97a9544e8f077864f903b83.js",
+    "precache-manifest.c8ee01aaee3f5748563f45960c00bfe2.js": "/tramites/precache-manifest.c8ee01aaee3f5748563f45960c00bfe2.js",
     "service-worker.js": "/tramites/service-worker.js",
-    "static/css/3.7534b09b.chunk.css.map": "/tramites/static/css/3.7534b09b.chunk.css.map",
-    "static/css/main.7c59aff9.chunk.css.map": "/tramites/static/css/main.7c59aff9.chunk.css.map",
-    "static/js/2.6d5a333d.chunk.js.LICENSE.txt": "/tramites/static/js/2.6d5a333d.chunk.js.LICENSE.txt",
+    "static/css/3.4525cb9b.chunk.css.map": "/tramites/static/css/3.4525cb9b.chunk.css.map",
+    "static/css/main.d4fbfb78.chunk.css.map": "/tramites/static/css/main.d4fbfb78.chunk.css.map",
+    "static/js/2.cd609834.chunk.js.LICENSE.txt": "/tramites/static/js/2.cd609834.chunk.js.LICENSE.txt",
     "static/media/MI AFIP QR.svg": "/tramites/static/media/MI AFIP QR.31000781.svg",
     "static/media/montoJubilados.JPG": "/tramites/static/media/montoJubilados.34f47508.JPG",
     "static/media/montoasignaciones.JPG": "/tramites/static/media/montoasignaciones.5b580432.JPG",
@@ -35,9 +35,9 @@
     "static/media/paso 4 CETA.jpg": "/tramites/static/media/paso 4 CETA.1e34d374.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5d2e9f65.js",
-    "static/js/2.6d5a333d.chunk.js",
-    "static/css/main.7c59aff9.chunk.css",
-    "static/js/main.ff0e0db4.chunk.js"
+    "static/js/runtime-main.124de6b5.js",
+    "static/js/2.cd609834.chunk.js",
+    "static/css/main.d4fbfb78.chunk.css",
+    "static/js/main.b75741e7.chunk.js"
   ]
 }

@@ -1,1 +1,0 @@
-{"version":3,"sources":["CardArticle.css"],"names":[],"mappings":"AAAA,yBACI,OACI,SACJ,CACJ,CAEA,yBACI,OACI,SACJ,CACJ","file":"3.7534b09b.chunk.css","sourcesContent":["@media (min-width: 768px) {\r\n    .cards {\r\n        width: 31%;\r\n    }\r\n}\r\n\r\n@media (max-width: 767px) {\r\n    .cards {\r\n        width: 95%;\r\n    }\r\n}"]}
