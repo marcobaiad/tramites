@@ -1,39 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "286f8ae918c75ddc08f86b88adf9f46f",
+    "revision": "56f23ca7c7a576b0608a914ac5e6b901",
     "url": "/tramites/index.html"
   },
   {
-    "revision": "c36dfea3e1d45d77e4c0",
+    "revision": "75c250688cd9cac22c15",
     "url": "/tramites/static/css/3.7534b09b.chunk.css"
   },
   {
-    "revision": "76d50aa12095451e57a5",
+    "revision": "0e3120d0b52ebbcaf403",
     "url": "/tramites/static/css/main.7c59aff9.chunk.css"
   },
   {
-    "revision": "f00573fac7825a0531e0",
-    "url": "/tramites/static/js/2.96235b7a.chunk.js"
+    "revision": "9b6ebafda151a6d0414f",
+    "url": "/tramites/static/js/2.6d5a333d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/tramites/static/js/2.96235b7a.chunk.js.LICENSE.txt"
+    "url": "/tramites/static/js/2.6d5a333d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c36dfea3e1d45d77e4c0",
-    "url": "/tramites/static/js/3.83e8adbc.chunk.js"
+    "revision": "75c250688cd9cac22c15",
+    "url": "/tramites/static/js/3.e4a24145.chunk.js"
   },
   {
-    "revision": "30b7376981b2c4142892",
-    "url": "/tramites/static/js/4.8e6ac98b.chunk.js"
+    "revision": "369b97ab8a7e1764712f",
+    "url": "/tramites/static/js/4.5c727ce9.chunk.js"
   },
   {
-    "revision": "76d50aa12095451e57a5",
-    "url": "/tramites/static/js/main.3f10a745.chunk.js"
+    "revision": "0e3120d0b52ebbcaf403",
+    "url": "/tramites/static/js/main.1cfa9b3a.chunk.js"
   },
   {
-    "revision": "8ebc46d90f8f6d209c73",
-    "url": "/tramites/static/js/runtime-main.f4a957ca.js"
+    "revision": "7fa72bbd153b26711782",
+    "url": "/tramites/static/js/runtime-main.5d2e9f65.js"
+  },
+  {
+    "revision": "3100078199533ea7b7ae359f6b611d98",
+    "url": "/tramites/static/media/MI AFIP QR.31000781.svg"
   },
   {
     "revision": "34f4750836c0fd7f3d65d647705e85de",
