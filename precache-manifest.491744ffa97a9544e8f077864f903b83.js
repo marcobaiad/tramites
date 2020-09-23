@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56f23ca7c7a576b0608a914ac5e6b901",
+    "revision": "3be53d5480c2da97846aecf94ce2fd66",
     "url": "/tramites/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tramites/static/css/3.7534b09b.chunk.css"
   },
   {
-    "revision": "0e3120d0b52ebbcaf403",
+    "revision": "a6ec8b37ab343a165c5a",
     "url": "/tramites/static/css/main.7c59aff9.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tramites/static/js/4.5c727ce9.chunk.js"
   },
   {
-    "revision": "0e3120d0b52ebbcaf403",
-    "url": "/tramites/static/js/main.1cfa9b3a.chunk.js"
+    "revision": "a6ec8b37ab343a165c5a",
+    "url": "/tramites/static/js/main.ff0e0db4.chunk.js"
   },
   {
     "revision": "7fa72bbd153b26711782",
