@@ -1,56 +1,140 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import '../css/Header.css'
+import '../css/Header.css';
+import CollapseMenu from './CollapseMenu';
+import posts from '../Utils/posts';
+import Links from './Links';
 
-const Header = () => {
+// const Links = React.lazy(() => import('../Utils/Links'));
 
-    const [widthScreen, setWidthScreen] = useState('');
+export default function Header() {
+
+    let ismobile = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)|(BlackBerry)/i);
+    const [mobilOn, setMobilOn] = useState(true);
+
+    const buttonMenu = useRef(null)
+    const [LinksAnses, setLinksAnses] = useState([]);
+    const [LinksAfip, setLinksAfip] = useState([]);
+    const [LinksAutomotor, setLinksAutomotor] = useState([]);
+    const [LinksRenaper, setLinksRenaper] = useState([]);
+    const [allPost, setAllPost] = useState([]);
+    const [postfilter, setPostfilter] = useState([]);
+    const [valueFilter, setValueFilter] = useState();
+    const showDiv = useRef();
+    const showDrop = useRef();
 
     const mobile = () => {
-        setWidthScreen(window.innerWidth)
+        if (ismobile && window.outerWidth < 768) {
+            setMobilOn(mobilOn)
+        } else {
+            setMobilOn(!mobilOn)
+        }
     };
 
-    console.log(widthScreen);
+
+    const LinkPost = (props) => {
+        const { pathPost, text } = props
+        return <Links pathPost={pathPost} colorText="text-white" text={text} />
+        // return <Link onClick={() => buttonMenu.current.click()} className="dropdown-item" to={pathPost}>{text}</Link>
+    }
+
+    const DataLinks = () => {
+        const LinksDataAnses = posts.Anses.map((fild, l)=> <LinkPost key={l} pathPost={fild.pathPost} text={fild.textLink} />)
+        setLinksAnses(LinksDataAnses)
+        const LinksDataAfip = posts.Afip.map((fild, l)=> <LinkPost key={l} pathPost={fild.pathPost} text={fild.textLink} />)
+        setLinksAfip(LinksDataAfip)
+        const LinksDataRenaper = posts.Renaper.map((fild, l)=> <LinkPost key={l} pathPost={fild.pathPost} text={fild.textLink} />)
+        setLinksRenaper(LinksDataRenaper)
+        const LinksDataAutomotor = posts.Automotor.map((fild, l)=> <LinkPost key={l} pathPost={fild.pathPost} text={fild.textLink} />)
+        setLinksAutomotor(LinksDataAutomotor)
+        setAllPost(posts.Afip.concat(posts.Anses, posts.Automotor, posts.Renaper))
+    }
+
+    const HandlerChange = (e) => {
+        const postFiltrados = [];
+        let texto = e.target.value.toLowerCase();
+        texto !== "" ? 
+        showDrop.current.classList.add("show") 
+        : 
+        showDrop.current.classList.remove("show")
+        for (let post of allPost) {
+            let titulo = post.titleCard.toLowerCase();
+            if (titulo.indexOf(texto) !== -1) {
+                postFiltrados.push(post);
+                setValueFilter(postFiltrados.map(p => <Link className="dropdown-item" onClick={formReset} to={p.pathPost}>{p.titleCard}</Link>))
+                setPostfilter(post.titleCard)
+            }
+        }
+    }
+
+    const formReset = () => {
+        showDrop.current.classList.remove("show")
+        showDiv.current.reset();
+        buttonMenu.current.click()
+    }
 
     useEffect(() => {
         mobile()
-    }, [widthScreen]);
+        DataLinks(); 
+    }, []);
 
     return (
-        <div className="header-top">
-            <div className="imgBack row mx-0 justify-content-end align-items-start">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light w-sm-100">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <div className="header-top bg-info">
+            <nav className="navbar navbar-expand-lg navbar-dark px-0">
+                <Link className="navbar-brand text-white font-weight-bold ml-3" to="/">Tramitero.com</Link>
+                <button className="navbar-toggler mx-2" ref={buttonMenu} type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    {!mobilOn ?
+                        <ul className="navbar-nav w-100">
+                            <li className="nav-item font-weight-bold">
+                                <Link className="nav-link dropdown-toggle text-white" aria-controls="Anses" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Anses
+                                </Link>
+                                <div className="dropdown-content bg-info" aria-labelledby="Anses">
+                                    {LinksAnses}
+                                </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                            <li className="nav-item font-weight-bold">
+                                <Link className="nav-link dropdown-toggle text-white" aria-controls="Afip" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Afip
+                            </Link>
+                                <div className="dropdown-content bg-info" aria-labelledby="Afip">
+                                    {LinksAfip}
+                                </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                            <li className="nav-item font-weight-bold">
+                                <Link className="nav-link dropdown-toggle text-white" aria-controls="Renaper" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Renaper
+                            </Link>
+                                <div className="dropdown-content bg-info" aria-labelledby="Renaper">
+                                    {LinksRenaper}
+                                </div>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Dropdown link
-        </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                            <li className="nav-item font-weight-bold">
+                                <Link className="nav-link dropdown-toggle text-white" aria-controls="Automotor" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Automotor
+                                </Link>
+                                <div className="dropdown-content bg-info" aria-labelledby="Automotor">
+                                    {LinksAutomotor}
                                 </div>
                             </li>
                         </ul>
-                    </div>
-                </nav>
-            </div>
+                        :
+                        <CollapseMenu buttonMenu={buttonMenu} />
+                    }
+                    <form className={`form-inline my-2 my-lg-0 mr-0 mr-md-4 ${!mobilOn ? "w-50": "w-100" }`} ref={showDiv}>
+                        <input className="form-control w-100" type="search" onChange={HandlerChange} placeholder="Buscar" aria-label="Buscar" />
+                        <div className="dropdown w-100 show" id="showDiv">
+                            
+                            <div className="dropdown-menu w-100"  ref={showDrop} aria-labelledby="dropdownMenu1">
+                            { valueFilter }
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </nav>
         </div>
     )
 };
-
-export default Header;

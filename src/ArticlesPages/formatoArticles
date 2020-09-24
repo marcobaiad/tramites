@@ -1,0 +1,31 @@
+import React from 'React';
+
+export default function NombreFuncion() {
+    return(
+        <>
+            <h1>Titulo</h1>
+            <p>texto</p>
+            <form>formulario</form>
+            <h2>Titulo</h2>
+            <p>texto</p>
+            <p>texto</p>
+            <div>
+                indice
+            </div>
+            <h4>Titulo</h4>
+            <p>texto</p>
+            <h4>Titulo</h4>
+            <p>texto</p>
+            <h4>Titulo</h4>
+            <p>texto</p>
+            <h4>Titulo</h4>
+            <p>texto</p>
+            <div>
+                videos 
+            </div>
+            <div>
+                Relacionados
+            </div>
+        </>
+    )
+}

@@ -1,11 +1,15 @@
 @media (min-width: 768px) {
-    .card {
+    .cards {
         width: 31%;
+        max-height: 300px;
+        height: 300px;
     }
+
 }
 
-@media (max-width: 425px) {
-    .card {
+@media (max-width: 768px) {
+    .cards {
+        height: 300px;
         width: 95%;
     }
 }

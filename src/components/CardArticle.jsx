@@ -1,19 +1,14 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import '../css/CardArticle.css';
 
-export default function CardArticle(props) {
-    
-    const {titleCard, textCard, pathlinking} = props
-    console.log(props);
-
-
+export default function CardArticle(props) { 
     return(
-        <article class="card mt-3 mx-1 px-0 bg-dark">
-            <Link to={`${pathlinking}`} className="text-decoration-none">
-            <div class="card-body text-white">
-                <h5 className="card-title">{titleCard}</h5>
-                <p class="card-text">{textCard}</p>
+        <article className="card cards mt-3 mx-1 px-0 bg-dark" key={props.CardArticlesData.id}>
+            <Link to={`${props.CardArticlesData.pathPost}`} className="text-decoration-none">
+            <div className="card-body text-white">
+                <h5 className="card-title">{props.CardArticlesData.titleCard}</h5>
+                <p className="card-text text-break">{props.CardArticlesData.textCard}</p>
             </div>
             </Link>
         </article>
