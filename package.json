@@ -14,7 +14,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo tramitero.com > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "postbuild": "react-snap",
     "start": "react-scripts start",
