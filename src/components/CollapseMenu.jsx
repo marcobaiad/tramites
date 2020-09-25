@@ -19,13 +19,13 @@ export default function CollapseMenu(props) {
     }
 
     const DataLinks = () => {
-        const LinksDataAnses = posts.Anses.map((fild, l) => <LinkPost func={() => buttonMenu.current.click()} key={l} pathPost={l.pathPost} text={l.textLink} />)
+        const LinksDataAnses = posts.Anses.map((fild, l) => <LinkPost func={() => buttonMenu.current.click()} key={l} pathPost={fild.pathPost} text={fild.textLink} />)
         setLinksAnses(LinksDataAnses)
-        const LinksDataAfip = posts.Afip.map((fild, l) => <LinkPost func={() => buttonMenu.current.click()} key={l} pathPost={l.pathPost} text={l.textLink} />)
+        const LinksDataAfip = posts.Afip.map((fild, l) => <LinkPost func={() => buttonMenu.current.click()} key={l} pathPost={fild.pathPost} text={fild.textLink} />)
         setLinksAfip(LinksDataAfip)
-        const LinksDataRenaper = posts.Renaper.map((fild, l) => <LinkPost func={() => buttonMenu.current.click()} key={l} pathPost={l.pathPost} text={l.textLink} />)
+        const LinksDataRenaper = posts.Renaper.map((fild, l) => <LinkPost func={() => buttonMenu.current.click()} key={l} pathPost={fild.pathPost} text={fild.textLink} />)
         setLinksRenaper(LinksDataRenaper)
-        const LinksDataAutomotor = posts.Automotor.map((fild, l) => <LinkPost func={() => buttonMenu.current.click()} key={l} pathPost={l.pathPost} text={l.textLink} />)
+        const LinksDataAutomotor = posts.Automotor.map((fild, l) => <LinkPost func={() => buttonMenu.current.click()} key={l} pathPost={fild.pathPost} text={fild.textLink} />)
         setLinksAutomotor(LinksDataAutomotor)
     }
 

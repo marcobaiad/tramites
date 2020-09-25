@@ -98,12 +98,12 @@ const posts = {
             pathPost: "/Automotor/turno-registro-automotor",
             titleCard: "Turno Registro Automotor",
             textLink: "Turno Automotor",
-            textCard: "Articulo en desarrollo",
+            textCard: "Guía rápida de como sacar turno en el Registro del Automotor para cualquier trámite con imagenes. ",
         }, {
             pathPost: "/Automotor/transferencia-automotor",
             titleCard: "Transferencia Automotor",
             textLink: "Transferencia Automotor",
-            textCard: "Articulo en desarrollo",
+            textCard: "La transferencia de dominio o transferencia de automotor es el documento que se debe trámitar cuando una persona quiere transfererir la titularidad de su vehículo a otra persona. Cabe aclarar que cuando hablamos de vehículo hacemos referencia a autos, motos y maquinaria agrícola vial o industrial.",
         }, {
             pathPost: "/Automotor/patentamiento-automotor",
             titleCard: "Patentamiento Automotor",
@@ -113,12 +113,12 @@ const posts = {
             pathPost: "/Automotor/titulo-automotor",
             titleCard: "Titulo Automotor",
             textLink: "Titulo Automotor",
-            textCard: "Articulo en desarrollo",
+            textCard: " El <strong>titulo del Automotor</strong> es el documento con el cual podrás certificar que un vehículo ya sea auto, moto o maquinaria, forma parte de tu propiedad. Si perdiste o te robaron el titulo de tu auto o se te deterioró el mismo deberás solicitar un duplicado.",
         }, {
             pathPost: "/Automotor/tramite-cedula-azul",
             titleCard: "Trámite cedula Azul",
             textLink: "Cedula Azul",
-            textCard: "Articulo en desarrollo",
+            textCard: "La Cédula Azul es el permiso que se debe trámitar para autorizar a otras personas a conducir un vehículo ajeno. En caso de disponer de esta cédula, no será necesario que la persona autorizada lleve la tarjeta verde del titular. El objetivo de este permiso, es ayudar a mejorar la seguridad vial mediante la identificación de las personas que manejan un rodado y restringir la utilización de vehiculos solo a los individuos que estén autorizados por le propietario.",
         }]
     }
 

@@ -28,8 +28,51 @@ export default function CedulaAzul() {
                     <strong>Atención, nota Importante:</strong> por los acontecimientos de público conocimiento, este trámite se puede hacer completamente virtual. Con el objetivo de seguir ayudando, es que actualizamos los pasos necesarios para que puedas terminar tu solicitud lo antes posible.
                 </div> <br/>
                 Previo a iniciar el trámite, deberás asegurarte de haber reunido toda la documentación necesaria y haber sacado turno desde la pagina oficinal de la <a href="https://www2.jus.gov.ar/dnrpa-site/#!/seleccionarTramite" target="_blank" rel="noopener noreferrer">DNRPA</a>. 
-
-                <ol className="my-3">
+                <div className="text-center my-3">
+                    Enterate como sacar el turno desde el siguiente botón <br/> <a href="http://" target="_blank" rel="noopener noreferrer" className="btn btn-primary my-2">Turno Automotor</a>
+                </div>
+                <ol>
+                    <li>
+                        Sacar turno
+                    </li>
+                    <li>
+                        Una vez hayas sacado turno, deberás presentrte  la oficina del <strong>DNRPA</strong> con la documentación mencionada más arriba.
+                    </li>
+                    <li>
+                        Completá el <strong>Formulario 02</strong> que te brindarán en el registro. En el rubro OBSERVACIONES, vas a completar con la leyenda de "Cedula de Identificación para autorizado a Conducir" y seguido los datos de la persona a la que se está autorizando. <br/>
+                        En caso de que un tercero sea quien esté haciendo el trámite, deberá completar también el <strong>Formulario 59</strong>.
+                    </li>
+                    <li>
+                        Tu cédula azul estará disponible para retirar en 48 es habiles.
+                    </li>
+                </ol>
+                <div className="my-3 card">
+                    <div className="card-header bg-primary text-white font-weight-bold text-center">
+                        El trámite presencial no se encuentra disponible debido al contexto de pandemia. Por favor, descartar estos pasos y realizar el trámite de manera digital. 
+                    </div>
+                    <div className="card-body">
+                        Una vez confirmado que reunimos toda la documentación, los pasos para adquirir este permiso son: 
+                        <ol className="my-2">
+                            <li>
+                                El titular (o apoderado) debe presentarse en el registro de radicación del rodado con su DNI y solicitar el Formulario 02. Recordar llevar la nota de carácte de DDJJ, donde reconocemos que entendemos nuestro papel de cuidadanos y responsabilidad cívica.
+                            </li>
+                            <li>
+                                Pagar el valor correspondiente por el permiso.
+                            </li>
+                            <li>
+                                El último paso es retirar la <strong>Cédula Azul</strong>. Recordá que no es necesario que asista el titular para hacer el retiro, ya que puede hacerlo cualquier perona que presente el recibo de pago.
+                            </li>
+                        </ol>
+                        Para iniciar el trámite deberás acercarte a la <strong>DNRPA</strong> más cercana a tu domicilio.
+                        <div class="alert alert-primary mt-2" role="alert">
+                            El tiempo aproximado de la entrega de la cédula, suele demorar hasta dos días hábiles.
+                        </div>
+                    </div>
+                </div>
+                <h3>¿Cuándo es necesario trámitar la Cédula Azul y quien debe efectuarlo?</h3>
+                En necesario realizar este permiso cuando una persona va a conducir regularmente (o no) un vehículo que no es própio y la cédula verde esté vendica, ya que, en caso de estar vigente, no es necesario circular con la Cédula Azul. <br/>
+                La persona que debe realizar el trámite es el titular o apoderado del vehículo, en caso de condomínios cualquiera podrá solicitarlo.
+                {/* <ol className="my-3">
                     <li>
                         Una vez se haya ingresado a la página, lo primero que debemos hacer es seleccionar el trámite que queremos realizar. En este caso deberemos buscarlo como "EXPEDICIÓN DE CEDULA PARA AUTORIZADO A CONDUCIR" y presionar el botón CONTINUAR. <br/>
                         <div className="row justify-content-center mx-0 my-2">
@@ -67,33 +110,7 @@ export default function CedulaAzul() {
                     <li>
                         Una vez terminado el paso anterior, solo queda presionar el botón CONTINUAR para confirmar el turno.
                     </li>
-                </ol>              
-                <div className="my-3 card">
-                    <div className="card-header bg-primary text-white font-weight-bold text-center">
-                        Por favor, desestimar estos pasos, ya que el trámite presencial no está vigente debido al contexto mundial y nacional. 
-                    </div>
-                    <div className="card-body">
-                        Una vez confirmado que reunimos toda la documentación, los pasos para adquirir este permiso son: 
-                        <ol className="my-2">
-                            <li>
-                                El titular (o apoderado) debe presentarse en el registro de radicación del rodado con su DNI y solicitar el Formulario 02. Recordar llevar la nota de carácte de DDJJ, donde reconocemos que entendemos nuestro papel de cuidadanos y responsabilidad cívica.
-                            </li>
-                            <li>
-                                Pagar el valor correspondiente por el permiso.
-                            </li>
-                            <li>
-                                El último paso es retirar la <strong>Cédula Azul</strong>. Recordá que no es necesario que asista el titular para hacer el retiro, ya que puede hacerlo cualquier perona que presente el recibo de pago.
-                            </li>
-                        </ol>
-                        Para iniciar el trámite deberás acercarte a la <strong>DNRPA</strong> más cercana a tu domicilio.
-                        <div class="alert alert-primary mt-2" role="alert">
-                            El tiempo aproximado de la entrega de la cédula, suele demorar hasta dos días hábiles.
-                        </div>
-                    </div>
-                </div>
-                <h3>¿Cuándo es necesario trámitar la Cédula Azul y quien debe efectuarlo?</h3>
-                En necesario realizar este permiso cuando una persona va a conducir regularmente (o no) un vehículo que no es própio y la cédula verde esté vendica, ya que, en caso de estar vigente, no es necesario circular con la Cédula Azul. <br/>
-                La persona que debe realizar el trámite es el titular o apoderado del vehículo, en caso de condomínios cualquiera podrá solicitarlo.
+                </ol>                */}
 
             </>
         }/>

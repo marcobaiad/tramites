@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM, { hydrate, render } from 'react-dom';
+import ReactDOM from 'react-dom';
 import App from './App';
 import { HashRouter } from 'react-router-dom';
 
