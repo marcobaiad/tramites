@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.06cf3058.chunk.css",
-    "main.js": "/static/js/main.8b783390.chunk.js",
-    "main.js.map": "/static/js/main.8b783390.chunk.js.map",
+    "main.js": "/static/js/main.0b28b936.chunk.js",
+    "main.js.map": "/static/js/main.0b28b936.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ee7bb1cc.js",
     "runtime-main.js.map": "/static/js/runtime-main.ee7bb1cc.js.map",
-    "static/js/2.81ded7b0.chunk.js": "/static/js/2.81ded7b0.chunk.js",
-    "static/js/2.81ded7b0.chunk.js.map": "/static/js/2.81ded7b0.chunk.js.map",
+    "static/js/2.a6cd094f.chunk.js": "/static/js/2.a6cd094f.chunk.js",
+    "static/js/2.a6cd094f.chunk.js.map": "/static/js/2.a6cd094f.chunk.js.map",
     "static/css/3.a1d14df4.chunk.css": "/static/css/3.a1d14df4.chunk.css",
     "static/js/3.603514a9.chunk.js": "/static/js/3.603514a9.chunk.js",
     "static/js/3.603514a9.chunk.js.map": "/static/js/3.603514a9.chunk.js.map",
     "static/js/4.0a324fe0.chunk.js": "/static/js/4.0a324fe0.chunk.js",
     "static/js/4.0a324fe0.chunk.js.map": "/static/js/4.0a324fe0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b5b4077f5c09fc6f26ccd2649c554e0e.js": "/precache-manifest.b5b4077f5c09fc6f26ccd2649c554e0e.js",
+    "precache-manifest.33b2e07d366c945d1c2ab6f29eaa0904.js": "/precache-manifest.33b2e07d366c945d1c2ab6f29eaa0904.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.a1d14df4.chunk.css.map": "/static/css/3.a1d14df4.chunk.css.map",
     "static/css/main.06cf3058.chunk.css.map": "/static/css/main.06cf3058.chunk.css.map",
-    "static/js/2.81ded7b0.chunk.js.LICENSE.txt": "/static/js/2.81ded7b0.chunk.js.LICENSE.txt",
+    "static/js/2.a6cd094f.chunk.js.LICENSE.txt": "/static/js/2.a6cd094f.chunk.js.LICENSE.txt",
     "static/media/MI AFIP QR.svg": "/static/media/MI AFIP QR.31000781.svg",
     "static/media/montoJubilados.JPG": "/static/media/montoJubilados.34f47508.JPG",
     "static/media/montoasignaciones.JPG": "/static/media/montoasignaciones.5b580432.JPG",
@@ -43,8 +43,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ee7bb1cc.js",
-    "static/js/2.81ded7b0.chunk.js",
+    "static/js/2.a6cd094f.chunk.js",
     "static/css/main.06cf3058.chunk.css",
-    "static/js/main.8b783390.chunk.js"
+    "static/js/main.0b28b936.chunk.js"
   ]
 }
