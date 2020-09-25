@@ -1,8 +1,12 @@
 .indice {
     border: solid 1px black;
 }
-
 .indice button {
     padding-top: 0;
     padding-bottom: 0;
+}
+ol li::marker {
+    width: 5px;
+    height: 5px;
+    background: blue !important;
 }
