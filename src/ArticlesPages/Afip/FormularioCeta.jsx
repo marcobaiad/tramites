@@ -11,21 +11,6 @@ const FormularioCeta = () => {
     const nodo3 = useRef(null)
     const nodo4 = useRef(null)
     const nodo5 = useRef(null)
-    const nodo6 = useRef(null)
-    const nodo7 = useRef(null)
-    const nodo8 = useRef(null)
-    const nodo9 = useRef(null)
-    const nodo10 = useRef(null)
-    const nodo11 = useRef(null)
-    const nodo12 = useRef(null)
-    const nodo13 = useRef(null)
-    const nodo14 = useRef(null)
-    const nodo15 = useRef(null)
-    const nodo16 = useRef(null)
-    const nodo17 = useRef(null)
-    const nodo18 = useRef(null)
-    const nodo19 = useRef(null)
-    const nodo20 = useRef(null)
 
     return (
         <MainDiv page={

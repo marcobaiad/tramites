@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 // ReactDOM.render(
 //   <HashRouter>
@@ -13,7 +13,7 @@ import { HashRouter } from 'react-router-dom';
 const rootElement = document.getElementById("root");
 
 if (rootElement.hasChildNodes()) {
-  ReactDOM.hydrate(<HashRouter><App /></HashRouter>, rootElement);
+  ReactDOM.hydrate(<BrowserRouter basename={process.env.PUBLIC_URL}><App /></BrowserRouter>, rootElement);
   } else {
-    ReactDOM.render(<HashRouter><App /></HashRouter>, rootElement);
+    ReactDOM.render(<BrowserRouter basename={process.env.PUBLIC_URL}><App /></BrowserRouter>, rootElement);
   }
