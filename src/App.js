@@ -37,13 +37,14 @@ import CedulaAzul from './ArticlesPages/AutoMotor/CedulaAzul';
 import TituloAutomotor from './ArticlesPages/AutoMotor/TituloAutomotor';
 import TransferenciaAutomotor from './ArticlesPages/AutoMotor/TransferenciaAutomotor';
 import TurnoAutomotor from './ArticlesPages/AutoMotor/TurnoAutomotor';
-import MainDiv from './components/MainDiv';
+import Patentamiento from './ArticlesPages/AutoMotor/Patentamiento';
 
 export default function App() {
   return (
     <>
       <Route component={Header} />
       <Switch>
+        <Route path='/Automotor/patentamiento-automotor' exact={true} component={Patentamiento} />
         <Route path='/Automotor/turno-registro-automotor' exact={true} component={TurnoAutomotor} />
         <Route path='/Automotor/transferencia-automotor' exact={true} component={TransferenciaAutomotor} />
         <Route path='/Automotor/titulo-automotor' exact={true} component={TituloAutomotor} />

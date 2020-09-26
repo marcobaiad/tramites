@@ -1,12 +1,11 @@
 .indice {
-    border: solid 1px black;
+    border: solid 1px #17a2b8;
+    border-radius: 7px;
 }
-.indice button {
-    padding-top: 0;
-    padding-bottom: 0;
+.arrow-vertical, .arrow-horizontal {
+    font-size: 30px;
 }
-ol li::marker {
-    width: 5px;
-    height: 5px;
-    background: blue !important;
+
+.fa-file-alt, .fa-tasks, .fa-tags {
+    font-size: 40px;
 }

@@ -108,12 +108,12 @@ const posts = {
             pathPost: "/Automotor/patentamiento-automotor",
             titleCard: "Patentamiento Automotor",
             textLink: "Patentamiento Automotor",
-            textCard: "Articulo en desarrollo",
+            textCard: "Cuando se adquiere un vehículo nuevo 0 km, es necesario inscribir el dominio del automotor, ya sea auto, moto o maquinaria vial a nombre de una persona o más para poder circular.Articulo en desarrollo",
         }, {
             pathPost: "/Automotor/titulo-automotor",
             titleCard: "Titulo Automotor",
             textLink: "Titulo Automotor",
-            textCard: " El <strong>titulo del Automotor</strong> es el documento con el cual podrás certificar que un vehículo ya sea auto, moto o maquinaria, forma parte de tu propiedad. Si perdiste o te robaron el titulo de tu auto o se te deterioró el mismo deberás solicitar un duplicado.",
+            textCard: " El titulo del Automotor es el documento con el cual podrás certificar que un vehículo ya sea auto, moto o maquinaria, forma parte de tu propiedad. Si perdiste o te robaron el titulo de tu auto o se te deterioró el mismo deberás solicitar un duplicado.",
         }, {
             pathPost: "/Automotor/tramite-cedula-azul",
             titleCard: "Trámite cedula Azul",

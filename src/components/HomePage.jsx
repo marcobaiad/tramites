@@ -35,10 +35,11 @@ export default function HomePage() {
                     <Helmet>
                         <title>Tramiteo.com Tramites en Línea</title>
                         <meta name="description" content="La web que con las mejores guías para realizar los trámites de Argentina. AFIP, ANSES, RENAPER, REGSTRO AUTOMOTOR, etc..." />
+                        <meta name="robots" content="index" />
                     </Helmet>
                     <h1 className="text-center">Realizá tus Trámites en Línea</h1>
                     <p>
-                        ¿Se te complicó realizar un trámite en línea? En Tramitero.com te ayudamos a terminarlo. Somos un sitio web enfocado en trámites de la República Argentina, con información precisa, detallada y consisa para que puedas realizar tus trámites de manera super eficiente y rápida.
+                        ¿Se te complicó realizar un trámite en línea? En Tramitero.com te ayudamos a terminarlo. Somos un sitio web enfocado en trámites de la República Argentina, con información precisa, detallada y concisa para que puedas realizar tus trámites de manera super eficiente y rápida.
                         Nuestro sistema de formularios inteligentes le facilitará finalizar sus trámites de forma exitosa.
             </p>
                     <Suspense fallback={<div>Cargando...</div>}>
