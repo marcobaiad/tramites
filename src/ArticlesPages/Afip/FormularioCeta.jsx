@@ -236,7 +236,7 @@ const FormularioCeta = () => {
             <div className="row justify-content-center my-5">
                 <h4 className="mb-3" ref={nodo5}>Video explicativo de como sacar formulario CETA</h4>
                 <div className="embed-responsive embed-responsive-16by9 w-75 h-75">
-                    <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/1otMtAPtkxI" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    <iframe loading="lazy" title="Video de Como saca formulario CETA" className="embed-responsive-item" src="https://www.youtube.com/embed/1otMtAPtkxI" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                 </div>
             </div>
             <div>

@@ -1,16 +1,37 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
+const Indice = React.lazy(() => import('../../components/indice')); 
+
 export default function CedulaAzul() {
+    
+    const titulo1 = React.useRef(null)
+    const titulo2 = React.useRef(null)
+    const titulo3 = React.useRef(null)
+    
     return(
         <MainDiv page={
             <>
                 <Helmet description="¿Querés hacer el trámite online para sacar la Cédula Azul? En Tramitero.com te presentamos esta guía super fácil para ayudarte a solicitar tu Cédula" contextUrl="index" title="Cedula Azul" />
                 <h1 className="text-center">Cédula Azul</h1>
+
                 La <strong>Cédula Azul</strong> es el permiso que se debe trámitar para autorizar a otras personas a conducir un vehículo ajeno. En caso de disponer de esta cédula, no será necesario que la persona autorizada lleve la tarjeta verde del titular. <br/>
                 El objetivo de este permiso, es ayudar a mejorar la seguridad vial mediante la identificación de las personas que manejan un rodado y restringir la utilización de vehiculos solo a los individuos que estén autorizados por le propietario.
-                <h2>Requisitos y documentación necesaria para sacar la Cedula Azul</h2>
+                <Suspense fallback={
+                    <div className="spinner-border text-primary" role="status">
+                        <span className="sr-only">Cargando...</span>
+                    </div>
+                }>
+                    <Indice description1="¿Qué documentación necesito?" 
+                        description2="¿Cómo sacar la cedula Azul 2020?"
+                        description3="¿Cómo se calcula el valor de una patente?" 
+                        nodo1={titulo1}
+                        nodo2={titulo2}
+                        nodo3={titulo3}
+                    />
+                </Suspense>
+                <h2 ref={titulo1}>Requisitos y documentación necesaria para sacar la Cedula Azul</h2>
                 Los requisitos para sacar este permiso son los siguientes:
                 <ul className="my-2">
                     <li>
@@ -23,8 +44,8 @@ export default function CedulaAzul() {
                         Nota o escrito con carácter de DDJJ con firma de la persona que solicita, donde el titular manifieste que reconoce su responsabilidad civil por daños y perjuicios y que otorgar este permiso tiene la misma validez legal que la Cédula verde.
                     </li>
                 </ul>
-                <h2>¿Cómo sacar la Cédula Azul?</h2>
-                <div class="alert alert-primary my-2" role="alert">
+                <h2 ref={titulo2}>¿Cómo sacar la Cédula Azul?</h2>
+                <div className="alert alert-primary my-2" role="alert">
                     <strong>Atención, nota Importante:</strong> por los acontecimientos de público conocimiento, este trámite se puede hacer completamente virtual. Con el objetivo de seguir ayudando, es que actualizamos los pasos necesarios para que puedas terminar tu solicitud lo antes posible.
                 </div> <br/>
                 Previo a iniciar el trámite, deberás asegurarte de haber reunido toda la documentación necesaria y haber sacado turno desde la pagina oficinal de la <a href="https://www2.jus.gov.ar/dnrpa-site/#!/seleccionarTramite" target="_blank" rel="noopener noreferrer">DNRPA</a>. 
@@ -64,7 +85,7 @@ export default function CedulaAzul() {
                             </li>
                         </ol>
                         Para iniciar el trámite deberás acercarte a la <strong>DNRPA</strong> más cercana a tu domicilio.
-                        <div class="alert alert-primary mt-2" role="alert">
+                        <div className="alert alert-primary mt-2" role="alert">
                             El tiempo aproximado de la entrega de la cédula, suele demorar hasta dos días hábiles.
                         </div>
                     </div>

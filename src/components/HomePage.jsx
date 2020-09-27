@@ -41,22 +41,34 @@ export default function HomePage() {
                     <p>
                         ¿Se te complicó realizar un trámite en línea? En Tramitero.com te ayudamos a terminarlo. Somos un sitio web enfocado en trámites de la República Argentina, con información precisa, detallada y concisa para que puedas realizar tus trámites de manera super eficiente y rápida.
                         Nuestro sistema de formularios inteligentes le facilitará finalizar sus trámites de forma exitosa.
-            </p>
-                    <Suspense fallback={<div>Cargando...</div>}>
+                    </p>
+                    <Suspense fallback={
+                        <div className="spinner-border text-primary" role="status">
+                            <span className="sr-only">Cargando...</span>
+                        </div>
+                    }>
                         <SeccionHome id='Anses'
                             titleSeccion="Trámites Anses"
                             firstText="¿Planea hacer un Trámite en ANSES o conoce a alguien que está por hacerlo? Si necesita hacer un trámite relacionado con la ANSES, en esta sección encontrará los más importantes. Nuestros expertos están en la busqueda permanente de cualquier cambio para mantener actualizados todos estos trámites y poder brindar guías de alta calidad, también contamos con un sistema novedoso de formularios inteligentes que serán de mucha ayuda para poder concluir su trámite en la web oficial de dicha entidad."
                             entradas={postAnses}
                         />
                     </Suspense>
-                    <Suspense fallback={<div>Cargando...</div>}>
+                    <Suspense fallback={
+                        <div className="spinner-border text-primary" role="status">
+                            <span className="sr-only">Cargando...</span>
+                        </div>
+                    }>
                         <SeccionHome id='Afip'
                             titleSeccion="Trámites Afip"
                             firstText="En esta sección encontrará como realizar los trámites más importantes de AFIP. ¿Necesita hacer un Trámite en AFIP y no está seguro de como realizarlo? Nuestro sistema novedoso de formularios inteligentes le serviran como guía para poder concluir de manera fácil su trámite en la web oficial."
                             entradas={postAfip}
                         />
                     </Suspense>
-                    <Suspense fallback={<div>Cargando...</div>}>
+                    <Suspense fallback={
+                        <div className="spinner-border text-primary" role="status">
+                            <span className="sr-only">Cargando...</span>
+                        </div>
+                    }>
                         <SeccionHome id='Automotor'
                             titleSeccion="Registro Automotor"
                             firstText="¿Estás buscando vender tu auto y no sabes que trámites debés realizar o querés sacar un turno para el registro automotor? Aquí podrás encontrar aquellos trámites a realizar en el RPA automotor
@@ -64,7 +76,11 @@ export default function HomePage() {
                             entradas={postAutomotor}
                         />
                     </Suspense>
-                    <Suspense fallback={<div>Cargando...</div>}>
+                    <Suspense fallback={
+                        <div className="spinner-border text-primary" role="status">
+                            <span className="sr-only">Cargando...</span>
+                        </div>
+                    }>
                         <SeccionHome id='Renaper'
                             titleSeccion="Trámites Renaper"
                             firstText="¿Querés realizar el registro o identificación de tu recién nadido? ¿Querés renovar o sacar tu  DNI? Aquí encontrarás como realizar aquellos trámites relacionados con el Renaper (Registro Nacional de Personas).

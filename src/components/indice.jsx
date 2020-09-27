@@ -11,10 +11,10 @@ export default function Indice(props) {
     return (
         <div className="indice my-3">
             <p className="mx-3 font-weight-bold text-center mt-3">Mapa del Sitio</p>
-            <div className="d-flex flex-column flex-md-row mx-0 px-0 py-3 justify-content-center text-center">
+            <div className="d-flex flex-column flex-md-row flex-wrap mx-0 px-0 px-md-3 py-3 justify-content-center align-items-center text-center">
                 {
                     description1 && 
-                    <div className="btn btn-outline-info  col-8 col-md-3 my-1" onClick={() => nodo1.current.scrollIntoView()}>
+                    <div className="btn btn-outline-info col-8 col-md-3 my-1 my-md-3" onClick={() => nodo1.current.scrollIntoView()}>
                         <i className="far fa-file-alt"></i>
                         <p className="mb-0">{description1}</p>
                     </div>
@@ -25,10 +25,10 @@ export default function Indice(props) {
                             description1 && description2 &&
                              <>   
                                 <i className="d-none d-md-block my-1 fas fa-arrows-alt-h arrow-horizontal mx-2 align-self-center text-info"></i>
-                                <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical"></i>
+                                <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical text-info"></i>
                             </>
                         }
-                        <div className="btn btn-outline-info  col-8 col-md-3 my-1" onClick={() => nodo2.current.scrollIntoView()}>
+                        <div className="btn btn-outline-info  col-8 col-md-3 my-1 my-md-3" onClick={() => nodo2.current.scrollIntoView()}>
                             <i className="fas fa-tasks"></i>
                             <p className="mb-0">{description2}</p>
                         </div>
@@ -36,16 +36,9 @@ export default function Indice(props) {
                 }{
                     description3 && 
                     <>
-                    {
-                        description3 && description4 &&
-                         <>   
-                            <i className="d-none d-md-block my-1 fas fa-arrows-alt-h arrow-horizontal mx-2 align-self-center text-info"></i>
-                            <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical"></i>
-                        </>
-                    }
                     <i className="d-none d-md-block my-1 fas fa-arrows-alt-h arrow-horizontal mx-2 align-self-center text-info"></i>
-                    <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical"></i>
-                    <div className="btn btn-outline-info  col-8 col-md-3 my-1" onClick={() => nodo3.current.scrollIntoView()}>
+                    <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical text-info"></i>
+                    <div className="btn btn-outline-info  col-8 col-md-3 my-1 my-md-3" onClick={() => nodo3.current.scrollIntoView()}>
                         <i className="fas fa-tags"></i>
                         <p className="mb-0">{description3}</p>
                     </div>
@@ -57,10 +50,10 @@ export default function Indice(props) {
                         description4 && description5 &&
                             <>   
                             <i className="d-none d-md-block my-1 fas fa-arrows-alt-h arrow-horizontal mx-2 align-self-center text-info"></i>
-                            <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical"></i>
+                            <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical text-info"></i>
                         </>
                     }
-                    <div className="btn btn-outline-info  col-8 col-md-3 my-1" onClick={() => nodo4.current.scrollIntoView()}>
+                    <div className="btn btn-outline-info  col-8 col-md-3 my-1 my-md-3" onClick={() => nodo4.current.scrollIntoView()}>
                         <i className="far fa-file-alt"></i>
                         <p className="mb-0">{description4}</p>
                     </div>
@@ -69,13 +62,30 @@ export default function Indice(props) {
                     description5 && 
                     <>
                     {
-                        description5 && description6 &&
+                        description5 && 
                          <>   
                             <i className="d-none d-md-block my-1 fas fa-arrows-alt-h arrow-horizontal mx-2 align-self-center text-info"></i>
-                            <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical"></i>
+                            <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical text-info"></i>
                         </>
                     }
-                    <div className="btn btn-outline-info  col-8 col-md-3 my-1" onClick={() => nodo5.current.scrollIntoView()}>
+                    <div className="btn btn-outline-info  col-8 col-md-3 my-1 my-md-3" onClick={() => nodo5.current.scrollIntoView()}>
+                    <i className="far fa-file-alt"></i>
+                        <p className="mb-0">{description5}</p>
+                    </div>
+                    </>
+                }{
+                    description6 && 
+                    <>
+                    {
+                        description6 && 
+                         <>   
+                            <i className="d-none d-md-block my-1 fas fa-arrows-alt-h arrow-horizontal mx-2 align-self-center text-info"></i>
+                            <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical text-info"></i>
+                        </>
+                    }
+                    <div className="btn btn-outline-info  col-8 col-md-3 my-1 my-md-3" onClick={() => nodo6.current.scrollIntoView()}>
+                    <i className="far fa-file-alt"></i>
+                        <p className="mb-0">{description6}</p>
                     </div>
                     </>
                 }

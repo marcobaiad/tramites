@@ -1,12 +1,13 @@
-import React, { useEffect, useRef } from 'react';
+import React, { Suspense } from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
-import Indice from '../../components/indice';
+
+const Indice = React.lazy(() => import('../../components/indice'));
 
 function Patentamiento() {
-    const titulo1 = useRef(null)
-    const titulo2 = useRef(null)
-    const titulo3 = useRef(null)
+    const titulo1 = React.useRef(null)
+    const titulo2 = React.useRef(null)
+    const titulo3 = React.useRef(null)
     
     return (
         <MainDiv page={
@@ -18,21 +19,27 @@ function Patentamiento() {
                     <div className="card-body">
                     <strong>¿Qué vas a encontrar?</strong>
                         <ul>
-                            <li onClick={() => titulo1.current.scrollIntoView()}>Que necesito</li>
-                            <li onClick={() => titulo2.current.scrollIntoView()}>Cuanto cuesta</li>
-                            <li onClick={() => titulo3.current.scrollIntoView()}>Como se calcula</li>
+                            <li>Que necesito</li>
+                            <li>Cuanto cuesta</li>
+                            <li>Como se calcula</li>
                         </ul>
                         Continua leyendo para terminar tu trámite de manera fácil y sencila.
                     </div>
                 </div>
                 Cuando se adquiere un vehículo nuevo 0 km, es necesario <strong>inscribir el dominio del automotor</strong> a nombre de una persona o más, ya sea auto, moto o maquinaria vial con el objetivo de poder circular.
-                <Indice description1="¿Qué documentación necesito?" 
-                    description2="Valor de patente 2020"
-                    description3="¿Cómo se calcula el valor de una patente?" 
-                    nodo1={titulo1}
-                    nodo2={titulo2}
-                    nodo3={titulo3}
-                />
+                <Suspense fallback={
+                    <div className="spinner-border text-primary" role="status">
+                        <span className="sr-only">Cargando...</span>
+                    </div>
+                }>
+                    <Indice description1="¿Qué documentación necesito?" 
+                        description2="Valor de patente 2020"
+                        description3="¿Cómo se calcula el valor de una patente?" 
+                        nodo1={titulo1}
+                        nodo2={titulo2}
+                        nodo3={titulo3}
+                    />
+                </Suspense>
                 <h2 ref={titulo1}>¿Qué necesito para patentar un auto 0 km?</h2>
                 La documentación necesaria para dar de alta un auto nuevo en Argentina es la siguiente:
                 <ul>

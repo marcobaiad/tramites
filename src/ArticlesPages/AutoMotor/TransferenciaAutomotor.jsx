@@ -34,7 +34,7 @@ export default function TransferenciaAutomotor() {
                                 <a href="https://serviciosweb.afip.gob.ar/genericos/formularios/pdf/interactivos/663_NM%20interactivo.pdf" target="_blank" rel="noopener noreferrer" className="font-weight-bold btn btn-primary">F - N°663 AFIP</a>                         
                             </div>
                         </li>
-                        <div class="alert alert-primary mt-3" role="alert">
+                        <div className="alert alert-primary mt-3" role="alert">
                             <strong>A tener en Cuenta: </strong> 
                             La constancia de documento en trámite NO acredita identidad.
                         </div>
@@ -86,7 +86,7 @@ export default function TransferenciaAutomotor() {
                     <li>Formulario 08 y 13</li>
                     <li>Sellos e impuestos provinciales. (El valor depende de cada provincia.</li>
                 </ul>
-                <div class="alert alert-primary mt-3 border-info" role="alert">
+                <div className="alert alert-primary mt-3 border-info" role="alert">
                     <strong>Importante: </strong> Si el monto de transacción por el vehículo superase $1800000 debés iniciar un trámite previo en el cual deberás comprobar la procedencia del dinero. Mirá como hacer el trámite <a href="" className="text-success">acá</a>.
                 </div>
             </>
