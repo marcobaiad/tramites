@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.59c03e04.chunk.css",
-    "main.js": "/static/js/main.baaa535a.chunk.js",
-    "main.js.map": "/static/js/main.baaa535a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cda4821c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cda4821c.js.map",
-    "static/js/2.ea726024.chunk.js": "/static/js/2.ea726024.chunk.js",
-    "static/js/2.ea726024.chunk.js.map": "/static/js/2.ea726024.chunk.js.map",
-    "static/css/3.a1d14df4.chunk.css": "/static/css/3.a1d14df4.chunk.css",
-    "static/js/3.2bef2941.chunk.js": "/static/js/3.2bef2941.chunk.js",
-    "static/js/3.2bef2941.chunk.js.map": "/static/js/3.2bef2941.chunk.js.map",
-    "static/js/4.0a324fe0.chunk.js": "/static/js/4.0a324fe0.chunk.js",
-    "static/js/4.0a324fe0.chunk.js.map": "/static/js/4.0a324fe0.chunk.js.map",
+    "main.js": "/static/js/main.52fe6b64.chunk.js",
+    "main.js.map": "/static/js/main.52fe6b64.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.50153745.js",
+    "runtime-main.js.map": "/static/js/runtime-main.50153745.js.map",
+    "static/js/2.68bed8a3.chunk.js": "/static/js/2.68bed8a3.chunk.js",
+    "static/js/2.68bed8a3.chunk.js.map": "/static/js/2.68bed8a3.chunk.js.map",
+    "static/css/3.a36ad7b0.chunk.css": "/static/css/3.a36ad7b0.chunk.css",
+    "static/js/3.01305951.chunk.js": "/static/js/3.01305951.chunk.js",
+    "static/js/3.01305951.chunk.js.map": "/static/js/3.01305951.chunk.js.map",
+    "static/js/4.7d77576c.chunk.js": "/static/js/4.7d77576c.chunk.js",
+    "static/js/4.7d77576c.chunk.js.map": "/static/js/4.7d77576c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.669671bc6e2d1e8753fbe5a670ecda0f.js": "/precache-manifest.669671bc6e2d1e8753fbe5a670ecda0f.js",
+    "precache-manifest.452b61ec0da4adbd57969f6f4100ec2c.js": "/precache-manifest.452b61ec0da4adbd57969f6f4100ec2c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/3.a1d14df4.chunk.css.map": "/static/css/3.a1d14df4.chunk.css.map",
+    "static/css/3.a36ad7b0.chunk.css.map": "/static/css/3.a36ad7b0.chunk.css.map",
     "static/css/main.59c03e04.chunk.css.map": "/static/css/main.59c03e04.chunk.css.map",
-    "static/js/2.ea726024.chunk.js.LICENSE.txt": "/static/js/2.ea726024.chunk.js.LICENSE.txt",
+    "static/js/2.68bed8a3.chunk.js.LICENSE.txt": "/static/js/2.68bed8a3.chunk.js.LICENSE.txt",
     "static/media/MI AFIP QR.svg": "/static/media/MI AFIP QR.31000781.svg",
     "static/media/montoJubilados.JPG": "/static/media/montoJubilados.34f47508.JPG",
     "static/media/montoasignaciones.JPG": "/static/media/montoasignaciones.5b580432.JPG",
@@ -42,9 +42,9 @@
     "static/media/paso 4 CETA.jpg": "/static/media/paso 4 CETA.1e34d374.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cda4821c.js",
-    "static/js/2.ea726024.chunk.js",
+    "static/js/runtime-main.50153745.js",
+    "static/js/2.68bed8a3.chunk.js",
     "static/css/main.59c03e04.chunk.css",
-    "static/js/main.baaa535a.chunk.js"
+    "static/js/main.52fe6b64.chunk.js"
   ]
 }
