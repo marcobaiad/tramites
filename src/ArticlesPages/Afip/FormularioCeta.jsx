@@ -17,11 +17,9 @@ const FormularioCeta = () => {
         const rect = nodo5.current.getBoundingClientRect();
 
         if (rect.top >= 0 && rect.left >= 0 && rect.right <= window.innerWidth && rect.bottom <= window.innerHeight) {
-            console.log('Element is in the viewport!');
             setIframeInView(!iframeInView)
         } else {
-        
-            console.log('Element is NOT in the viewport!');
+            setIframeInView(iframeInView)
         }
     }
 
