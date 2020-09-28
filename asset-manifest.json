@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.59c03e04.chunk.css",
-    "main.js": "/static/js/main.52fe6b64.chunk.js",
-    "main.js.map": "/static/js/main.52fe6b64.chunk.js.map",
+    "main.js": "/static/js/main.fb33a350.chunk.js",
+    "main.js.map": "/static/js/main.fb33a350.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.50153745.js",
     "runtime-main.js.map": "/static/js/runtime-main.50153745.js.map",
     "static/js/2.68bed8a3.chunk.js": "/static/js/2.68bed8a3.chunk.js",
@@ -13,7 +13,7 @@
     "static/js/4.7d77576c.chunk.js": "/static/js/4.7d77576c.chunk.js",
     "static/js/4.7d77576c.chunk.js.map": "/static/js/4.7d77576c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.452b61ec0da4adbd57969f6f4100ec2c.js": "/precache-manifest.452b61ec0da4adbd57969f6f4100ec2c.js",
+    "precache-manifest.4eeeb3ab682bdea6884fb95c0191b6fc.js": "/precache-manifest.4eeeb3ab682bdea6884fb95c0191b6fc.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.a36ad7b0.chunk.css.map": "/static/css/3.a36ad7b0.chunk.css.map",
     "static/css/main.59c03e04.chunk.css.map": "/static/css/main.59c03e04.chunk.css.map",
@@ -21,30 +21,30 @@
     "static/media/MI AFIP QR.svg": "/static/media/MI AFIP QR.31000781.svg",
     "static/media/montoJubilados.JPG": "/static/media/montoJubilados.34f47508.JPG",
     "static/media/montoasignaciones.JPG": "/static/media/montoasignaciones.5b580432.JPG",
-    "static/media/paso 1 CETA.jpg": "/static/media/paso 1 CETA.c58064a0.jpg",
+    "static/media/paso 1 CETA.webp": "/static/media/paso 1 CETA.c1be884d.webp",
     "static/media/paso 1 cedula azul.JPG": "/static/media/paso 1 cedula azul.2e99b632.JPG",
-    "static/media/paso 1 ceta con clave fiscal.jpg": "/static/media/paso 1 ceta con clave fiscal.d0a38b5c.jpg",
-    "static/media/paso 1 ceta2.jpg": "/static/media/paso 1 ceta2.9c771845.jpg",
+    "static/media/paso 1 ceta con clave fiscal.webp": "/static/media/paso 1 ceta con clave fiscal.83e03996.webp",
+    "static/media/paso 1 ceta2.webp": "/static/media/paso 1 ceta2.197dcd9e.webp",
     "static/media/paso 1 turno afip.JPG": "/static/media/paso 1 turno afip.3d78b9d7.JPG",
     "static/media/paso 1.JPG": "/static/media/paso 1.290a477d.JPG",
-    "static/media/paso 2 CETA 2.jpg": "/static/media/paso 2 CETA 2.be9a2f43.jpg",
-    "static/media/paso 2 CETA 3.jpg": "/static/media/paso 2 CETA 3.681c05d7.jpg",
+    "static/media/paso 2 CETA 2.webp": "/static/media/paso 2 CETA 2.9dca1478.webp",
+    "static/media/paso 2 CETA 3.webp": "/static/media/paso 2 CETA 3.28b12c99.webp",
     "static/media/paso 2 VEP.JPG": "/static/media/paso 2 VEP.ad0f8fab.JPG",
     "static/media/paso 2 cedula azul.JPG": "/static/media/paso 2 cedula azul.2264b78c.JPG",
-    "static/media/paso 2 ceta con clave fiscal.jpg": "/static/media/paso 2 ceta con clave fiscal.9c9eef7e.jpg",
-    "static/media/paso 2 ceta.jpg": "/static/media/paso 2 ceta.6f86765b.jpg",
+    "static/media/paso 2 ceta con clave fiscal.webp": "/static/media/paso 2 ceta con clave fiscal.3af0928a.webp",
+    "static/media/paso 2 ceta.webp": "/static/media/paso 2 ceta.22156cad.webp",
     "static/media/paso 2.JPG": "/static/media/paso 2.bd5c0a4a.JPG",
-    "static/media/paso 3 CETA 3.jpg": "/static/media/paso 3 CETA 3.4b6d6a44.jpg",
-    "static/media/paso 3 CETA.jpg": "/static/media/paso 3 CETA.6e0ce609.jpg",
+    "static/media/paso 3 CETA 3.webp": "/static/media/paso 3 CETA 3.91299bb2.webp",
+    "static/media/paso 3 CETA.webp": "/static/media/paso 3 CETA.72761cf4.webp",
     "static/media/paso 3 cedula azul.JPG": "/static/media/paso 3 cedula azul.2811a7e6.JPG",
-    "static/media/paso 3 ceta con clave fiscal.jpg": "/static/media/paso 3 ceta con clave fiscal.ce194441.jpg",
-    "static/media/paso 4 CETA 1.jpg": "/static/media/paso 4 CETA 1.9f9e015c.jpg",
-    "static/media/paso 4 CETA.jpg": "/static/media/paso 4 CETA.1e34d374.jpg"
+    "static/media/paso 3 ceta con clave fiscal.webp": "/static/media/paso 3 ceta con clave fiscal.4e57df0d.webp",
+    "static/media/paso 4 CETA 1.webp": "/static/media/paso 4 CETA 1.74d507ed.webp",
+    "static/media/paso 4 CETA.webp": "/static/media/paso 4 CETA.c65a4372.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.50153745.js",
     "static/js/2.68bed8a3.chunk.js",
     "static/css/main.59c03e04.chunk.css",
-    "static/js/main.52fe6b64.chunk.js"
+    "static/js/main.fb33a350.chunk.js"
   ]
 }

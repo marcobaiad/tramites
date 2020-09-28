@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d5e41c13e8da4b4fe3dbe214527142c",
+    "revision": "dde8f087b0d0773b8baaebafaa0ff541",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/3.a36ad7b0.chunk.css"
   },
   {
-    "revision": "ee064041599fd12b546c",
+    "revision": "10594aa9213c64cf3420",
     "url": "/static/css/main.59c03e04.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.7d77576c.chunk.js"
   },
   {
-    "revision": "ee064041599fd12b546c",
-    "url": "/static/js/main.52fe6b64.chunk.js"
+    "revision": "10594aa9213c64cf3420",
+    "url": "/static/js/main.fb33a350.chunk.js"
   },
   {
     "revision": "de4f2dda573b9617d011",
@@ -48,20 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/montoasignaciones.5b580432.JPG"
   },
   {
-    "revision": "c58064a090e2902e766066ebb448d58c",
-    "url": "/static/media/paso 1 CETA.c58064a0.jpg"
+    "revision": "c1be884d84be27b7602039a21583f778",
+    "url": "/static/media/paso 1 CETA.c1be884d.webp"
   },
   {
     "revision": "2e99b632d1e2a55ac0a54804c7cef3c0",
     "url": "/static/media/paso 1 cedula azul.2e99b632.JPG"
   },
   {
-    "revision": "d0a38b5c1de01c6fd7eb321cf24d1c35",
-    "url": "/static/media/paso 1 ceta con clave fiscal.d0a38b5c.jpg"
+    "revision": "83e03996051fee90c4eb272b9b8756f9",
+    "url": "/static/media/paso 1 ceta con clave fiscal.83e03996.webp"
   },
   {
-    "revision": "9c771845b478cbfbedc29149cf8a6907",
-    "url": "/static/media/paso 1 ceta2.9c771845.jpg"
+    "revision": "197dcd9e41ed4b02728a0d9ddb7d48ba",
+    "url": "/static/media/paso 1 ceta2.197dcd9e.webp"
   },
   {
     "revision": "3d78b9d7678f1059bae7e26902815089",
@@ -72,12 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/paso 1.290a477d.JPG"
   },
   {
-    "revision": "be9a2f43f100744a42b2e32b12e3bd49",
-    "url": "/static/media/paso 2 CETA 2.be9a2f43.jpg"
+    "revision": "9dca1478f844d1991d50e4d159db690d",
+    "url": "/static/media/paso 2 CETA 2.9dca1478.webp"
   },
   {
-    "revision": "681c05d7f46cc324997af4372abfa601",
-    "url": "/static/media/paso 2 CETA 3.681c05d7.jpg"
+    "revision": "28b12c99b7da75cdb995c8a2a37d9739",
+    "url": "/static/media/paso 2 CETA 3.28b12c99.webp"
   },
   {
     "revision": "ad0f8fab01d9aaf9bfabd78ca67d1eb4",
@@ -88,39 +88,39 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/paso 2 cedula azul.2264b78c.JPG"
   },
   {
-    "revision": "9c9eef7e25eccb8b4bcb4fffdfb3150a",
-    "url": "/static/media/paso 2 ceta con clave fiscal.9c9eef7e.jpg"
+    "revision": "3af0928a1125006bf31049c8191c7694",
+    "url": "/static/media/paso 2 ceta con clave fiscal.3af0928a.webp"
   },
   {
-    "revision": "6f86765b1037cbe2d3cc10cc320c9588",
-    "url": "/static/media/paso 2 ceta.6f86765b.jpg"
+    "revision": "22156cad795f85b357d10887337b63da",
+    "url": "/static/media/paso 2 ceta.22156cad.webp"
   },
   {
     "revision": "bd5c0a4a85b8d895ba8a3a8f484164f9",
     "url": "/static/media/paso 2.bd5c0a4a.JPG"
   },
   {
-    "revision": "4b6d6a44ac0277ed2267fb465c7654c5",
-    "url": "/static/media/paso 3 CETA 3.4b6d6a44.jpg"
+    "revision": "91299bb22a73c9735edfc68e4ebfb5a9",
+    "url": "/static/media/paso 3 CETA 3.91299bb2.webp"
   },
   {
-    "revision": "6e0ce609b8115b1f5a8442e9a7991c4b",
-    "url": "/static/media/paso 3 CETA.6e0ce609.jpg"
+    "revision": "72761cf4c3af0c2ec99906c2ed4425e1",
+    "url": "/static/media/paso 3 CETA.72761cf4.webp"
   },
   {
     "revision": "2811a7e634053344c16916fd98b886fc",
     "url": "/static/media/paso 3 cedula azul.2811a7e6.JPG"
   },
   {
-    "revision": "ce1944416a8491c58545faa20b491cbd",
-    "url": "/static/media/paso 3 ceta con clave fiscal.ce194441.jpg"
+    "revision": "4e57df0d06cb34c30dcbd77743ec504a",
+    "url": "/static/media/paso 3 ceta con clave fiscal.4e57df0d.webp"
   },
   {
-    "revision": "9f9e015c022b48581d949feb1ecc8c87",
-    "url": "/static/media/paso 4 CETA 1.9f9e015c.jpg"
+    "revision": "74d507ed0f238ec20abf165a36ce9ea7",
+    "url": "/static/media/paso 4 CETA 1.74d507ed.webp"
   },
   {
-    "revision": "1e34d374e5dfd918929ecd5acb1aa402",
-    "url": "/static/media/paso 4 CETA.1e34d374.jpg"
+    "revision": "c65a43725ddb4553fece820a4e8a92cc",
+    "url": "/static/media/paso 4 CETA.c65a4372.webp"
   }
 ]);
