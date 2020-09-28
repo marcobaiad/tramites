@@ -1,16 +1,33 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import Indice from '../../components/indice';
 import MainDiv from '../../components/MainDiv';
-import Helmet from '../../components/Helmet';
-
+import Helmet from '../../components/Helmet'; 
 
 const FormularioCeta = () => {
 
-    const nodo1 = useRef(null)
-    const nodo2 = useRef(null)
-    const nodo3 = useRef(null)
-    const nodo4 = useRef(null)
-    const nodo5 = useRef(null)
+    const [iframeInView, setIframeInView] = React.useState(false); 
+
+    const nodo1 = React.useRef(null);
+    const nodo2 = React.useRef(null);
+    const nodo3 = React.useRef(null);
+    const nodo4 = React.useRef(null);
+    const nodo5 = React.useRef(null);
+
+    const InView = () => {
+        const rect = nodo5.current.getBoundingClientRect();
+
+        if (rect.top >= 0 && rect.left >= 0 && rect.right <= window.innerWidth && rect.bottom <= window.innerHeight) {
+            console.log('Element is in the viewport!');
+            setIframeInView(!iframeInView)
+        } else {
+        
+            console.log('Element is NOT in the viewport!');
+        }
+    }
+
+    React.useEffect(() => {
+        InView()
+    }, [])
 
     return (
         <MainDiv page={
@@ -233,11 +250,21 @@ const FormularioCeta = () => {
                     </ul>
                 </div>
             </div>
-            <div className="row justify-content-center my-5">
-                <h4 className="mb-3" ref={nodo5}>Video explicativo de como sacar formulario CETA</h4>
-                <div className="embed-responsive embed-responsive-16by9 w-75 h-75">
-                    <iframe loading="lazy" title="Video de Como saca formulario CETA" className="embed-responsive-item" src="https://www.youtube.com/embed/1otMtAPtkxI" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                </div>
+            <div className="d-flex flex-column align-items-center justify-content-center my-5">
+                <h4 className="mb-3 text-center" ref={nodo5}>Video explicativo de como sacar formulario CETA</h4>
+                <br/>
+                {
+                    iframeInView ?
+                        <div className="align-self-center embed-responsive embed-responsive-16by9 w-75 h-75">
+                            <iframe loading="lazy" title="Video de Como saca formulario CETA" className="embed-responsive-item" src="https://www.youtube.com/embed/1otMtAPtkxI" allowFullScreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                        </div>
+                    :
+                    <div className="row justify-content-center mx-0">
+                        <br/>
+                        <button className="btn btn-info font-weight-bold" onClick={() => setIframeInView(true)}>Click para ver el Video</button>
+
+                    </div>
+                }
             </div>
             <div>
                 Relacionados
