@@ -64,9 +64,9 @@ const FormularioCeta = () => {
                             <div className="row mx-0 justify-content-center">
                                 <p className="">Ingreá al servicio CETA desde la web de AFIP (o ingresá directamente desde el siguiente link <a href="https://cetaweb.afip.gob.ar/#/" target="_blank" rel="noopener noreferrer">cetaweb.afip.gob.ar/</a>).</p>
                                 <p>Completa el primer campo con el número de paténte de tu auto y presiona el botón CONFIRMAR</p>
-                                <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 1 CETA.jpg")} alt="Paso 1 formulario CETA" title="Paso 1 para solicitar el formulario CETA" />
+                                <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 1 CETA.webp")} alt="Paso 1 formulario CETA" title="Paso 1 para solicitar el formulario CETA" />
                                 <p>Se desplegarán los siguientes campos, los cuales deberás completar para poder avanzar. Una vez verificado que todo esté correcto, deberás presionar en el botón CONTINUAR</p>
-                                <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 1 ceta2.jpg")} alt="Paso 1 formulario CETA" title="Paso 1/2 para solicitar el formulario CETA" />
+                                <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 1 ceta2.webp")} alt="Paso 1 formulario CETA" title="Paso 1/2 para solicitar el formulario CETA" />
                             </div>
                         </div>
                     </div>
@@ -82,11 +82,11 @@ const FormularioCeta = () => {
                             <div className="card-body">
                                 <div className="row mx-0 justify-content-center">
                                     <p className="text-center">Ahora toca ingresar el número de CUIT/CUIT/CDI de la persona que transfiere el bien, una vez completado el dato, presioná el botón de AGREGAR TITULAR.</p>
-                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 2 ceta.jpg")} alt="Paso 2 formulario CETA" title="Paso 2 para solicitar el formulario CETA" />
+                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 2 ceta.webp")} alt="Paso 2 formulario CETA" title="Paso 2 para solicitar el formulario CETA" />
                                     <p>Lo siguiente es completar el porcentaje de titularidad que te corresponde por sobre el vehículo y el porcentaje que estás vendiendo. Ahora debés presionar en CONTINUAR</p>
-                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 2 CETA 2.jpg")} alt="Paso 2 formulario CETA" title="Paso 2/2 para solicitar el formulario CETA" />
+                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 2 CETA 2.webp")} alt="Paso 2 formulario CETA" title="Paso 2/2 para solicitar el formulario CETA" />
                                     <p>En caso de que necesites agregar otro titular, podrás hacerlo clickeando el botón AGREGAR TITULAR </p>
-                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 2 CETA 3.jpg")} alt="Paso 2 formulario CETA" title="Paso 2/3 para solicitar el formulario CETA" />
+                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 2 CETA 3.webp")} alt="Paso 2 formulario CETA" title="Paso 2/3 para solicitar el formulario CETA" />
                                 </div>
                             </div>
                         </div>
@@ -102,10 +102,10 @@ const FormularioCeta = () => {
                             <div className="card-body">
                                 <div className="row mx-0 justify-content-center">
                                     <p>En este paso debés agregar los datos de quien compra el vehículo. Colocá el CUIT/CUIL/CDI y presioná sobre AGREGAR ADQUIRENTE</p>
-                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 3 CETA.jpg")} alt="Paso 3 formulario CETA" title="Paso 3 para solicitar el formulario CETA" />
+                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 3 CETA.webp")} alt="Paso 3 formulario CETA" title="Paso 3 para solicitar el formulario CETA" />
                                     <p>Una vez hecho lo anterior, aparecerá un nuevo campo donde deberás agregar el porcentaje de adquirencia y guardá los datos.</p>
                                     <p>Recuerda que puedes agregar otro adquirente presionando en AGREGAR ADQUIRENTE. En caso de habér terminado, presionar CONTINUAR.</p>
-                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 3 CETA 3.jpg")} alt="Paso 3 formulario CETA" title="Paso 3 para solicitar el formulario CETA" />
+                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 3 CETA 3.webp")} alt="Paso 3 formulario CETA" title="Paso 3 para solicitar el formulario CETA" />
                                 </div>
                             </div>
                         </div>
@@ -122,9 +122,9 @@ const FormularioCeta = () => {
                                 <div className="row mx-0 justify-content-center">
                                     <p>Ya estás en el último paso. Recorda verificar que todos los datos ingresados sean correctos.</p>
                                     <p>Es recomendable dejar una dirección de mail para recibir un resumen del trámite (presioná el botón ENTER para confirmar tu mail).</p>
-                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 4 CETA.jpg")} alt="Paso 4 formulario CETA" title="Paso 4 para solicitar el formulario CETA" />
+                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 4 CETA.webp")} alt="Paso 4 formulario CETA" title="Paso 4 para solicitar el formulario CETA" />
                                     <p>Abajo te dejo un ejemplo de como se vería la pantalla final. Como verás, no hace falta imprimirlo y tampoco debés presentarlo el día del trámite.</p>
-                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 4 CETA 1.jpg")} alt="Paso 4/2 formulario CETA" title="Paso 4 para solicitar el formulario CETA" />
+                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 4 CETA 1.webp")} alt="Paso 4/2 formulario CETA" title="Paso 4 para solicitar el formulario CETA" />
                                 </div>
                             </div>
                         </div>
@@ -145,7 +145,7 @@ const FormularioCeta = () => {
                                 <p className="">Deberás ingresar a la página de AFIP (puedes hacerlo desde acá <a href="https://afip.gob.ar/" target="_blank" rel="noopener noreferrer">afip.gob.ar</a>). </p>
                                 <p>Inicia sesión con tu Clave Físcal y una vez dentro, deberás acceder la opción "Transferencia de Bienes Muebles Registrables"</p>
                                 <p>Cuando hayas accedido, te aparecerán las siguientes opciones y deberás elegir la primera</p>
-                                <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta con clave/paso 1 ceta con clave fiscal.jpg")} alt="Paso 1 formulario CETA" title="Paso 1 para solicitar el formulario CETA con clave fiscal" />
+                                <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta con clave/paso 1 ceta con clave fiscal.webp")} alt="Paso 1 formulario CETA" title="Paso 1 para solicitar el formulario CETA con clave fiscal" />
                             </div>
                         </div>
                     </div>
@@ -160,7 +160,7 @@ const FormularioCeta = () => {
                             <div className="card-body">
                                 <div className="row mx-0 justify-content-center">
                                     <p className="text-center">Ahora tocá la opción de "Emisión de Certificado".</p>
-                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta con clave/paso 2 ceta con clave fiscal.jpg")} alt="Paso 2 formulario CETA con clave fiscal" title="Paso 2 para solicitar el formulario CETA sin clave fiscal" />
+                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta con clave/paso 2 ceta con clave fiscal.webp")} alt="Paso 2 formulario CETA con clave fiscal" title="Paso 2 para solicitar el formulario CETA sin clave fiscal" />
                                     <p>Lo siguiente es seleccionar el tipo de vehículo y completar el campo "Dominio" con el N° de patente del mismo. Luego presionar en ACEPTAR.</p>
                                     <p>Ahora en tu pantalla, verás un formulario que deberás completar para poder avanzar con el trámite. Una vez que lo hayas rellenado completamente, vas a presionar nuevamente el botón ACEPTAR.</p>
                                     <div className="alert alert-info" role="alert">
@@ -181,7 +181,7 @@ const FormularioCeta = () => {
                             <div className="card-body">
                                 <div className="row mx-0 justify-content-center">
                                     <p>En este paso deberás corroborar que todos los datos ingresados durante el trámite sean correctos. Una vez que estés seguro de que es así, presioná sobre el botón ACEPTAR</p>
-                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta con clave/paso 3 ceta con clave fiscal.jpg")} alt="Paso 3 formulario CETA con clave fiscal" title="Paso 3 para solicitar el formulario CETA con clave fiscal" />
+                                    <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta con clave/paso 3 ceta con clave fiscal.webp")} alt="Paso 3 formulario CETA con clave fiscal" title="Paso 3 para solicitar el formulario CETA con clave fiscal" />
                                 </div>
                             </div>
                         </div>
