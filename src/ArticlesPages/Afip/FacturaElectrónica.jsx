@@ -51,9 +51,9 @@ export default function FacturaElectronica() {
             <Suspense fallback={<div>Cargando...</div>}>
                 <Indice 
                     description1="Documentación necesaria y Requisitos" 
-                    description2="¿Como hacer una factura Electrónica?"
-                    description3="Solicitar autorización para emitir Factura Electrónica" 
-                    description4="¿Quién está obligado a emitir Factura Electrónica?"
+                    description2="¿Como se hace paso a paso 2020?"
+                    description3="Solicitar autorización para emitir Fact. Electrónica" 
+                    description4="¿Quién está obligado a emitir esta factura?"
                     description5="¿Video explicativo de como Sacar Factura Electrónica"
                     nodo1={titulo1}
                     nodo2={titulo2}
@@ -73,7 +73,7 @@ export default function FacturaElectronica() {
                 <strong>A tener en cuenta: </strong> Los medios autorizados emitir facrura electrónica son Tarjetas de Débito/ Crédito/ Prespagas no bancarias y transferencia de pago instrumentada.
             </div>
             La factura para responsable inscrito deberá identificar al cliente, siempre y cuando la operación fuese igual o menor a $7690 y la operación se efectuara en el marco de la comercialización mayorista por algún medio autorizado.
-            <h2 ref={titulo2}>¿Cómo hacer la factura Electrónica de AFIP?</h2>
+            <h2 ref={titulo2}>¿Cómo se hace una factura Electrónica de AFIP?</h2>
             Para inciar el trámite, primero es necesario habilitar los <strong>Puntos de Ventas</strong> en la página de AFIP ingresando con tu <a href="https://tramitero.com/Afip/clave-fiscal">Clave Fiscal</a>.
             Pasos para habilitar Puntos de Ventas AFIP:
             <ol className="my-3">
@@ -83,27 +83,27 @@ export default function FacturaElectronica() {
                 <li>
                     Dentro de éste menú vas a seleccionar la opción de <strong>Datos adicionales del Comprobante</strong> donde vas a completar los datos de la siguiente imagen: 
                     <div className="row justify-content-center mx-0 my-3">
-                        <img className="img-fluid" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 0.JPG')} alt=""/>
+                        <img className="img-fluid" loading="lazy" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 0.webp')} alt=""/>
                     </div>
                     Luego presioná en GUARDAR
                 </li>
                 <li>
                     Ahora debés ingresar a <strong>ABM Puntos de Ventas</strong>, para elegir el tipo de factura a emitir, una vez hayas elegído presioná el botón Contiuar.
                     <div className="row justify-content-center mx-0 my-3">
-                        <img className="img-fluid" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 2.JPG')} alt=""/>
+                        <img className="img-fluid" loading="lazy" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 2.webp')} alt=""/>
                     </div>
                     Luego presioná en GUARDAR
                 </li>
                 <li>
                     Volverá a abrirse la misma pantalla del paso 2 y esta vez tendrás que elegir la opción de <strong>Generar Comprobantes</strong>. Completá los datos requeridos y presioná en CONTINUAR.
                     <div className="row justify-content-center mx-0 my-3">
-                        <img className="img-fluid" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 3.JPG')} alt=""/>
+                        <img className="img-fluid" loading="lazy" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 3.webp')} alt=""/>
                     </div>
                 </li>
                 <li>
                     Completa los datos de la persona que recibirá la factura y como se efectuó la venta. (De contado, con tarjeta de crédito / débito, cheque, etc.) y presioná CONTINUAR.
                     <div className="row justify-content-center mx-0 my-3">
-                        <img className="img-fluid" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 4.JPG')} alt=""/>
+                        <img className="img-fluid" loading="lazy" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 4.webp')} alt=""/>
                     </div>
                 </li>
             </ol>
