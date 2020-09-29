@@ -1,39 +1,55 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90f925a2ee47a6966390d6d885e00432",
+    "revision": "68dcbbd42760dfc4fc90082281ed1fcd",
     "url": "/index.html"
   },
   {
-    "revision": "a7b9fc9d88e3eddb2e42",
+    "revision": "bbef0ca3422ab3936a0b",
     "url": "/static/css/3.a36ad7b0.chunk.css"
   },
   {
-    "revision": "60f781ccc527855b687d",
+    "revision": "f9ac05cbe77c06056375",
     "url": "/static/css/main.59c03e04.chunk.css"
   },
   {
-    "revision": "79b3bab0bd353d74d30e",
-    "url": "/static/js/2.1f88fa67.chunk.js"
+    "revision": "0fc28b1cd3f807e955f3",
+    "url": "/static/js/2.934d8560.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.1f88fa67.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.934d8560.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a7b9fc9d88e3eddb2e42",
-    "url": "/static/js/3.01305951.chunk.js"
+    "revision": "bbef0ca3422ab3936a0b",
+    "url": "/static/js/3.eaad95e4.chunk.js"
   },
   {
-    "revision": "4403c8fc762989388daa",
-    "url": "/static/js/4.7d77576c.chunk.js"
+    "revision": "75e11e6305bbf5d91570",
+    "url": "/static/js/4.49788181.chunk.js"
   },
   {
-    "revision": "60f781ccc527855b687d",
-    "url": "/static/js/main.c2e0ebbe.chunk.js"
+    "revision": "f9ac05cbe77c06056375",
+    "url": "/static/js/main.b0515f9e.chunk.js"
   },
   {
-    "revision": "de4f2dda573b9617d011",
-    "url": "/static/js/runtime-main.50153745.js"
+    "revision": "3deed5a8d28fb8673e95",
+    "url": "/static/js/runtime-main.c22e20e7.js"
+  },
+  {
+    "revision": "f111e2f3c4cd1286d757256ec9b341af",
+    "url": "/static/media/Factura Electronica AFIP 0.f111e2f3.webp"
+  },
+  {
+    "revision": "a19c4305f749d9760b94a202b8433f65",
+    "url": "/static/media/Factura Electronica AFIP 2.a19c4305.webp"
+  },
+  {
+    "revision": "6ff643ae9813752b3c4c9b9f5a918fd1",
+    "url": "/static/media/Factura Electronica AFIP 3.6ff643ae.webp"
+  },
+  {
+    "revision": "f69396401be5ef4998064b4a1b69ff45",
+    "url": "/static/media/Factura Electronica AFIP 4.f6939640.webp"
   },
   {
     "revision": "3100078199533ea7b7ae359f6b611d98",

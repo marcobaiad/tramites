@@ -1,23 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.59c03e04.chunk.css",
-    "main.js": "/static/js/main.c2e0ebbe.chunk.js",
-    "main.js.map": "/static/js/main.c2e0ebbe.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.50153745.js",
-    "runtime-main.js.map": "/static/js/runtime-main.50153745.js.map",
-    "static/js/2.1f88fa67.chunk.js": "/static/js/2.1f88fa67.chunk.js",
-    "static/js/2.1f88fa67.chunk.js.map": "/static/js/2.1f88fa67.chunk.js.map",
+    "main.js": "/static/js/main.b0515f9e.chunk.js",
+    "main.js.map": "/static/js/main.b0515f9e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c22e20e7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c22e20e7.js.map",
+    "static/js/2.934d8560.chunk.js": "/static/js/2.934d8560.chunk.js",
+    "static/js/2.934d8560.chunk.js.map": "/static/js/2.934d8560.chunk.js.map",
     "static/css/3.a36ad7b0.chunk.css": "/static/css/3.a36ad7b0.chunk.css",
-    "static/js/3.01305951.chunk.js": "/static/js/3.01305951.chunk.js",
-    "static/js/3.01305951.chunk.js.map": "/static/js/3.01305951.chunk.js.map",
-    "static/js/4.7d77576c.chunk.js": "/static/js/4.7d77576c.chunk.js",
-    "static/js/4.7d77576c.chunk.js.map": "/static/js/4.7d77576c.chunk.js.map",
+    "static/js/3.eaad95e4.chunk.js": "/static/js/3.eaad95e4.chunk.js",
+    "static/js/3.eaad95e4.chunk.js.map": "/static/js/3.eaad95e4.chunk.js.map",
+    "static/js/4.49788181.chunk.js": "/static/js/4.49788181.chunk.js",
+    "static/js/4.49788181.chunk.js.map": "/static/js/4.49788181.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.578550e3c0b5478ca453057bdcc2d089.js": "/precache-manifest.578550e3c0b5478ca453057bdcc2d089.js",
+    "precache-manifest.01f450cc95ec9a0f667203bd64141bca.js": "/precache-manifest.01f450cc95ec9a0f667203bd64141bca.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.a36ad7b0.chunk.css.map": "/static/css/3.a36ad7b0.chunk.css.map",
     "static/css/main.59c03e04.chunk.css.map": "/static/css/main.59c03e04.chunk.css.map",
-    "static/js/2.1f88fa67.chunk.js.LICENSE.txt": "/static/js/2.1f88fa67.chunk.js.LICENSE.txt",
+    "static/js/2.934d8560.chunk.js.LICENSE.txt": "/static/js/2.934d8560.chunk.js.LICENSE.txt",
+    "static/media/Factura Electronica AFIP 0.webp": "/static/media/Factura Electronica AFIP 0.f111e2f3.webp",
+    "static/media/Factura Electronica AFIP 2.webp": "/static/media/Factura Electronica AFIP 2.a19c4305.webp",
+    "static/media/Factura Electronica AFIP 3.webp": "/static/media/Factura Electronica AFIP 3.6ff643ae.webp",
+    "static/media/Factura Electronica AFIP 4.webp": "/static/media/Factura Electronica AFIP 4.f6939640.webp",
     "static/media/MI AFIP QR.svg": "/static/media/MI AFIP QR.31000781.svg",
     "static/media/montoJubilados.JPG": "/static/media/montoJubilados.34f47508.JPG",
     "static/media/montoasignaciones.JPG": "/static/media/montoasignaciones.5b580432.JPG",
@@ -42,9 +46,9 @@
     "static/media/paso 4 CETA.webp": "/static/media/paso 4 CETA.c65a4372.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.50153745.js",
-    "static/js/2.1f88fa67.chunk.js",
+    "static/js/runtime-main.c22e20e7.js",
+    "static/js/2.934d8560.chunk.js",
     "static/css/main.59c03e04.chunk.css",
-    "static/js/main.c2e0ebbe.chunk.js"
+    "static/js/main.b0515f9e.chunk.js"
   ]
 }
