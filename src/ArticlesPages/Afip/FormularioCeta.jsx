@@ -42,7 +42,7 @@ const FormularioCeta = () => {
             <div className="alert alert-info" role="alert">
                 <strong>Monto formulario CETA a partir de 2019: </strong> El formulario ceta es obligatorio si el importe de la venta supera la suma de $800.000 (Ocho Cientos Mil pesos Argentinos). Si se pactara en moneda extranjera, se deberá realizar la conversión a valor de la moneda local con la cotización del <strong>Banco de la Nación Argentina</strong> del día hábil inmediatamente anterior al acto de transferencia.
             </div>
-            <Indice title1="¿Formulario CETA ¿Cómo Hacerlo?"
+            {/* <Indice title1="¿Formulario CETA ¿Cómo Hacerlo?"
                 nodo1={nodo1}
                 title2="¿Cómo sacar formulario ceta sin Clave Fiscal?"
                 nodo2={nodo2}
@@ -52,7 +52,7 @@ const FormularioCeta = () => {
                 nodo4={nodo4}
                 title5="Video explicativo de como sacar formulario CETA"
                 nodo5={nodo5}
-            />
+            /> */}
             <h2 className="font-weight-bold" ref={nodo1}>Formulario CETA ¿Cómo Hacerlo?</h2>
             <p>Para hacer el trámite del <strong>formulario CETA online</strong> tendrás que ingresar a la página de AFIP. Tené en cuenta podrás realizarlo de dos de dos maneras: </p>
             <ol className="nav flex-column mb-3">

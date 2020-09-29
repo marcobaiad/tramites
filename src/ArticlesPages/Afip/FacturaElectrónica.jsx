@@ -1,61 +1,140 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
+const Indice = React.lazy(() => import('../../components/indice'))
+
 export default function FacturaElectronica() {
+
+    const [iframeInView, setIframeInView] = React.useState(false); 
+
+    const titulo1 = React.useRef(null);
+    const titulo2 = React.useRef(null);
+    const titulo3 = React.useRef(null);
+    const titulo4 = React.useRef(null);
+    const titulo5 = React.useRef(null);
+
+    const InView = () => {
+        const rect = titulo5.current.getBoundingClientRect();
+
+        if (rect.top >= 0 && rect.left >= 0 && rect.right <= window.innerWidth && rect.bottom <= window.innerHeight) {
+            setIframeInView(!iframeInView)
+        } else {
+            setIframeInView(iframeInView)
+        }
+    }
+
+    React.useEffect(() => {
+        InView()
+    }, [])
+    
+
     return (
         <MainDiv page={
         <>
             <Helmet description="¿Querés generar tu Clave Fiscal? En tramitero.com te ayudamos a hacerlo de la manera más rápida y sencilla. Entrá ahora y termina tu trámite" contextUrl="index" title="Clave Fiscal AFIP" />
-            <h1>Factura Electrónica ¿Qué es?</h1>
+            <h1 className="text-center">Factura Electrónica ¿Qué es?</h1>
+            <div className="card px-0 my-3">
+                <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como tramiter la Factura Electrónica en 2020.</p> 
+                <div className="card-body">
+                <strong>¿Qué información vas a encontrar?</strong>
+                    <ul>
+                        <li>Que necesito</li>
+                        <li>Como se hace</li>
+                        <li>Solicitar Autorización</li>
+                        <li>Personas obligadas</li>
+                    </ul>
+                    Continúa leyendo para terminar tu trámite de manera fácil y sencila.
+                </div>
+            </div>
             La <strong>factura electrónica </strong>es un comprobante digital que permite la no impresión de la factura en papel, promoviendo una mayor gestion e intercambio fluido de las mismas por medios digitales. Esta <strong>factura</strong> tiene la misma validez legal que una factura en formato papel y se puede utilizar en la mayoría de las operaciones vigentes.
-            <h2>¿Cómo hacer la factura Electrónica de AFIP?</h2>
+            <Suspense fallback={<div>Cargando...</div>}>
+                <Indice 
+                    description1="Documentación necesaria y Requisitos" 
+                    description2="¿Como hacer una factura Electrónica?"
+                    description3="Solicitar autorización para emitir Factura Electrónica" 
+                    description4="¿Quién está obligado a emitir Factura Electrónica?"
+                    description5="¿Video explicativo de como Sacar Factura Electrónica"
+                    nodo1={titulo1}
+                    nodo2={titulo2}
+                    nodo3={titulo3}
+                    nodo4={titulo4}
+                    nodo5={titulo5}
+               />
+            </Suspense>
+            <h2 ref={titulo1}>¿Qué documentación necesito para hacer mi factura Electrónica de AFIP?</h2>
             Para hacer la factura electrónica, debemos tener en cuenta el tipo de destinatario y el monto de la operación. <br /> En caso de tratarse de un <strong>consumidor final</strong>: operación mayor de $7690 realizado por medios no autorizados o el monto de la factura superase o equipare los $15380 por alguno de los medios autorizados, los datos a incluir en la factura son:
-            <ul className="my-2">
+            <ul className="my-3">
                 <li>Nombre Completo</li>
                 <li>Domicilio</li>
                 <li>CUIT/CUIL/CDI</li>
             </ul>
-            <div className="alert alert-info" role="alert">
+            <div className="alert alert-info border-primary" role="alert">
                 <strong>A tener en cuenta: </strong> Los medios autorizados emitir facrura electrónica son Tarjetas de Débito/ Crédito/ Prespagas no bancarias y transferencia de pago instrumentada.
             </div>
             La factura para responsable inscrito deberá identificar al cliente, siempre y cuando la operación fuese igual o menor a $7690 y la operación se efectuara en el marco de la comercialización mayorista por algún medio autorizado.
-            <h2>¿Cómo hacer la factura Electrónica de AFIP?</h2>
-            Los pasos para la emisión de la factura, son los siguientes:
-            <ol>
+            <h2 ref={titulo2}>¿Cómo hacer la factura Electrónica de AFIP?</h2>
+            Para inciar el trámite, primero es necesario habilitar los <strong>Puntos de Ventas</strong> en la página de AFIP ingresando con tu <a href="https://tramitero.com/Afip/clave-fiscal">Clave Fiscal</a>.
+            Pasos para habilitar Puntos de Ventas AFIP:
+            <ol className="my-3">
                 <li>
-                    Habilitar punto de venta desde la página de AFIP con Clave Fiscal (más abajo detallamos como hacerlo).
+                    Una vez hayas ingresado a la web de AFIP, podrás ver la lista de servicios disponibles, deberás elegir la opción de <strong>Comprobantes en Línea</strong> y luego la opción que corresponda según tu categoría de monotributista para desplegar el menú del <strong>Regimen de Comprobantes en Linea</strong>.
                 </li>
                 <li>
-                    Luego ingresar al menú de <strong>Comprobantes en Línea</strong> donde verás los contribuyentes asociados al CUIL ingresado.
+                    Dentro de éste menú vas a seleccionar la opción de <strong>Datos adicionales del Comprobante</strong> donde vas a completar los datos de la siguiente imagen: 
+                    <div className="row justify-content-center mx-0 my-3">
+                        <img className="img-fluid" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 0.JPG')} alt=""/>
+                    </div>
+                    Luego presioná en GUARDAR
                 </li>
                 <li>
-                    Seleccioná la opción de <strong>Datos Adicionales del Comprobante</strong>
+                    Ahora debés ingresar a <strong>ABM Puntos de Ventas</strong>, para elegir el tipo de factura a emitir, una vez hayas elegído presioná el botón Contiuar.
+                    <div className="row justify-content-center mx-0 my-3">
+                        <img className="img-fluid" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 2.JPG')} alt=""/>
+                    </div>
+                    Luego presioná en GUARDAR
                 </li>
                 <li>
-                    Completa todos los campos y presioná el botón GUARDAR
+                    Volverá a abrirse la misma pantalla del paso 2 y esta vez tendrás que elegir la opción de <strong>Generar Comprobantes</strong>. Completá los datos requeridos y presioná en CONTINUAR.
+                    <div className="row justify-content-center mx-0 my-3">
+                        <img className="img-fluid" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 3.JPG')} alt=""/>
+                    </div>
                 </li>
                 <li>
-                    Ahora vas a acceder a <strong>Generar Comprobantes</strong> y seleccionar la opción que corresponda en punto de venta a utilizar y el tipo de comprobante a emitir.
+                    Completa los datos de la persona que recibirá la factura y como se efectuó la venta. (De contado, con tarjeta de crédito / débito, cheque, etc.) y presioná CONTINUAR.
+                    <div className="row justify-content-center mx-0 my-3">
+                        <img className="img-fluid" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 4.JPG')} alt=""/>
+                    </div>
                 </li>
             </ol>
-            Una vez finalizados los puntos mencionados, ya solo queda completar los datos del emisor/receptor y confirmar que los datos cargados sean correctos. <br />
-            En caso de tener que hábilitar un punto de venta, en el menú Comprobantes en Línea de la web de AFIP ingresá a la opción <strong>ABM Puntos de Ventas</strong>, una vez adentro vas a ingresar a Administración de Puntos de Ventas y Domicilios. En esta nueva ventana seleccioná el nombre y apellido y volvé al memú ABM Puntos de ventas, presioná el botón AGREGAR para completar los datos solicitados, luego acepta esos cambios y presioná el botón CONFIRMAR.
-            <h2>¿Cómo solicitar autorización para emitir factura Electrónica?</h2>
-            Los requisitos para la solicitud de emisión de este tipo factura son los siguientes: <br />
-            <ul>
+            Una vez realizado los pasos mencionados anteriormente, solo resta comprobar que los datos ingresados durante el proceso sean correctos y presionar el botón de Confirmar Datos.
+            <br/>
+            <h2 ref={titulo3}>¿Cómo solicitar autorización para emitir factura Electrónica?</h2>
+            <strong>¿Qué documentación necesito?</strong>
+            <ul className="my-3">
                 <li>
                     CUIT/ CUIL/ CDI
                 </li>
                 <li>
-                    Clave Fiscal Nivel 3 (enterate como sacarla desde <a className="font-weight-bold" href="https://marcobaiad.github.io/tramites/#/Afip/clave-fiscal" target="_blank" rel="noopener noreferrer">acá</a>)
+                    Clave Fiscal Nivel 3 (enterate como sacarla desde <a className="font-weight-bold" href="https://tramitero.com/Afip/clave-fiscal" target="_blank" rel="noopener noreferrer">acá</a>)
                 </li>
                 <li>
                     Contar con los servicios necesarios habilitados en tu clave fiscal. 
                 </li>
             </ul>
+            La solicitud para emitir este tipo de factura deberá realizarse por: 
+            <ul className="my-3">
+                <li>
+                    Web Service de Factura Electrónica o
+                </li>
+                <li>
+                    Con Clave Fiscal en el menú Comprobantes en línea.
+                </li>
+            </ul>
              {false && 
              <div>
+             <br />
+             Consideraciones según tipo de Factura a emitir:
 
              Algunos aspectos a considerar a la hora de solicitar 
             <ul className="my-2">
@@ -87,10 +166,25 @@ export default function FacturaElectronica() {
             </ul>
             </div>
             }
-            <h3>¿Quienes están obligados a emitir por la AFIP este comprobante?</h3>
-            Estan alcanzados todos las categorias del monotributo, Inscriptos en el Impuesto al Valor Agregado.
-            Actividades comprendidas en el anexo de la RG 3749, exportadores por la RG 2758 y quienes comercializan bienes usados no registrables enmarcados en la RG 3411. 
+            <h3 ref={titulo4}>¿Quienes están obligados a emitir por la AFIP este comprobante?</h3>
+            Estan alcanzadas todas las categorias del monotributo, Inscriptos en el Impuesto al Valor Agregado, Actividades comprendidas en el anexo de la RG 3749, exportadores por la RG 2758 y quienes comercializan bienes usados no registrables enmarcados en la RG 3411. <br/>
             <strong>¿Quines estan exceptuados?</strong> Aquellas personas que están dentro del Régimen de inclusión Social y Promoción de Trabajo indepentiente.
+            <div className="d-flex flex-column align-items-center justify-content-center my-5">
+                <h4 className="mb-3 text-center" ref={titulo5}>Video explicativo de como emitir Factura Electrónica</h4>
+                <br/>
+                {
+                    iframeInView ?
+                        <div className="align-self-center embed-responsive embed-responsive-16by9 w-75 h-75">
+                            <iframe width="560" height="315" title="Como Emitir Factura Electrónica?" src="https://www.youtube.com/embed/rodjvaubjBs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        </div>
+                    :
+                    <div className="row justify-content-center mx-0">
+                        <br/>
+                        <button className="btn btn-info font-weight-bold" onClick={() => setIframeInView(true)}>Click para ver el Video</button>
+
+                    </div>
+                }
+            </div>
         </>}
         />
     )
