@@ -6,7 +6,7 @@ function IFE() {
     return (
         <MainDiv page={
         <>
-            <Helmet description="¿Como saber si me corresponde corar el IFE? Entrá ahora y enterate de todas las novedades del IFE." contextUrl="index" title="IFE" />
+            <Helmet description="¿Como saber si me corresponde corar el IFE? Entrá ahora y enterate de todas las novedades del IFE." contextUrl="index" title="IFE: ngreso Familiar de Emergencia" />
             <h1 className="text-center">IFE: Ingreso Familiar de Emergencia Anses</h1>
             El <strong>IFE </strong>es un bono mensual de $10000 anunciado por el Gobierto Argentino de Alberto Fernandez como medida preventiva al contexto historico acontecido este 2020.<b />
             Con esta ayuda de ANSES, el gobierto busca alcanzar a no menos de 8 millones de Argentinos, para ayudarlos en el marco de la pandemia.

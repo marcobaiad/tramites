@@ -6,7 +6,7 @@ export default function TituloAutomotor() {
     return(
         <MainDiv page={
             <>
-                <Helmet description="" contextUrl="index" title="Titulo Duplicado Automotor" />
+                <Helmet description="¿Cómo sacar el Duplocado de mi Titulo? ¿Cúanto Cuesta? En Trámitero.com te ayudamos con tu trámite con nuestras guías rápidas y sencillas." contextUrl="index" title="Titulo Duplicado Automotor" />
                 <h1 className="text-center">Titulo por Duplicado del Automotor</h1>
                 El <strong>titulo del Automotor</strong> es el documento con el cual podrás certificar que un vehículo ya sea auto, moto o maquinaria, forma parte de tu propiedad.
                 Si perdiste o te robaron el titulo de tu auto o se te deterioró el mismo deberás solicitar un duplicado.

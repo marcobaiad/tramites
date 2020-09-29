@@ -6,7 +6,7 @@ export default function InscripcionMonotributo() {
     return (
         <MainDiv page={
         <>
-            <Helmet description="¿Querés generar tu Clave Fiscal? En tramitero.com te ayudamos a hacerlo de la manera más rápida y sencilla. Entrá ahora y termina tu trámite" contextUrl="index" title="Clave Fiscal AFIP" />
+            <Helmet description="¿Que es el monotributo? ¿Cómo ser monotributista? Enterate como en tramitero.com. Te ayudamos con nuestras guías rápidas, entrá ahora!" contextUrl="index" title="Monotributo y Categorias 2020" />
             <h1 className="text-center">Monotributo</h1>
             El <strong>Monotributo Social</strong> es una herramienta que da el gobierno Argentino como regimen optativo de tributo, que busca facilitar y por sobre todo promover la incorporación de de las personas a la economía formal. El monto de aporte depende de la categoría a la que te inscribas (las categorias van desde la A hasta la K).
             <h2>¿Cúales son los beneficios del monotributo?</h2>

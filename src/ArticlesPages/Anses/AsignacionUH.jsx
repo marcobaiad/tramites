@@ -7,7 +7,7 @@ export default function AUH() {
     return (
         <MainDiv page={
         <>
-            <Helmet description="¿¿Como saber si me corresponde cobrar AUH? En tramitero.com te ayudamos a realizar el trámite de una manera super rápida y sensilla" contextUrl="index" title="AHU" />
+            <Helmet description="¿¿Como saber si me corresponde cobrar AUH? En tramitero.com te ayudamos a realizar el trámite de una manera super rápida y sensilla, entrá ahora!" contextUrl="index" title="AHU 2020" />
             <h1 className="my-3 text-center">Asignación Universal por Hijo ANSES</h1>
             También conocida por sus siglas como <strong>AUH</strong>, es una asignación mensual que cobra uno solo de los padres (priorizando a la mamá) por hasta 5 hijos menores de 18 años. Para asegurarte de cobrar cada mes, no debés olvidarte de presentar una vez al año la Libreta de cada hijo. <br />
             Esta asignación que otorga el Estado Argentino, tiene la función de de ser un <strong>seguro social</strong> para las personas desocupadas, que trabajan en el circuito informal o cuyos ingresos son menores al salario mínimo, vital y móvil.

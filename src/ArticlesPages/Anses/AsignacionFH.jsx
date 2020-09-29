@@ -6,7 +6,7 @@ export default function AsignacionFH() {
     return (
         <MainDiv page = {
             <>
-            <Helmet description="¿Como saber si me corresponde cobrar SUAF? ¿Cuando Cobro SUAF? Encontrá toda esta información En tramitero.com" contextUrl="index" title="SUAF" />
+            <Helmet description="¿Como saber si me corresponde cobrar SUAF? ¿Cuando Cobro SUAF? Encontrá toda esta información En tramitero.com" contextUrl="index" title="SUAF 2020" />
             <h1 className="mb-5 text-center">Asignación Familiar por Hijo ¿Qué es?</h1>
             También conocida como <strong>SUAF</strong>, es un beneficio mensual que ANSES brinda a los trabajadores en relación de dependencia, monotributistas, jubilados y pensionados con hijos menores a 18 años o discapacitados.
             <h2 className="my-3">¿Quienes cobran Asignación Familiar por Hijo ANSES?</h2>

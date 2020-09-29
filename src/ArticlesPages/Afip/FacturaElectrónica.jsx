@@ -32,7 +32,7 @@ export default function FacturaElectronica() {
     return (
         <MainDiv page={
         <>
-            <Helmet description="¿Querés saber cómo generar tu Factura Electrónica? En tramitero.com te ayudamos con una guía super rápida y sencilla. Entrá ahora y termina tu trámite" contextUrl="index" title="Clave Fiscal AFIP" />
+            <Helmet description="¿Querés saber cómo generar tu Factura Electrónica? En tramitero.com te ayudamos con una guía super rápida y sencilla. Entrá ahora y termina tu trámite" contextUrl="index" title="Factura Electrónica ¿Cómo se hace?" />
             <h1 className="text-center">Factura Electrónica ¿Qué es?</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como tramiter la Factura Electrónica en 2020.</p> 

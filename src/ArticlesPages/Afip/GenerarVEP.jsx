@@ -6,7 +6,7 @@ export default function GenerarVEP() {
     return(
         <MainDiv page={
             <>
-            <Helmet description="¿Querés generar tu Clave Fiscal? En tramitero.com te ayudamos a hacerlo de la manera más rápida y sencilla. Entrá ahora y termina tu trámite" contextUrl="index" title="Clave Fiscal AFIP" />
+            <Helmet description="¿Cómo generar el VEP de AFIP? En tramitero.com te ayudamos a hacerlo de la manera más rápida y sencilla. Entrá ahora y termina tu trámite" contextUrl="index" title="Generar VEP de AFIP 2020" />
                 <h1 className="text-center">VEP Volante Electrónico de Pago</h1>
                 El <strong>VEP</strong> de AFIP, es el volante de pago electrónico que se utiliza para saldar obligaciones impositivas en todo el país.
                 Para poder generar tu VEP, abajo vamos a dejar el paso a paso de como realizarlo.
