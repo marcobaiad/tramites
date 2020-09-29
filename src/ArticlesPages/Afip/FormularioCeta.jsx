@@ -30,7 +30,7 @@ const FormularioCeta = () => {
     return (
         <MainDiv page={
         <>
-            <Helmet description="¿Querés generar tu Clave Fiscal? En tramitero.com te ayudamos a hacerlo de la manera más rápida y sencilla. Entrá ahora y termina tu trámite" contextUrl="index" title="Clave Fiscal AFIP" />
+            <Helmet description="¿Cómo hacer el formularo CETA? Con clave Fiscal, sin clave fiscal. En tramitero.com te ayudamos con una guía super rápida. Entrá ahora." contextUrl="index" title="Clave Fiscal AFIP" />
             <h1 className="font-weight-bold py-5 text-center">Formulario CETA</h1>
             <h2 className="font-weight-bolder">¿Qué es el Formulario CETA?</h2>
             <p>El <strong>Certificado de Transferencia de Automotores</strong>, es un formulario de <a href="https://afip.gob.ar" target="_blank" rel="noopener noreferrer">AFIP</a> que se necesita a la hora de hacer la transferencia de un auto. <strong>¿Quien tiene que hacer el formulario CETA?</strong> El vendendor deberá tramitar este certificado. Están alcanzadas: personas humanas, las suceciones indivisas (herederos) y personas jurídicas, que recidan en el país o en el exterior y quieran realizar la transferencia parcial o total de su dominio.</p>
