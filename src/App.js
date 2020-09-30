@@ -14,8 +14,6 @@ import SeguroDesempleo from './ArticlesPages/Anses/SeguroDesempleo';
 import IFE from './ArticlesPages/Anses/IFE';
 
 
-
-
 // Posts Afip
 import ClaveFiscal from './ArticlesPages/Afip/ClaveFiscal';
 import FacturaElectronica from './ArticlesPages/Afip/FacturaElectrónica';
@@ -23,6 +21,7 @@ import FormularioCeta from './ArticlesPages/Afip/FormularioCeta';
 import GenerarVEP from './ArticlesPages/Afip/GenerarVEP';
 import InscripcionMonotributo from './ArticlesPages/Afip/InscripcionMonotributo';
 import TurnoAfip from './ArticlesPages/Afip/TurnoAfip';
+
 
 // Posts Renaper
 import TramiteDNI from './ArticlesPages/Renaper/TramiteDNI';
@@ -39,11 +38,16 @@ import TransferenciaAutomotor from './ArticlesPages/AutoMotor/TransferenciaAutom
 import TurnoAutomotor from './ArticlesPages/AutoMotor/TurnoAutomotor';
 import Patentamiento from './ArticlesPages/AutoMotor/Patentamiento';
 
+
+// Noticias
+import CuartoIFE from './Noticias/CuartoIFE';
+
 export default function App() {
   return (
     <>
       <Route component={Header} />
       <Switch>
+        <Route path='/Noticias/Cuarto-IFE' exact={true} component={CuartoIFE} />
         <Route path='/Automotor/patentamiento-automotor' exact={true} component={Patentamiento} />
         <Route path='/Automotor/turno-registro-automotor' exact={true} component={TurnoAutomotor} />
         <Route path='/Automotor/transferencia-automotor' exact={true} component={TransferenciaAutomotor} />

@@ -119,6 +119,12 @@ const posts = {
             titleCard: "Trámite cedula Azul",
             textLink: "Cedula Azul",
             textCard: "La Cédula Azul es el permiso que se debe trámitar para autorizar a otras personas a conducir un vehículo ajeno. En caso de disponer de esta cédula, no será necesario que la persona autorizada lleve la tarjeta verde del titular. El objetivo de este permiso, es ayudar a mejorar la seguridad vial mediante la identificación de las personas que manejan un rodado y restringir la utilización de vehiculos solo a los individuos que estén autorizados por le propietario.",
+        }],
+        Noticias: [{
+            pathPost: "/Noticias/cuarto-IFE",
+            titleCard: "Cuarto IFE ¿No se pagará?",
+            textLink: "Cuarto IFE ¿No se pagará?",
+            textCard: '"Estamos evaluando si existe un cuarto pago del IFE o vamos a construir otras políticas sociales de acompañamiento con otras perspectivas", explicó Fernanda Raverta. Teniendo en cuenta que la fecha de cobro de las asignaciones ya están dadas, ¿Creés que se va a pagar el 4to IFE?',
         }]
     }
 

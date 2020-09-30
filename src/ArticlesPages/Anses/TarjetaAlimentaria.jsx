@@ -10,6 +10,7 @@ export default function TarjetaAlimentaria() {
     const titulo2 = React.useRef(null);
     const titulo3 = React.useRef(null);
     const titulo4 = React.useRef(null);
+    const titulo5 = React.useRef(null);
 
     return(
         <MainDiv page={
@@ -35,11 +36,13 @@ export default function TarjetaAlimentaria() {
                     description1="¿Cómo se tramita?" 
                     description2="¿A quien le corresponde?"
                     description3="Monto y Crédito de la tarjeta"
-                    description3="¿Que hacer si pierdo mi tarjeta?"
+                    description4="¿Que hacer si pierdo mi tarjeta?"
+                    description5="¿Cómo consultar el saldo?"
                     nodo1={titulo1}
                     nodo2={titulo2}
                     nodo3={titulo3}
                     nodo4={titulo4}
+                    nodo5={titulo5}
                />
             </Suspense>
             <div className="alert alert-info" role="alert">
@@ -70,9 +73,17 @@ export default function TarjetaAlimentaria() {
                 <li><a href="https://www.bancoprovincia.com.ar/turneroweb/#/" data="_blank" rel="noopener noreferrer" title="click para abrir página web de turnos Banco Provincia">Banco Provincia </a><a href="tel:0114379333"> (011)-4379333</a></li>
                 <li><a href="https://www.nbch.com.ar/Personas/Banca-Electronica/Turnos-web" data="_blank" rel="noopener noreferrer" title="click para abrir página web de turnos Nuevo Banco del Chaco">Nuevo Bando del Chaco </a><a href="tel:08009996224"> 0800-999-6224</a> o <a href="tel:08002226224"> 0800-222-6224</a></li>
             </ul>            
-        
-        
-        
+            <h2 ref={titulo5}>¿Cómo consultar el saldo de mi Tarjeta Alimentaria?</h2>
+            Si necesitas consultar el saldo de tu tarjeta, podes hacerlo por los siguientes métodos:
+            <ul className="my-3">
+                <strong>Anses: </strong> <br/>
+                <li>Podrás comunicarte directamente con los operadores de Anses llamando al <a href="tel:+5408106664803">0810-666-4803</a></li>
+                <strong>Desde el Banco emisor de la tarjeta: </strong>
+                <li>Desde el HomeBanking</li>
+                <strong>Web Visa: </strong>
+                <li>Ingresando a la <a href="https://visahome.prismamediosdepago.com/socios/service/socialCard?windowId=a0c" target="_blank" rel="noopener noreferrer">web oficial VISA</a>, con los 16 digitos de tu tarjeta podrás corroborar tu saldo y el día de acreditación de saldo.</li>
+            </ul>
+            
         </>}
         />
     )

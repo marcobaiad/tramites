@@ -15,7 +15,7 @@ function IFE() {
     return (
         <MainDiv page={
         <>
-            <Helmet description="¿Como saber si me corresponde corar el IFE? Entrá ahora y enterate de todas las novedades del IFE." contextUrl="index" title="IFE: ngreso Familiar de Emergencia" />
+            <Helmet description="¿Como saber si me corresponde cobrar el IFE? Entrá ahora y enterate de todas las novedades del IFE." contextUrl="index" title="IFE: Ingreso Familiar de Emergencia" />
             <h1 className="text-center">IFE: Ingreso Familiar de Emergencia Anses</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como cobrar el IFE en 2020.</p> 
@@ -33,12 +33,14 @@ function IFE() {
             Con esta ayuda de ANSES, el gobierto busca alcanzar a no menos de 8 millones de Argentinos, para ayudarlos en el marco de la pandemia.
             <Suspense fallback={<div>Cargando...</div>}>
                 <Indice 
-                    description1="¿Quién le corresponde el IFE?" 
+                    description1="¿A quién le corresponde cobrar el IFE?" 
                     description2="¿Cómo cobrar el Ingreso Familiar de Emergencia?"
-                    description3="¿Calendario de pagos 3er IFE 2020?"
+                    description3="Cuándo cobro el 3er IFE 2020?"
+                    description3="Calendario de pagos Cuarto IFE 2020"
                     nodo1={titulo1}
                     nodo2={titulo2}
                     nodo3={titulo3}
+                    nodo4={titulo4}
                />
             </Suspense>
             <h2 ref={titulo1}>¿A quien le corresponde le IFE?</h2>
