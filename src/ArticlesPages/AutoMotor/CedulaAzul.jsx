@@ -6,16 +6,27 @@ const Indice = React.lazy(() => import('../../components/indice'));
 
 export default function CedulaAzul() {
     
-    const titulo1 = React.useRef(null)
-    const titulo2 = React.useRef(null)
-    const titulo3 = React.useRef(null)
+    const titulo1 = React.useRef(null);
+    const titulo2 = React.useRef(null);
+    const titulo3 = React.useRef(null);
     
     return(
         <MainDiv page={
             <>
                 <Helmet description="¿Querés hacer el trámite online para sacar la Cédula Azul? En Tramitero.com te presentamos esta guía super fácil para ayudarte a solicitar tu Cédula" contextUrl="index" title="Cedula Azul" />
                 <h1 className="text-center">Cédula Azul</h1>
-
+                <div className="card px-0 my-3">
+                    <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa para sacar la Cedula Azul en 2020.</p> 
+                    <div className="card-body">
+                    <strong>¿Qué información vas a encontrar?</strong>
+                        <ul>
+                            <li>Requisitos y Documentación</li>
+                            <li>Como sacar turno</li>
+                            <li>Como hacer el trámite</li>
+                        </ul>
+                        Continúa leyendo para terminar tu trámite de manera fácil y sencila.
+                    </div>
+                </div>
                 La <strong>Cédula Azul</strong> es el permiso que se debe trámitar para autorizar a otras personas a conducir un vehículo ajeno. En caso de disponer de esta cédula, no será necesario que la persona autorizada lleve la tarjeta verde del titular. <br/>
                 El objetivo de este permiso, es ayudar a mejorar la seguridad vial mediante la identificación de las personas que manejan un rodado y restringir la utilización de vehiculos solo a los individuos que estén autorizados por le propietario.
                 <Suspense fallback={
@@ -23,7 +34,7 @@ export default function CedulaAzul() {
                         <span className="sr-only">Cargando...</span>
                     </div>
                 }>
-                    <Indice description1="¿Qué documentación necesito?" 
+                    <Indice description1="¿Qué documentación necesito para sacarla?" 
                         description2="¿Cómo sacar la cedula Azul 2020?"
                         description3="¿Cómo se calcula el valor de una patente?" 
                         nodo1={titulo1}
@@ -45,14 +56,16 @@ export default function CedulaAzul() {
                     </li>
                 </ul>
                 <h2 ref={titulo2}>¿Cómo sacar la Cédula Azul?</h2>
-                <div className="alert alert-primary my-2" role="alert">
+                <div className="alert alert-info border-primary my-2" role="alert">
                     <strong>Atención, nota Importante:</strong> por los acontecimientos de público conocimiento, este trámite se puede hacer completamente virtual. Con el objetivo de seguir ayudando, es que actualizamos los pasos necesarios para que puedas terminar tu solicitud lo antes posible.
                 </div> <br/>
-                Previo a iniciar el trámite, deberás asegurarte de haber reunido toda la documentación necesaria y haber sacado turno desde la pagina oficinal de la <a href="https://www2.jus.gov.ar/dnrpa-site/#!/seleccionarTramite" target="_blank" rel="noopener noreferrer">DNRPA</a>. 
-                <div className="text-center my-3">
-                    Enterate como sacar el turno desde el siguiente botón <br/> <a href="http://" target="_blank" rel="noopener noreferrer" className="btn btn-primary my-2">Turno Automotor</a>
+                <div className="row justify-content-arround mx-0">
+                <p className="col-12 col-md-6">Previo a iniciar el trámite, deberás asegurarte de haber reunido toda la documentación necesaria y haber sacado turno desde la pagina oficinal de la <a href="https://www2.jus.gov.ar/dnrpa-site/#!/seleccionarTramite" target="_blank" rel="noopener noreferrer">DNRPA</a>.</p> 
+                <div className="text-center col-12 col-md-6">
+                    Enterate como sacar el turno desde el siguiente botón <br/> <a href="https://tramitero.com/Automotor/turno-registro-automotor" target="_blank" rel="noopener noreferrer" className="btn btn-primary my-2">Turno Automotor</a>
                 </div>
-                <ol>
+                </div>
+                <ol className="my-3">
                     <li>
                         Sacar turno
                     </li>
@@ -68,8 +81,8 @@ export default function CedulaAzul() {
                     </li>
                 </ol>
                 <div className="my-3 card">
-                    <div className="card-header bg-primary text-white font-weight-bold text-center">
-                        El trámite presencial no se encuentra disponible debido al contexto de pandemia. Por favor, descartar estos pasos y realizar el trámite de manera digital. 
+                    <div className="card-header bg-info text-white font-weight-bold text-center">
+                        El trámite presencial no se encuentra disponible debido al contexto de pandemia. 
                     </div>
                     <div className="card-body">
                         Una vez confirmado que reunimos toda la documentación, los pasos para adquirir este permiso son: 

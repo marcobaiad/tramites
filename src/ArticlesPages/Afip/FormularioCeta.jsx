@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Indice from '../../components/indice';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet'; 
@@ -7,14 +7,16 @@ const FormularioCeta = () => {
 
     const [iframeInView, setIframeInView] = React.useState(false); 
 
-    const nodo1 = React.useRef(null);
-    const nodo2 = React.useRef(null);
-    const nodo3 = React.useRef(null);
-    const nodo4 = React.useRef(null);
-    const nodo5 = React.useRef(null);
+    const titulo1 = React.useRef(null);
+    const titulo2 = React.useRef(null);
+    const titulo3 = React.useRef(null);
+    const titulo4 = React.useRef(null);
+    const titulo5 = React.useRef(null);
+    const titulo6 = React.useRef(null);
+    const titulo7 = React.useRef(null);
 
     const InView = () => {
-        const rect = nodo5.current.getBoundingClientRect();
+        const rect = titulo5.current.getBoundingClientRect();
 
         if (rect.top >= 0 && rect.left >= 0 && rect.right <= window.innerWidth && rect.bottom <= window.innerHeight) {
             setIframeInView(!iframeInView)
@@ -31,40 +33,61 @@ const FormularioCeta = () => {
         <MainDiv page={
         <>
             <Helmet description="¿Cómo hacer el formularo CETA? Con clave Fiscal, sin clave fiscal. En tramitero.com te ayudamos con una guía super rápida. Entrá ahora." contextUrl="index" title="¿Cómo hacer el Formulario CETA de AFIP 2020?" />
-            <h1 className="font-weight-bold py-5 text-center">Formulario CETA</h1>
-            <h2 className="font-weight-bolder">¿Qué es el Formulario CETA?</h2>
-            <p>El <strong>Certificado de Transferencia de Automotores</strong>, es un formulario de <a href="https://afip.gob.ar" target="_blank" rel="noopener noreferrer">AFIP</a> que se necesita a la hora de hacer la transferencia de un auto. <strong>¿Quien tiene que hacer el formulario CETA?</strong> El vendendor deberá tramitar este certificado. Están alcanzadas: personas humanas, las suceciones indivisas (herederos) y personas jurídicas, que recidan en el país o en el exterior y quieran realizar la transferencia parcial o total de su dominio.</p>
-            <h2 className="font-weight-bold">¿Cuándo es necesaro sacar el formulario CETA?</h2>
+            <h1 className="font-weight-bold py-5 text-center">Formulario CETA ¿qué es?</h1>
+            <div className="card px-0 my-3">
+                <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como tramitar el Formulario CETA en 2020.</p> 
+                <div className="card-body">
+                <strong>¿Qué información vas a encontrar?</strong>
+                    <ul>
+                        <li>Que necesito</li>
+                        <li>Como se hace</li>
+                        <li>Pasos a paso del trámite</li>
+                        <li>Personas obligadas</li>
+                        <li>Con clave Fiscal</li>
+                        <li>Sin Clave Fiscal</li>
+                    </ul>
+                    Continúa leyendo para terminar tu trámite de manera fácil y sencila.
+                </div>
+            </div>
+            <p>El <strong>Certificado de Transferencia de Automotores</strong>, es un formulario de <a href="https://afip.gob.ar" target="_blank" rel="noopener noreferrer">AFIP</a> que se necesita a la hora de hacer la transferencia de un auto. <strong ref={titulo5}>¿Quien tiene que hacer el formulario CETA?</strong> El vendendor es el que deberá tramitar este certificado. Están alcanzadas: personas humanas, las suceciones indivisas (herederos) y personas jurídicas, que recidan en el país o en el exterior y quieran realizar la transferencia parcial o total de su dominio.</p>
+            <Suspense fallback={<div>Cargando...</div>}>
+                <Indice 
+                    description1="¿Cuándo es necesario sacar el Formulario?" 
+                    description2="¿Cómo se hace el formulario Z en 2020?"
+                    description3="Sacar Formulario Ceta Sin Clave Fiscal 2020" 
+                    description4="Sacar Formulario Ceta Con Clave Fiscal 2020"
+                    description5="¿Quienes están obligados a sacar este formulario?"
+                    description6="¿Quienes están excentos a sacar este formulario?"
+                    description7="Video explicativo para Sacar Form. Ceta"
+                    nodo1={titulo1}
+                    nodo2={titulo2}
+                    nodo3={titulo3}
+                    nodo4={titulo4}
+                    nodo5={titulo5}
+                    nodo6={titulo6}
+                    nodo7={titulo7}
+               />
+            </Suspense>
+            <h2 className="font-weight-bold" ref={titulo1}>¿Cuándo es necesaro sacar el formulario CETA?</h2>
             <p>Si estás buscando como se trámitar el ceta, debes saber que el mismo se presenta a partir de cierto monto, el cual se va actualizando año a año y para llevar un registro más detallado, y que sea más fácil de leer, es que abajo iremos dejando los valores según el año en el que se quiera realizar la transferencia del vehículo.</p>
             <div className="alert alert-info" role="alert">
-                <strong>Monto formulario CETA a partir de 2020: </strong> Condiciones 2019 vigentes.
+                <strong>Monto a partir de 2020: </strong> Condiciones 2019 vigentes.
             </div>
             <div className="alert alert-info" role="alert">
-                <strong>Monto formulario CETA a partir de 2019: </strong> El formulario ceta es obligatorio si el importe de la venta supera la suma de $800.000 (Ocho Cientos Mil pesos Argentinos). Si se pactara en moneda extranjera, se deberá realizar la conversión a valor de la moneda local con la cotización del <strong>Banco de la Nación Argentina</strong> del día hábil inmediatamente anterior al acto de transferencia.
+                <strong>Monto a partir de 2019: </strong> El formulario ceta es obligatorio si el importe de la venta supera la suma de $800.000 (Ocho Cientos Mil pesos Argentinos). Si se pactara en moneda extranjera, se deberá realizar la conversión a valor de la moneda local con la cotización del <strong>Banco de la Nación Argentina</strong> del día hábil inmediatamente anterior al acto de transferencia.
             </div>
-            {/* <Indice title1="¿Formulario CETA ¿Cómo Hacerlo?"
-                nodo1={nodo1}
-                title2="¿Cómo sacar formulario ceta sin Clave Fiscal?"
-                nodo2={nodo2}
-                title3="¿Cómo sacar formulario ceta con Clave Fiscal?"
-                nodo3={nodo3}
-                title4= "¿Quienes están excentos a realizar el CETA?"
-                nodo4={nodo4}
-                title5="Video explicativo de como sacar formulario CETA"
-                nodo5={nodo5}
-            /> */}
-            <h2 className="font-weight-bold" ref={nodo1}>Formulario CETA ¿Cómo Hacerlo?</h2>
+            <h2 className="font-weight-bold" ref={titulo2}>Formulario CETA ¿Cómo Hacerlo?</h2>
             <p>Para hacer el trámite del <strong>formulario CETA online</strong> tendrás que ingresar a la página de AFIP. Tené en cuenta podrás realizarlo de dos de dos maneras: </p>
             <ol className="nav flex-column mb-3">
                 <li className="nav-item" role="presentation">
-                    <button type="button" onClick={() => nodo2.current.scrollIntoView()} className="btn btn-link">Sin Clave Fiscal:</button>podrás completar el formulario ceta sin necesidad de clave fiscal.
+                    <button type="button" onClick={() => titulo2.current.scrollIntoView()} className="btn btn-link">Sin Clave Fiscal:</button>podrás completar el trámite sin necesidad de clave fiscal.
                 </li>
                 <li className="nav-item" role="presentation">
-                    <button type="button" onClick={() => nodo3.current.scrollIntoView()} className="btn btn-link">Con Clave Fiscal:</button>para poder completar el formulario ceta necesitas de una clave fiscal nivel 2.
+                    <button type="button" onClick={() => titulo3.current.scrollIntoView()} className="btn btn-link">Con Clave Fiscal:</button>para poder completar el trámite necesitas de una clave fiscal nivel 2.
                 </li>
             </ol>
 
-            <h2 className="font-weight-bold" id="sinclave" ref={nodo2}>
+            <h2 className="font-weight-bold" id="sinclave" ref={titulo3}>
                 ¿Cómo sacar formulario ceta sin Clave Fiscal?
             </h2>
             <p>Guía detallada de como realizar este trámite paso a paso.</p>
@@ -146,8 +169,8 @@ const FormularioCeta = () => {
                     </div>
                 </div>
             </div>
-            <h2 className="font-weight-bold" id="conclave" ref={nodo3}>¿Cómo sacar el Formulario Ceta Con Clave Fiscal?</h2>
-            <p className="font-weight-bold">Paso a paso</p><p>de como sacar el formulario CETA con clave fiscal</p>
+            <h2 className="font-weight-bold" id="conclave" ref={titulo4}>¿Cómo sacar el Formulario Ceta Con Clave Fiscal?</h2>
+            <p className="font-weight-bold">Paso a paso: </p>
             <div className="" id="accordion" role="tablist">
                 <div className="card w-100">
                     <button
@@ -221,7 +244,7 @@ const FormularioCeta = () => {
                     </div>
                 </div>
             </div>
-            <h2 className="mt-5" ref={nodo4}>¿Quienes están excentos a realizar el CETA?</h2>
+            <h2 className="mt-5" ref={titulo6}>¿Quienes están excentos a realizar el CETA?</h2>
             <p className="ml-2">Se encuentran axceptuados de realiazar este trámite los siguientes Sujetos</p>   
             <div className="row justify-content-md-around">
                 <div className="col-12 col-md-4">
@@ -249,7 +272,7 @@ const FormularioCeta = () => {
                 </div>
             </div>
             <div className="d-flex flex-column align-items-center justify-content-center my-5">
-                <h4 className="mb-3 text-center" ref={nodo5}>Video explicativo de como sacar formulario CETA</h4>
+                <h4 className="mb-3 text-center" ref={titulo7}>Video explicativo de como sacar formulario CETA</h4>
                 <br/>
                 {
                     iframeInView ?

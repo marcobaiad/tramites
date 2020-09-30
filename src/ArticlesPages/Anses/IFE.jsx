@@ -1,16 +1,47 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
+const Indice = React.lazy(() => import('../../components/indice'));
+
 function IFE() {
+
+    const titulo1 = React.useRef(null);
+    const titulo2 = React.useRef(null);
+    const titulo3 = React.useRef(null);
+    const titulo4 = React.useRef(null);
+    const titulo5 = React.useRef(null);
+
     return (
         <MainDiv page={
         <>
             <Helmet description="¿Como saber si me corresponde corar el IFE? Entrá ahora y enterate de todas las novedades del IFE." contextUrl="index" title="IFE: ngreso Familiar de Emergencia" />
             <h1 className="text-center">IFE: Ingreso Familiar de Emergencia Anses</h1>
+            <div className="card px-0 my-3">
+                <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como cobrar el IFE en 2020.</p> 
+                <div className="card-body">
+                <strong>¿Qué información vas a encontrar?</strong>
+                    <ul>
+                        <li>A quien le corresponde</li>
+                        <li>Calendario de Pago 3er IFE</li>
+                        <li>Como cobrar AHU</li>
+                    </ul>
+                    Continúa leyendo para terminar tu trámite de manera fácil y sencila.
+                </div>
+            </div>
             El <strong>IFE </strong>es un bono mensual de $10000 anunciado por el Gobierto Argentino de Alberto Fernandez como medida preventiva al contexto historico acontecido este 2020.<b />
             Con esta ayuda de ANSES, el gobierto busca alcanzar a no menos de 8 millones de Argentinos, para ayudarlos en el marco de la pandemia.
-            <h2>¿A quien le corresponde le IFE?</h2>
+            <Suspense fallback={<div>Cargando...</div>}>
+                <Indice 
+                    description1="¿Quién le corresponde el IFE?" 
+                    description2="¿Cómo cobrar el Ingreso Familiar de Emergencia?"
+                    description3="¿Calendario de pagos 3er IFE 2020?"
+                    nodo1={titulo1}
+                    nodo2={titulo2}
+                    nodo3={titulo3}
+               />
+            </Suspense>
+            <h2 ref={titulo1}>¿A quien le corresponde le IFE?</h2>
             El DNU (Decreto Nacional de Urgencia) contemplaba para ser beneficiarios del <strong>Ingreso Familiar de emergencia</strong> a las siguientes personas.
             <ul>
                 <li>Trabajadores no registrados</li>
@@ -18,9 +49,9 @@ function IFE() {
                 <li>Personas inscriptas en el Monotributo Social</li>
                 <li>Monotributistas clase A y <strong>B</strong></li>
             </ul>
-            <h2>¿Como cobrar el IFE?</h2>
+            <h2 ref={titulo2}>¿Como cobrar el IFE?</h2>
             El cobro del ife es mediante CBU. En caso de que no dispongas de una, el gobierno dispuso la posibilidad de abrir una <strong>Cuenta DNI</strong> de forma totalmente gratuita en los bancos Provincia de Buenos Aires o Nación.
-            <h2>Calendario de Pagos IFE ¿Cuándo cobro el tercer IFE?</h2>
+            <h2 ref={titulo3}>Calendario de Pagos IFE ¿Cuándo cobro el tercer IFE?</h2>
             <div className="alert alert-info" role="alert">
                 <strong>A tener en cuenta: </strong> En caso de cobrar <strong>AUH (Asignación Universal por Hijo)</strong> o <strong>AUE (Asignación Universal por Embarazo) </strong> el cobro del ingreo familiar de emergentia se deposita junto con la asignación. Esto quiere decir que el tercer IFE ya fue depositado entre el día 10 y 24 de Agosto en tu cuenta.
             </div>

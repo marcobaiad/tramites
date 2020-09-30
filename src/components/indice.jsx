@@ -88,6 +88,21 @@ export default function Indice(props) {
                         <p className="mb-0">{description6}</p>
                     </div>
                     </>
+                }{
+                    description7 && 
+                    <>
+                    {
+                        description7 && 
+                         <>   
+                            <i className="d-none d-md-block my-1 fas fa-arrows-alt-h arrow-horizontal mx-2 align-self-center text-info"></i>
+                            <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical text-info"></i>
+                        </>
+                    }
+                    <div className="btn btn-outline-info  col-8 col-md-3 my-1 my-md-3" onClick={() => nodo6.current.scrollIntoView()}>
+                    <i className="far fa-file-alt"></i>
+                        <p className="mb-0">{description7}</p>
+                    </div>
+                    </>
                 }
 
             </div>

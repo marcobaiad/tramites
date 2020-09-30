@@ -35,7 +35,7 @@ export default function FacturaElectronica() {
             <Helmet description="¿Querés saber cómo generar tu Factura Electrónica? En tramitero.com te ayudamos con una guía super rápida y sencilla. Entrá ahora y termina tu trámite" contextUrl="index" title="Factura Electrónica ¿Cómo se hace?" />
             <h1 className="text-center">Factura Electrónica ¿Qué es?</h1>
             <div className="card px-0 my-3">
-                <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como tramiter la Factura Electrónica en 2020.</p> 
+                <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como tramitar la Factura Electrónica en 2020.</p> 
                 <div className="card-body">
                 <strong>¿Qué información vas a encontrar?</strong>
                     <ul>
@@ -175,7 +175,7 @@ export default function FacturaElectronica() {
                 {
                     iframeInView ?
                         <div className="align-self-center embed-responsive embed-responsive-16by9 w-75 h-75">
-                            <iframe width="560" height="315" title="Como Emitir Factura Electrónica?" src="https://www.youtube.com/embed/rodjvaubjBs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe width="560" height="315" title="Como Emitir Factura Electrónica?" src="https://www.youtube.com/embed/rodjvaubjBs?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     :
                     <div className="row justify-content-center mx-0">

@@ -1,17 +1,45 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
+const Indice = React.lazy(() => import('../../components/indice'));
 
 export default function AUH() {
+
+    const titulo1 = React.useRef(null);
+    const titulo2 = React.useRef(null);
+    const titulo3 = React.useRef(null);
+
     return (
         <MainDiv page={
         <>
             <Helmet description="¿¿Como saber si me corresponde cobrar AUH? En tramitero.com te ayudamos a realizar el trámite de una manera super rápida y sensilla, entrá ahora!" contextUrl="index" title="AHU 2020" />
             <h1 className="my-3 text-center">Asignación Universal por Hijo ANSES</h1>
+            <div className="card px-0 my-3">
+                <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como cobrar Asignación Universal por Hijo en 2020.</p> 
+                <div className="card-body">
+                <strong>¿Qué información vas a encontrar?</strong>
+                    <ul>
+                        <li>A quien le corresponde</li>
+                        <li>Requisitos</li>
+                        <li>Como cobrar AHU</li>
+                    </ul>
+                    Continúa leyendo para terminar tu trámite de manera fácil y sencila.
+                </div>
+            </div>
             También conocida por sus siglas como <strong>AUH</strong>, es una asignación mensual que cobra uno solo de los padres (priorizando a la mamá) por hasta 5 hijos menores de 18 años. Para asegurarte de cobrar cada mes, no debés olvidarte de presentar una vez al año la Libreta de cada hijo. <br />
             Esta asignación que otorga el Estado Argentino, tiene la función de de ser un <strong>seguro social</strong> para las personas desocupadas, que trabajan en el circuito informal o cuyos ingresos son menores al salario mínimo, vital y móvil.
-            <h2 className="my-3">¿Quien cobra Asignación Universal por Hijo?</h2>
+            <Suspense fallback={<div>Cargando...</div>}>
+                <Indice 
+                    description1="¿Quién cobra Asignación Universal por hijo 2020?" 
+                    description2="¿Cuales son los requisitos para acceder?"
+                    description3="¿Cómo realizar el trámite para cobrar AHU?"
+                    nodo1={titulo1}
+                    nodo2={titulo2}
+                    nodo3={titulo3}
+               />
+            </Suspense>
+            <h2 className="my-3" ref={titulo1}>¿Quien cobra Asignación Universal por Hijo?</h2>
             Para poder acceder a la Asignación Universal por Hijo, ambos padres (o los mayores a cargo), deben encontrarse en alguna de las siguientes situaciones:
             <ul className="mt-3">
                 <li>Estar desocupados</li>
@@ -19,7 +47,7 @@ export default function AUH() {
                 <li>Monotributistas sociales y</li>
                 <li>Empleados del Servicio Doméstico.</li>
             </ul>
-            <h2 className="">Requisitos para Asignación Universal por Hijo</h2>
+            <h2 className="" ref={titulo2}>Requisitos para Asignación Universal por Hijo</h2>
             <ul>
                 <li>El el caso de un hijo con discapacidad, deberás tramitar previamente la autorización respectiva para el
               cobro de asignaciones por hijo con discapacidad. En este caso, la asignación es sin límite de edad.</li>
@@ -28,7 +56,7 @@ export default function AUH() {
                 <li>Presentar la documentación requerida por ANSES para cumplimentar el trámite.</li>
             </ul>
             Una vez reunas todos los requisitos, podrás iniciar el trámite. Recordá que podés usar nuestro nuevo sistema de formularios inteligentes para finalizar el trámite más rápido.
-            <h2>¿Cómo inicio al trámite para cobrar asignacion?</h2>
+            <h2 ref={titulo3}>¿Cómo inicio al trámite para cobrar asignacion?</h2>
             <div className="alert alert-info" role="alert">
                 <strong>A tener en cuenta:</strong> la información del grupo familiar registrada en la base de datos
                 de ANSES debe estar actualizada. Antes de continuar con el trámite, te recomendamos verificar esto desde <a href="">Mi ANSES</a> con tu clave de la Seguridad Social.
@@ -49,11 +77,9 @@ export default function AUH() {
                 </ol>
                 <div className="col-12 col-md-6 d-flex flex-column align-items-center">
                     Podes descargar el formulario de libreta ANSES desde el siguiente botón
-                    <button className="btn bg-grad my-3 text-center">Formulario PS 1.47 ANSES</button>
+                    <a href="https://www.anses.gob.ar/sites/default/files/formulario/2019-01/PS%201.47%20DDJJ%20ASIGNACION%20UNIVERSAL.pdf" className="btn btn-primary my-3 text-center" target="_blank" rel="noopener noreferrer">Formulario PS 1.47 ANSES</a>
                 </div>
-
             </div>
-
             <h3>Modalidad de Pago</h3>
             A diferencia de otras prestaciones, el pago de la <strong>Asignación Universal por Hijo</strong> se realiza
             en dos partes: <br />
@@ -66,7 +92,7 @@ export default function AUH() {
                     Que los menores entre 5 y 18 años hayan cumplido con los controles de salud y asistan a un establecimiento educativo formal.
                 </li>
             </ul>
-            <h2>Temas relacionados</h2>
+            {/* <h2>Temas relacionados</h2>
             <div className="card-deck">
                 <div className="card my-4">
                     <a>
@@ -76,7 +102,7 @@ export default function AUH() {
                         </div>
                     </a>
                 </div>
-                <div className="card color-Gray my-4">
+                <div className="card my-4">
                     <a href="">
                         <div className="card-body">
                             <h4 className="card-title">Crédito ANSES Asignación Universal por hijo</h4>
@@ -85,7 +111,7 @@ export default function AUH() {
                         </div>
                     </a>
                 </div>
-                <div className="card color-Gray my-4">
+                <div className="card my-4">
                     <a href="">
                         <div className="card-body">
                             <h4 className="card-title">¿Cuándo y Dónde cobro Asignación Universal?</h4>
@@ -93,6 +119,11 @@ export default function AUH() {
                         </div>
                     </a>
                 </div>
+            </div> */}
+            <h2>Monto Asignacion Universal por Hijo 2020</h2>
+            Podés consultar el monto de las asignaciones desde el siguiente botón <br/>
+            <div className="text-center">
+                <a href="https://www.anses.gob.ar/sites/default/files/cartilla/2020-09/Montos%20AAFF%20Septiembre%202020.pdf" className="btn btn-primary my-3" target="_blank" rel="noopener noreferrer">Monto Asignaciones</a>
             </div>
         </>
         }

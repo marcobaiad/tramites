@@ -38,12 +38,12 @@ const posts = {
         Renaper: [{   
             pathPost: "/Renaper/tramite-dni",
             titleCard: "Trámite DNI", 
-            textLink: "Trámite DNI",
+            textLink: "Tramite DNI",
             textCard: "El Documento Nacional de Indentidad es el documento único que nos identifica a los argentinos y a los extranjeros que residen en el país. ¿Cómo sacar turno para renovar el DNI? Para realizar la renovación del DNI, es necesario sacar un turno en el RENAPER. Ingresá desde acá. Luego vas a elegir tu provincia y la localidad más cercana.",
         }, {   
             pathPost: "/Renaper/tramite-pasaporte",
             titleCard: "Trámite Pasaporte", 
-            textLink: "Trámite Pasaporte",
+            textLink: "Tramite Pasaporte",
             textCard: "El Pasaporte es el documento que acredita la identidad de una persona y la nacionalidad de la misma. El pasaporte es necesario para ingresar a algunos paises. Para sacar el pasaporte, deberás primero sacar turno.",
         }, 
         // {   
@@ -112,7 +112,7 @@ const posts = {
         }, {
             pathPost: "/Automotor/titulo-automotor",
             titleCard: "Titulo Automotor",
-            textLink: "Titulo Automotor",
+            textLink: "Duplicado Titulo Automotor",
             textCard: " El titulo del Automotor es el documento con el cual podrás certificar que un vehículo ya sea auto, moto o maquinaria, forma parte de tu propiedad. Si perdiste o te robaron el titulo de tu auto o se te deterioró el mismo deberás solicitar un duplicado.",
         }, {
             pathPost: "/Automotor/tramite-cedula-azul",
