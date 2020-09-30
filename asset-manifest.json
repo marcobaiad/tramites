@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.109b1558.chunk.css",
-    "main.js": "/static/js/main.0d4f7a40.chunk.js",
-    "main.js.map": "/static/js/main.0d4f7a40.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d5fa74a7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d5fa74a7.js.map",
-    "static/js/2.8ca1de4d.chunk.js": "/static/js/2.8ca1de4d.chunk.js",
-    "static/js/2.8ca1de4d.chunk.js.map": "/static/js/2.8ca1de4d.chunk.js.map",
+    "main.js": "/static/js/main.b8c66ceb.chunk.js",
+    "main.js.map": "/static/js/main.b8c66ceb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3884a8ec.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3884a8ec.js.map",
+    "static/js/2.26bf2a29.chunk.js": "/static/js/2.26bf2a29.chunk.js",
+    "static/js/2.26bf2a29.chunk.js.map": "/static/js/2.26bf2a29.chunk.js.map",
     "static/css/3.a36ad7b0.chunk.css": "/static/css/3.a36ad7b0.chunk.css",
-    "static/js/3.5947d12c.chunk.js": "/static/js/3.5947d12c.chunk.js",
-    "static/js/3.5947d12c.chunk.js.map": "/static/js/3.5947d12c.chunk.js.map",
+    "static/js/3.271807e6.chunk.js": "/static/js/3.271807e6.chunk.js",
+    "static/js/3.271807e6.chunk.js.map": "/static/js/3.271807e6.chunk.js.map",
     "static/js/4.aed4933a.chunk.js": "/static/js/4.aed4933a.chunk.js",
     "static/js/4.aed4933a.chunk.js.map": "/static/js/4.aed4933a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.720de41cf1e7667954bc31385d98b4a9.js": "/precache-manifest.720de41cf1e7667954bc31385d98b4a9.js",
+    "precache-manifest.a651af45e367605979ba2337ad9e0a23.js": "/precache-manifest.a651af45e367605979ba2337ad9e0a23.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.a36ad7b0.chunk.css.map": "/static/css/3.a36ad7b0.chunk.css.map",
     "static/css/main.109b1558.chunk.css.map": "/static/css/main.109b1558.chunk.css.map",
-    "static/js/2.8ca1de4d.chunk.js.LICENSE.txt": "/static/js/2.8ca1de4d.chunk.js.LICENSE.txt",
+    "static/js/2.26bf2a29.chunk.js.LICENSE.txt": "/static/js/2.26bf2a29.chunk.js.LICENSE.txt",
     "static/media/Factura Electronica AFIP 0.webp": "/static/media/Factura Electronica AFIP 0.f111e2f3.webp",
     "static/media/Factura Electronica AFIP 2.webp": "/static/media/Factura Electronica AFIP 2.a19c4305.webp",
     "static/media/Factura Electronica AFIP 3.webp": "/static/media/Factura Electronica AFIP 3.6ff643ae.webp",
@@ -46,9 +46,9 @@
     "static/media/paso 4 CETA.webp": "/static/media/paso 4 CETA.c65a4372.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.d5fa74a7.js",
-    "static/js/2.8ca1de4d.chunk.js",
+    "static/js/runtime-main.3884a8ec.js",
+    "static/js/2.26bf2a29.chunk.js",
     "static/css/main.109b1558.chunk.css",
-    "static/js/main.0d4f7a40.chunk.js"
+    "static/js/main.b8c66ceb.chunk.js"
   ]
 }
