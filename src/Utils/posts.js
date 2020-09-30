@@ -122,8 +122,8 @@ const posts = {
         }],
         Noticias: [{
             pathPost: "/Noticias/cuarto-IFE",
-            titleCard: "Cuarto IFE ¿No se pagará?",
-            textLink: "Cuarto IFE ¿No se pagará?",
+            titleCard: "Cuarto IFE ¿En duda el pago del 4to IFE?",
+            textLink: "¿Se paragá el 4to IFE?",
             textCard: '"Estamos evaluando si existe un cuarto pago del IFE o vamos a construir otras políticas sociales de acompañamiento con otras perspectivas", explicó Fernanda Raverta. Teniendo en cuenta que la fecha de cobro de las asignaciones ya están dadas, ¿Creés que se va a pagar el 4to IFE?',
         }]
     }

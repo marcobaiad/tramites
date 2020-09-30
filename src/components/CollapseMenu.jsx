@@ -9,6 +9,7 @@ export default function CollapseMenu(props) {
     const [LinksAfip, setLinksAfip] = useState([]);
     const [LinksAutomotor, setLinksAutomotor] = useState([]);
     const [LinksRenaper, setLinksRenaper] = useState([]);
+    const [LinksNoticias, setLinksNoticias] = useState([]);
 
     
 
@@ -27,6 +28,8 @@ export default function CollapseMenu(props) {
         setLinksRenaper(LinksDataRenaper)
         const LinksDataAutomotor = posts.Automotor.map((fild, l) => <LinkPost func={() => buttonMenu.current.click()} key={l} pathPost={fild.pathPost} text={fild.textLink} />)
         setLinksAutomotor(LinksDataAutomotor)
+        const LinksDataNoticias = posts.Noticias.map((fild, l) => <LinkPost func={() => buttonMenu.current.click()} key={l} pathPost={fild.pathPost} text={fild.textLink} />)
+        setLinksNoticias(LinksDataNoticias)
     }
 
     useEffect(() => {
@@ -84,6 +87,18 @@ export default function CollapseMenu(props) {
                 <div id="collapseFour" className="collapse" role="tabpanel" aria-labelledby="headingFour">
                     <div className="card-body">
                         {LinksAutomotor}
+                    </div>
+                </div>
+            </div>
+            <div className="card">
+                <div className="card-header p-0 bg-grad font-weight-bold" role="tab" id="headingFive">
+                    <button className="btn bg-info text-white font-weight-bold w-100" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFour">
+                        Noticias
+                    </button>
+                </div>
+                <div id="collapseFive" className="collapse" role="tabpanel" aria-labelledby="headingFive">
+                    <div className="card-body">
+                        {LinksNoticias}
                     </div>
                 </div>
             </div>

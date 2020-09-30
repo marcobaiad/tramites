@@ -40,7 +40,7 @@ import Patentamiento from './ArticlesPages/AutoMotor/Patentamiento';
 
 
 // Noticias
-import CuartoIFE from './Noticias/CuartoIFE';
+import CuartoIFE from './ArticlesPages/Noticias/CuartoIFE';
 
 export default function App() {
   return (

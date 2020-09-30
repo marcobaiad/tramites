@@ -10,6 +10,7 @@ import Links from './Links';
 export default function Header() {
 
     let ismobile = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)|(BlackBerry)/i);
+    
     const [mobilOn, setMobilOn] = useState(true);
 
     const buttonMenu = useRef(null)
@@ -17,6 +18,7 @@ export default function Header() {
     const [LinksAfip, setLinksAfip] = useState([]);
     const [LinksAutomotor, setLinksAutomotor] = useState([]);
     const [LinksRenaper, setLinksRenaper] = useState([]);
+    const [LinksNoticias, setLinksNoticias] = useState([]);
     const [allPost, setAllPost] = useState([]);
     const [postfilter, setPostfilter] = useState([]);
     const [valueFilter, setValueFilter] = useState();
@@ -47,7 +49,9 @@ export default function Header() {
         setLinksRenaper(LinksDataRenaper)
         const LinksDataAutomotor = posts.Automotor.map((fild, l)=> <LinkPost key={l} pathPost={fild.pathPost} text={fild.textLink} />)
         setLinksAutomotor(LinksDataAutomotor)
-        setAllPost(posts.Afip.concat(posts.Anses, posts.Automotor, posts.Renaper))
+        const LinksDataNoticias = posts.Noticias.map((fild, l)=> <LinkPost key={l} pathPost={fild.pathPost} text={fild.textLink} />)
+        setLinksNoticias(LinksDataNoticias)
+        setAllPost(posts.Afip.concat(posts.Anses, posts.Automotor, posts.Renaper, posts.Noticias))
     }
 
     const HandlerChange = (e) => {
@@ -120,11 +124,19 @@ export default function Header() {
                                     {LinksAutomotor}
                                 </div>
                             </li>
+                            <li className="nav-item font-weight-bold">
+                                <Link className="nav-link dropdown-toggle text-white" aria-controls="Automotor" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Noticias
+                                </Link>
+                                <div className="dropdown-content bg-info" aria-labelledby="Automotor">
+                                    {LinksNoticias}
+                                </div>
+                            </li>
                         </ul>
                         :
                         <CollapseMenu buttonMenu={buttonMenu} />
                     }
-                    <form className={`form-inline my-2 my-lg-0 mr-0 mr-md-4 ${!mobilOn ? "w-50": "w-100" }`} ref={showDiv}>
+                    <form className={`form-inline my-2 my-lg-0 mr-0 mr-md-4 ${mobilOn ? "w-100" : "w-50" }`} ref={showDiv}>
                         <input className="form-control w-100" type="search" onChange={HandlerChange} placeholder="Buscar" aria-label="Buscar" />
                         <div className="dropdown w-100 show" id="showDiv">
                             
