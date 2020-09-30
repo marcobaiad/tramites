@@ -15,9 +15,9 @@ function CuartoIFE() {
                 También dijo que "La pandemia en sí, va ofreciendo una realidad distinta a cada momento, por eso no podemos decir ni cuántos IFE habrá, ni cómo serán. Lo que hacemos todo el tiempo es revisar en función de la salud y la situación económica y a partir de ahí tomar las decisiones".
                 <br/>
                 Por su parte, el ministro de economía <strong>Martín Guzman</strong>, declaró que se mantendrán las medidas que se consideren necesarias para proteger a los sectores más vulnerables. También señaló que "La pandemia no cedió, pero a pesar de nuestras firmes restricciones fiscales, vamos a seguir tomando medidas acordes para seguir protegiendo a los que tengamos que proteger."
-                Teniendo en cuenta que hoy es el último día del mes de Septiembre y que el calendario de asignaciones del mes Octubre ya está oficializado <strong>¿Crees que se abonará el 4to IFE?</strong>.
                 <br/>
-                Dejamos conocer que pensas en los comentarios de Facebook.
+                Teniendo en cuenta que hoy es el último día del mes de Septiembre y que el calendario de asignaciones del mes Octubre ya está oficializado <strong>¿Crees que se abonará el 4to IFE?</strong>.
+                <br/> Dejamos conocer que pensas en los comentarios de Facebook.
                 <>
                 <h4 className="my-3">Temas Relacionados</h4>
                 <Relacionados />
