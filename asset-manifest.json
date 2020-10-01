@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.109b1558.chunk.css",
-    "main.js": "/static/js/main.6989135a.chunk.js",
-    "main.js.map": "/static/js/main.6989135a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1d9339a6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1d9339a6.js.map",
+    "main.js": "/static/js/main.56f84ff5.chunk.js",
+    "main.js.map": "/static/js/main.56f84ff5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.40b287e6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.40b287e6.js.map",
     "static/js/2.f200084c.chunk.js": "/static/js/2.f200084c.chunk.js",
     "static/js/2.f200084c.chunk.js.map": "/static/js/2.f200084c.chunk.js.map",
     "static/css/3.a36ad7b0.chunk.css": "/static/css/3.a36ad7b0.chunk.css",
-    "static/js/3.a123a3ce.chunk.js": "/static/js/3.a123a3ce.chunk.js",
-    "static/js/3.a123a3ce.chunk.js.map": "/static/js/3.a123a3ce.chunk.js.map",
-    "static/js/4.aed4933a.chunk.js": "/static/js/4.aed4933a.chunk.js",
-    "static/js/4.aed4933a.chunk.js.map": "/static/js/4.aed4933a.chunk.js.map",
+    "static/js/3.1543915b.chunk.js": "/static/js/3.1543915b.chunk.js",
+    "static/js/3.1543915b.chunk.js.map": "/static/js/3.1543915b.chunk.js.map",
+    "static/js/4.632c959e.chunk.js": "/static/js/4.632c959e.chunk.js",
+    "static/js/4.632c959e.chunk.js.map": "/static/js/4.632c959e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2225509ca6089bddcf09ff3d0a0ce99a.js": "/precache-manifest.2225509ca6089bddcf09ff3d0a0ce99a.js",
+    "precache-manifest.99982cd150dd1dfbdc3bc533728dec08.js": "/precache-manifest.99982cd150dd1dfbdc3bc533728dec08.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.a36ad7b0.chunk.css.map": "/static/css/3.a36ad7b0.chunk.css.map",
     "static/css/main.109b1558.chunk.css.map": "/static/css/main.109b1558.chunk.css.map",
     "static/js/2.f200084c.chunk.js.LICENSE.txt": "/static/js/2.f200084c.chunk.js.LICENSE.txt",
+    "static/media/Asigancion-por-Embarazo.png": "/static/media/Asigancion-por-Embarazo.3d7f3b93.png",
+    "static/media/Asignacion-por-Embarazo1.png": "/static/media/Asignacion-por-Embarazo1.202c510e.png",
+    "static/media/Asignacion-por-prenatal.jpg": "/static/media/Asignacion-por-prenatal.0c07d97e.jpg",
     "static/media/Factura Electronica AFIP 0.webp": "/static/media/Factura Electronica AFIP 0.f111e2f3.webp",
     "static/media/Factura Electronica AFIP 2.webp": "/static/media/Factura Electronica AFIP 2.a19c4305.webp",
     "static/media/Factura Electronica AFIP 3.webp": "/static/media/Factura Electronica AFIP 3.6ff643ae.webp",
@@ -46,9 +49,9 @@
     "static/media/paso 4 CETA.webp": "/static/media/paso 4 CETA.c65a4372.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.1d9339a6.js",
+    "static/js/runtime-main.40b287e6.js",
     "static/js/2.f200084c.chunk.js",
     "static/css/main.109b1558.chunk.css",
-    "static/js/main.6989135a.chunk.js"
+    "static/js/main.56f84ff5.chunk.js"
   ]
 }

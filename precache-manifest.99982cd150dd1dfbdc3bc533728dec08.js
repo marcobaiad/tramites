@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "85c9889abc2070bcdfee352607fe4852",
+    "revision": "d67c9f32ca8d4130d1ea3eabf2d325d7",
     "url": "/index.html"
   },
   {
-    "revision": "2f094dab9f44d6072461",
+    "revision": "78ff8ca9ef08eaff0dfa",
     "url": "/static/css/3.a36ad7b0.chunk.css"
   },
   {
-    "revision": "43ca6e840fdb12339a33",
+    "revision": "e00fdcf5f6e514552bee",
     "url": "/static/css/main.109b1558.chunk.css"
   },
   {
@@ -20,20 +20,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f200084c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f094dab9f44d6072461",
-    "url": "/static/js/3.a123a3ce.chunk.js"
+    "revision": "78ff8ca9ef08eaff0dfa",
+    "url": "/static/js/3.1543915b.chunk.js"
   },
   {
-    "revision": "1bdf5dc53eb558cdca0d",
-    "url": "/static/js/4.aed4933a.chunk.js"
+    "revision": "8d88f3f46f03f4983ee9",
+    "url": "/static/js/4.632c959e.chunk.js"
   },
   {
-    "revision": "43ca6e840fdb12339a33",
-    "url": "/static/js/main.6989135a.chunk.js"
+    "revision": "e00fdcf5f6e514552bee",
+    "url": "/static/js/main.56f84ff5.chunk.js"
   },
   {
-    "revision": "767106109278e54ca794",
-    "url": "/static/js/runtime-main.1d9339a6.js"
+    "revision": "f244b9eaa33a6d1b4b94",
+    "url": "/static/js/runtime-main.40b287e6.js"
+  },
+  {
+    "revision": "3d7f3b938c32585f15e539355a011d75",
+    "url": "/static/media/Asigancion-por-Embarazo.3d7f3b93.png"
+  },
+  {
+    "revision": "202c510e2b6bf550bcf04799a9dc7cb7",
+    "url": "/static/media/Asignacion-por-Embarazo1.202c510e.png"
+  },
+  {
+    "revision": "0c07d97ebdb797b126918febfc049594",
+    "url": "/static/media/Asignacion-por-prenatal.0c07d97e.jpg"
   },
   {
     "revision": "f111e2f3c4cd1286d757256ec9b341af",
