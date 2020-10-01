@@ -31,7 +31,9 @@ export default function TarjetaAlimentaria() {
                 </div>
             </div>
             La <strong>tarjeta alimentaria de ANSES</strong> fue pensada como un complemento alimentario de la mano del Plan <strong>Argentina contra el Hambre</strong>. Esta tarjeta te permite comprar todos los alimentos que componen la canasta básica (se excluyen bebidas alcohólicas), se puede utilizar en cualquier establecimiento que reciban tarjetas de crédito. La recarga se realiza el tercer viernes de cada mes, de forma automática.
-            <Suspense fallback={<div>Cargando...</div>}>
+            <Suspense fallback={<div className="spinner-border text-primary" role="status">
+                        <span className="sr-only">Cargando...</span>
+                    </div>}>
                 <Indice 
                     description1="¿Cómo se tramita?" 
                     description2="¿A quien le corresponde?"

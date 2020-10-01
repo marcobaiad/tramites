@@ -31,7 +31,9 @@ export default function InscripcionMonotributo() {
                 </div>
             </div>
             El <strong>Monotributo Social</strong> es una herramienta que da el gobierno Argentino como regimen optativo de tributo, que busca facilitar y por sobre todo promover la incorporación de de las personas a la economía formal. El monto de aporte depende de la categoría a la que te inscribas (las categorias van desde la A hasta la K).
-            <Suspense fallback={<div>Cargando...</div>}>
+            <Suspense fallback={<div className="spinner-border text-primary" role="status">
+                        <span className="sr-only">Cargando...</span>
+                    </div>}>
                 <Indice 
                     description1="¿Cuáles son los Beneficios?" 
                     description2="¿Cuáles son las categorias?"

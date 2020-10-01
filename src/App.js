@@ -7,6 +7,8 @@ import Footer from './components/Footer';
 // Posts Anses
 import JubiladosPensionados from './ArticlesPages/Anses/Juiblados-Pensionados';
 import PrestamoUHSUAF from './ArticlesPages/Anses/PrestamoUH-SUAF';
+import AsignacionPorPrenatal from './ArticlesPages/Anses/AsignacionPorPrenatal';
+import AsignacionPorEmbarazo from './ArticlesPages/Anses/AsignacionPorEmbazaro';
 import AsignacionFH from './ArticlesPages/Anses/AsignacionFH';
 import AsignacionUH from './ArticlesPages/Anses/AsignacionUH';
 import TarjetaAlimentar from './ArticlesPages/Anses/TarjetaAlimentaria';
@@ -61,6 +63,8 @@ export default function App() {
         <Route path='/Anses/ingreso-familiar-de-emergencia' exact={true} component={IFE} />
         <Route path='/Anses/tarjeta-alimentaria' exact={true} component={TarjetaAlimentar} />
         <Route path='/Anses/seguro-de-desempleo' exact={true} component={SeguroDesempleo} />
+        <Route path='/Anses/asignacion-por-prenatal' exact={true} component={AsignacionPorPrenatal} />
+        <Route path='/Anses/asignacion-por-embarazo' exact={true} component={AsignacionPorEmbarazo} />
         <Route path='/Anses/asignacion-familiar-por-hijo' exact={true} component={AsignacionFH} />
         <Route path='/Anses/asignacion-universal-por-hijo' exact={true} component={AsignacionUH} />
         <Route path='/Anses/prestamos-jubilados-y-pensionados' exact={true} component={JubiladosPensionados} />

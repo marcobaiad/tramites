@@ -31,7 +31,9 @@ function IFE() {
             </div>
             El <strong>IFE </strong>es un bono mensual de $10000 anunciado por el Gobierto Argentino de Alberto Fernandez como medida preventiva al contexto historico acontecido este 2020.<b />
             Con esta ayuda de ANSES, el gobierto busca alcanzar a no menos de 8 millones de Argentinos, para ayudarlos en el marco de la pandemia.
-            <Suspense fallback={<div>Cargando...</div>}>
+            <Suspense fallback={<div className="spinner-border text-primary" role="status">
+                        <span className="sr-only">Cargando...</span>
+                    </div>}>
                 <Indice 
                     description1="¿A quién le corresponde cobrar el IFE?" 
                     description2="¿Cómo cobrar el Ingreso Familiar de Emergencia?"

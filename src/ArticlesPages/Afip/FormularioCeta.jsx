@@ -50,7 +50,9 @@ const FormularioCeta = () => {
                 </div>
             </div>
             <p>El <strong>Certificado de Transferencia de Automotores</strong>, es un formulario de <a href="https://afip.gob.ar" target="_blank" rel="noopener noreferrer">AFIP</a> que se necesita a la hora de hacer la transferencia de un auto. <strong ref={titulo5}>¿Quien tiene que hacer el formulario CETA?</strong> El vendendor es el que deberá tramitar este certificado. Están alcanzadas: personas humanas, las suceciones indivisas (herederos) y personas jurídicas, que recidan en el país o en el exterior y quieran realizar la transferencia parcial o total de su dominio.</p>
-            <Suspense fallback={<div>Cargando...</div>}>
+            <Suspense fallback={<div className="spinner-border text-primary" role="status">
+                        <span className="sr-only">Cargando...</span>
+                    </div>}>
                 <Indice 
                     description1="¿Cuándo es necesario sacar el Formulario?" 
                     description2="¿Cómo se hace el formulario Z en 2020?"

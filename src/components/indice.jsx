@@ -36,8 +36,13 @@ export default function Indice(props) {
                 }{
                     description3 && 
                     <>
-                    <i className="d-none d-md-block my-1 fas fa-arrows-alt-h arrow-horizontal mx-2 align-self-center text-info"></i>
-                    <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical text-info"></i>
+                    {
+                        description2 && description3 &&
+                            <>   
+                            <i className="d-none d-md-block my-1 fas fa-arrows-alt-h arrow-horizontal mx-2 align-self-center text-info"></i>
+                            <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical text-info"></i>
+                        </>
+                    }
                     <div className="btn btn-outline-info  col-8 col-md-3 my-1 my-md-3" onClick={() => nodo3.current.scrollIntoView()}>
                         <i className="fas fa-tags"></i>
                         <p className="mb-0">{description3}</p>
@@ -47,7 +52,7 @@ export default function Indice(props) {
                     description4 && 
                     <>
                     {
-                        description4 && description5 &&
+                        description3 && description4 &&
                             <>   
                             <i className="d-none d-md-block my-1 fas fa-arrows-alt-h arrow-horizontal mx-2 align-self-center text-info"></i>
                             <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical text-info"></i>
@@ -62,7 +67,7 @@ export default function Indice(props) {
                     description5 && 
                     <>
                     {
-                        description5 && 
+                        description4 && description5 && 
                          <>   
                             <i className="d-none d-md-block my-1 fas fa-arrows-alt-h arrow-horizontal mx-2 align-self-center text-info"></i>
                             <i className="d-block d-md-none my-1 fas fa-arrows-alt-v arrow-vertical text-info"></i>

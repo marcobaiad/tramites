@@ -31,7 +31,9 @@ export default function AuhSuaf() {
             </div>
             <p><strong>El préstamo ANSES para asignación universal por hijo y asignación familiar por hijo:</strong> es una linea de créditos a tasa fija, mucho menor a la de cualquier banco del país. Una vez aceptada la solicitud del mismo será acreditado por cuenta bancaria en un plazo no mayor a 5 días hábiles. El sistema de amortización, es el sistema frances.</p>
             <p>Si estás interesado en pedir un prestamo y cumplís con los requisitos, la primera opción a evaluar debería ser esta.</p>
-            <Suspense fallback={<div>Cargando...</div>}>
+            <Suspense fallback={<div className="spinner-border text-primary" role="status">
+                        <span className="sr-only">Cargando...</span>
+                    </div>}>
                 <Indice 
                     description1="¿Cuales son los requisitos para acceder?"
                     description2="Pasos para acceder al Crédito 2020" 

@@ -30,7 +30,9 @@ export default function GenerarVEP() {
                     </div>
                 </div>
                 El <strong>VEP</strong> de AFIP, es el volante de pago electrónico que se utiliza para saldar obligaciones impositivas en todo el país. Legalmente, es la representación virtual de los formularios 799, 801 y 105.
-                <Suspense fallback={<div>Cargando...</div>}>
+                <Suspense fallback={<div className="spinner-border text-primary" role="status">
+                        <span className="sr-only">Cargando...</span>
+                    </div>}>
                     <Indice 
                         description1="Requisitos para generar un VEP en 2020" 
                         description2="Generar VEP en HomeBanking 2020" 

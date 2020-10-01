@@ -29,7 +29,9 @@ export default function AUH() {
             </div>
             También conocida por sus siglas como <strong>AUH</strong>, es una asignación mensual que cobra uno solo de los padres (priorizando a la mamá) por hasta 5 hijos menores de 18 años. Para asegurarte de cobrar cada mes, no debés olvidarte de presentar una vez al año la Libreta de cada hijo. <br />
             Esta asignación que otorga el Estado Argentino, tiene la función de de ser un <strong>seguro social</strong> para las personas desocupadas, que trabajan en el circuito informal o cuyos ingresos son menores al salario mínimo, vital y móvil.
-            <Suspense fallback={<div>Cargando...</div>}>
+            <Suspense fallback={<div className="spinner-border text-primary" role="status">
+                        <span className="sr-only">Cargando...</span>
+                    </div>}>
                 <Indice 
                     description1="¿Quién cobra Asignación Universal por hijo 2020?" 
                     description2="¿Cuales son los requisitos para acceder?"

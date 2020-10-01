@@ -37,7 +37,9 @@ export default function JubiladosPensionados() {
                 </div>
             </div>
             <strong>El crédito ANSES para jubilados y pensionados:</strong> es una linea de créditos a tasa fija, mucho menor a la de cualquier banco del país. Una vez aceptada la solicitud del mismo será acreditado por cuenta bancaria en un plazo no mayor a 5 días hábiles. El sistema de amortización, es el sistema frances. <br/> Si estás interesado en pedir un prestamo, la primera opción a evaluar debería ser esta.
-            <Suspense fallback={<div>Cargando...</div>}>
+            <Suspense fallback={<div className="spinner-border text-primary" role="status">
+                        <span className="sr-only">Cargando...</span>
+                    </div>}>
                 <Indice 
                     description1="Documentación necesaria y Requisitos" 
                     description2="Montos y Cuotas vigentes en 2020"

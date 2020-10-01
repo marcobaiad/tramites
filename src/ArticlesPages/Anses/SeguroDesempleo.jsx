@@ -36,7 +36,9 @@ export default function SeguroDesempleo() {
                 <li>Finalización del contrato</li>
                 <li>Causas externas al trabajador</li>
             </ul>
-            <Suspense fallback={<div>Cargando...</div>}>
+            <Suspense fallback={<div className="spinner-border text-primary" role="status">
+                        <span className="sr-only">Cargando...</span>
+                    </div>}>
                 <Indice 
                     description1="¿Cúal es el monto?" 
                     description2="Requisitos para acceder" 

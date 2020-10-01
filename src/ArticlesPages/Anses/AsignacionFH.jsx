@@ -30,7 +30,9 @@ export default function AsignacionFH() {
                 </div>
             </div>
             También conocida como <strong>SUAF</strong>, es un beneficio mensual que ANSES brinda a los trabajadores en relación de dependencia, monotributistas, jubilados y pensionados con hijos menores a 18 años o discapacitados.
-            <Suspense fallback={<div>Cargando...</div>}>
+            <Suspense fallback={<div className="spinner-border text-primary" role="status">
+                        <span className="sr-only">Cargando...</span>
+                    </div>}>
                 <Indice 
                     description1="¿A quien le corresponde la asignación familiar 2020?" 
                     description2="¿Cuales son los requisitos para acceder al SUAF 2020?"

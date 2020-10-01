@@ -48,7 +48,9 @@ export default function FacturaElectronica() {
                 </div>
             </div>
             La <strong>factura electrónica </strong>es un comprobante digital que permite la no impresión de la factura en papel, promoviendo una mayor gestion e intercambio fluido de las mismas por medios digitales. Esta <strong>factura</strong> tiene la misma validez legal que una factura en formato papel y se puede utilizar en la mayoría de las operaciones vigentes.
-            <Suspense fallback={<div>Cargando...</div>}>
+            <Suspense fallback={<div className="spinner-border text-primary" role="status">
+                        <span className="sr-only">Cargando...</span>
+                    </div>}>
                 <Indice 
                     description1="Documentación necesaria y Requisitos" 
                     description2="¿Como se hace paso a paso 2020?"
