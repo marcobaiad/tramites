@@ -2,7 +2,7 @@ import React, {Suspense} from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
-const Indice = React.lazy(() => import('../../components/indice'));
+const Indice = React.lazy(() => import('../../components/Indice'));
 
 export default function AsignacionPorEmbazaro() {
 
@@ -15,8 +15,8 @@ export default function AsignacionPorEmbazaro() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="¿Como cobrar asignación por Prenatal? Encontrá todo lo referido con la asignación por Embarazo en tramitero.com" contextUrl="index" title="¿A quien le corresponde cobrar asignacion por Prenatal? 2020"/>
-                <h1 className="text-center">Asignación por Prenatal ¿Qué es?</h1>
+                <Helmet description="¿Como cobrar asignación por Prenatal? Encontrá todo lo referido con la asignación por Prenatal en tramitero.com" contextUrl="index" title="Asignación Prenatal 2020 ¿A quien le corresponde?"/>
+                <h1 className="text-center">Anses Asignación Prenatal ¿Qué es?</h1>
                 <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre la asignación por prenatal en 2020.</p> 
                 <div className="card-body">
@@ -55,7 +55,7 @@ export default function AsignacionPorEmbazaro() {
                     <li>Trabajadoras cobrando <a href="/Anses/seguro-de-desempleo">prestación por desempleo</a>.</li>
                     <li>Peronas que cobren la Pensión Honorífica de Vetenraos de Guerra del Atlántico Sur.</li>
                 </ul>
-                <h2 ref={titulo2}>Requisitos para Cobrar Asignación por Prenatal</h2>
+                <h2 ref={titulo2}>Requisitos para Cobrar Prenatal</h2>
                 <div class="alert alert-info border-primary my-1" role="alert">
                     <strong>Importante: </strong> Es importante que presentes la solicitud para cobrar esta ayuda antes de las 30 semanas de embarazo. En caso de hacerlo después del tiempo mencionado, solo se hará el pago de los meses desde que iniciaste tu solicitud hasta el momento de nacimiento o interrupción del embarazo.
                 </div>
@@ -101,16 +101,16 @@ export default function AsignacionPorEmbazaro() {
                 <ol className="my-3">
                     <li>Presiná en boton de Iniciar Atención que está a la derecha.</li>
                     <li>Elegí el trámite que querés realizar
-                        <div className="row mx-0 my-2 justify-content-center"><img className="img-fluid" loading="lazy" src={require('../../assets/Anses/Asignacion por Embarazo/Asigancion-por-Embarazo.png')} alt="Asignación por Prenatal"/></div>
+                        <div className="row mx-0 my-2 justify-content-center"><img className="img-fluid" loading="lazy" src={require('../../assets/Anses/Asignacion por Embarazo/Asigancion-por-Embarazo.webp')} alt="Asignación por Prenatal"/></div>
                     </li>
                     <li>Elegí cual es tu situación laboral actual
-                    <div className="row mx-0 my-2 justify-content-center"><img className="img-fluid" loading="lazy" src={require('../../assets/Anses/Asignacion por Embarazo/Asignacion-por-Embarazo1.png')} alt="Asignación por Prenatal"/></div>
+                    <div className="row mx-0 my-2 justify-content-center"><img className="img-fluid" loading="lazy" src={require('../../assets/Anses/Asignacion por Embarazo/Asignacion-por-Embarazo1.webp')} alt="Asignación por Prenatal"/></div>
                     </li>
                     <li> Adjuntar DNI (frente y dorso), <a href="https://www.anses.gob.ar/sites/default/files/formulario/2019-08/PS%202.55%20DECLARACION%20JURADA%20NOVEDADES%20UNIFICADAS%20DE%20SUAF.pdf" target="_blank" rel="noopener noreferrer">Formulario PS 2.55</a> y <a href="https://www.anses.gob.ar/sites/default/files/formulario/2019-07/PS%202.72%20reclamo.medio%20de%20pago%20y%20apoderado%20CUNA.pdf" target="_blank" rel="noopener noreferrer">Formulario PS 2.72</a> <br/>
-                        <div className="row mx-0 my-2 justify-content-center">Recorcá que cada vez que vayas a adjuntar un archivo, deberás seleccionar el tipo de archivo correcto.<img className="img-fluid" loading="lazy" src={require('../../assets/Anses/Asignacion por Embarazo/Asignacion-por-prenatal.jpg')} alt="Asignación por Prenatal"/>
+                        <div className="row mx-0 my-2 justify-content-center">Recorcá que cada vez que vayas a adjuntar un archivo, deberás seleccionar el tipo de archivo correcto.<img className="img-fluid" loading="lazy" src={require('../../assets/Anses/Asignacion por Embarazo/Asignacion-por-prenatal.webp')} alt="Asignación por Prenatal"/>
                         </div>
                     </li>
-                    <li>DejÁ un breve comentario sobre el motivo de tu consulta.</li>
+                    <li>Dejá un breve comentario sobre el motivo de tu consulta.</li>
                     <li>Marcar que aceptas terminos y condiciones y presionar el botón de guardar.</li>
                 </ol>
             </>

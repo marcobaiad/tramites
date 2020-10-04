@@ -2,9 +2,9 @@ import React, {Suspense} from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
-const Indice = React.lazy(() => import('../../components/indice'));
+const Indice = React.lazy(() => import('../../components/Indice'));
 
-const imgMontoAsignaciones = require('../../assets/Anses/Creditos/montoasignaciones.JPG')
+const imgMontoAsignaciones = require('../../assets/Anses/Creditos/montoasignaciones.webp')
 
 export default function AuhSuaf() {
     
@@ -15,10 +15,10 @@ export default function AuhSuaf() {
     return (
         <MainDiv page={
         <>
-            <Helmet description="¿Querés sacar un prestamo ANSES para AUH o SUAF? En tramitero.com te ayudamos a sacar el crédito de Anses con nuestra guía rápida. Entrá ahora" contextUrl="index" title="Prestamo ANSES AUH y SUAF" />
+            <Helmet description="¿Querés sacar un prestamo ANSES para AUH o SUAF? En tramitero.com te ayudamos a sacar el crédito de ANSES con nuestra guía rápida. Entrá ahora" contextUrl="index" title="Prestamo ANSES para AUH y SUAF" />
             <h1>Crédito ANSES para AUH y SUAF</h1>
             <div className="card px-0 my-3">
-                <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como cobrar Asignación Universal por Hijo en 2020.</p> 
+                <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre sacar el préstamo para Asignación Familiar por Hijo y en 2020.</p> 
                 <div className="card-body">
                 <strong>¿Qué información vas a encontrar?</strong>
                     <ul>
@@ -29,7 +29,7 @@ export default function AuhSuaf() {
                     Continúa leyendo para terminar tu trámite de manera fácil y sencila.
                 </div>
             </div>
-            <p><strong>El préstamo ANSES para asignación universal por hijo y asignación familiar por hijo:</strong> es una linea de créditos a tasa fija, mucho menor a la de cualquier banco del país. Una vez aceptada la solicitud del mismo será acreditado por cuenta bancaria en un plazo no mayor a 5 días hábiles. El sistema de amortización, es el sistema frances.</p>
+            <p>ANSES <strong>El préstamo para asignación universal por hijo y asignación familiar por hijo:</strong> es una linea de créditos a tasa fija, mucho menor a la de cualquier banco del país. Una vez aceptada la solicitud del mismo será acreditado por cuenta bancaria en un plazo no mayor a 5 días hábiles. El sistema de amortización, es el sistema frances.</p>
             <p>Si estás interesado en pedir un prestamo y cumplís con los requisitos, la primera opción a evaluar debería ser esta.</p>
             <Suspense fallback={<div className="spinner-border text-primary" role="status">
                         <span className="sr-only">Cargando...</span>

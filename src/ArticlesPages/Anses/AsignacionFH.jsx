@@ -2,23 +2,21 @@ import React, {Suspense} from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
-const Indice = React.lazy(() => import('../../components/indice'));
+const Indice = React.lazy(() => import('../../components/Indice'));
 
 export default function AsignacionFH() {
 
     const titulo1 = React.useRef(null);
     const titulo2 = React.useRef(null);
     const titulo3 = React.useRef(null);
-    const titulo4 = React.useRef(null);
-    const titulo5 = React.useRef(null);
 
     return (
         <MainDiv page = {
             <>
-            <Helmet description="¿Como saber si me corresponde cobrar SUAF? ¿Cuando Cobro SUAF? Encontrá toda esta información En tramitero.com" contextUrl="index" title="SUAF 2020" />
+            <Helmet description="¿Como saber si me corresponde cobrar SUAF? ¿Cuando Cobro SUAF? Encontrá toda esta información En tramitero.com. Entrá ahora y enterate de todo" contextUrl="index" title="Anses Cobro Asignaciones Familiares SUAF ¿Cómo cobrar SUAF en 2020?" />
             <h1 className="mb-5 text-center">Asignación Familiar por Hijo ¿Qué es?</h1>
             <div className="card px-0 my-3">
-                <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre SUAF en 2020.</p> 
+                <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre el salario SUAF en 2020.</p> 
                 <div className="card-body">
                 <strong>¿Qué información vas a encontrar?</strong>
                     <ul>
@@ -34,7 +32,7 @@ export default function AsignacionFH() {
                         <span className="sr-only">Cargando...</span>
                     </div>}>
                 <Indice 
-                    description1="¿A quien le corresponde la asignación familiar 2020?" 
+                    description1="¿A quien le corresponde la asignación familiar SUAF?" 
                     description2="¿Cuales son los requisitos para acceder al SUAF 2020?"
                     description3="Trámite para cobrar Asignación Familiar por Hijo 2020" 
                     nodo1={titulo1}

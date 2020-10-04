@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import Indice from '../../components/indice';
+import Indice from '../../components/Indice';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet'; 
 
@@ -32,7 +32,7 @@ const FormularioCeta = () => {
     return (
         <MainDiv page={
         <>
-            <Helmet description="¿Cómo hacer el formularo CETA? Con clave Fiscal, sin clave fiscal. En tramitero.com te ayudamos con una guía super rápida. Entrá ahora." contextUrl="index" title="¿Cómo hacer el Formulario CETA de AFIP 2020?" />
+            <Helmet description="¿Cómo hacer el formularo CETA? Con clave Fiscal, sin clave fiscal. En tramitero.com te ayudamos con una guía super rápida. Entrá ahora." contextUrl="index" title="AFIP CETA ¿Cómo hacer el Formulario CETA de AFIP 2020?" />
             <h1 className="font-weight-bold py-5 text-center">Formulario CETA ¿qué es?</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como tramitar el Formulario CETA en 2020.</p> 
@@ -163,7 +163,7 @@ const FormularioCeta = () => {
                                     <p>Ya estás en el último paso. Recorda verificar que todos los datos ingresados sean correctos.</p>
                                     <p>Es recomendable dejar una dirección de mail para recibir un resumen del trámite (presioná el botón ENTER para confirmar tu mail).</p>
                                     <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 4 CETA.webp")} alt="Paso 4 formulario CETA" title="Paso 4 para solicitar el formulario CETA" />
-                                    <p>Abajo te dejo un ejemplo de como se vería la pantalla final. Como verás, no hace falta imprimirlo y tampoco debés presentarlo el día del trámite.</p>
+                                    <p>Abajo te dejo un ejemplo de como se vería la pantalla final. Recordá que no hace falta imprimir el ceta y tampoco debés presentarlo el día del trámite.</p>
                                     <img className="img-fluid" loading="lazy" src={require("../../assets/Ceta sin clave/paso 4 CETA 1.webp")} alt="Paso 4/2 formulario CETA" title="Paso 4 para solicitar el formulario CETA" />
                                 </div>
                             </div>
@@ -172,7 +172,7 @@ const FormularioCeta = () => {
                 </div>
             </div>
             <h2 className="font-weight-bold" id="conclave" ref={titulo4}>¿Cómo sacar el Formulario Ceta Con Clave Fiscal?</h2>
-            <p className="font-weight-bold">Paso a paso: </p>
+            <p className="font-weight-bold">Sacar formulario ceta guía paso a paso: </p>
             <div className="" id="accordion" role="tablist">
                 <div className="card w-100">
                     <button

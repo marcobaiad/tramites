@@ -34,6 +34,11 @@ const posts = {
             titleCard: "Ingreso Familiar de Emergencia",
             textLink: "IFE",
             textCard: "El IFE es un bono mensual de $10000 anunciado por el Gobierto Argentino de Alberto Fernandez como medida preventiva al contexto historico acontecido este 2020. Con esta ayuda de ANSES, el gobierto busca alcanzar a no menos de 8 millones de Argentinos, para ayudarlos en el marco de la pandemia",
+        }, {
+            pathPost: "/Procrear",
+            titleCard: "Todo sobre el ProCreAr",
+            textLink: "ProCreAr",
+            textCard: "Requisitos para acceder a los créditos del Procrear en 2020. Construscción, Refacción, Ampliación, Desarrollo Urbanistico, Sustentabilidad, Gas, etc. ¿Cómo inscribirse y acceder a los créditos del ProCreAr? Entrá ahora y enterate como se hace.",
         }],
         Renaper: [{   
             pathPost: "/Renaper/tramite-dni",

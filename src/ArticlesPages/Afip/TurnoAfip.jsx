@@ -17,7 +17,7 @@ export default function TurnoAfip() {
                 <li>
                     Aparecerá un formulario como el de la imagen, donde es necesario ingresar algún documento que nos identifique. En caso de realizar un trámite por otra persona, recordá marcar la opción de REPRESENTO OTRA PERSONA.
                     <div className="row justify-content-center mx-0">
-                        <img src={require('../../assets/AFIP/Turnos/paso 1 turno afip.JPG')} alt="Paso 1 para solicitar un turno en AFIP" title="Paso 1 para solicitar un turno en AFIP" className="img-fluid"/>
+                        <img src={require('../../assets/AFIP/Turnos/paso-1-turno-afip.webp')} alt="Paso 1 para solicitar un turno en AFIP" title="Paso 1 para solicitar un turno en AFIP" className="img-fluid"/>
                     </div>
                 </li>
                 <li>

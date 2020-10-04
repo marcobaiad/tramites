@@ -136,10 +136,9 @@ export default function Header() {
                         :
                         <CollapseMenu buttonMenu={buttonMenu} />
                     }
-                    <form className={`form-inline my-2 my-lg-0 mr-0 mr-md-4 ${mobilOn ? "w-100" : "w-50" }`} ref={showDiv}>
+                    <form className={`form-inline my-2 my-lg-0 mr-0 mr-md-4 ${!mobilOn && "w-50" }`} ref={showDiv}>
                         <input className="form-control w-100" type="search" onChange={HandlerChange} placeholder="Buscar" aria-label="Buscar" />
-                        <div className="dropdown w-100 show" id="showDiv">
-                            
+                        <div className="dropdown w-100 show" id="showDiv">                            
                             <div className="dropdown-menu w-100"  ref={showDrop} aria-labelledby="dropdownMenu1">
                             { valueFilter }
                             </div>

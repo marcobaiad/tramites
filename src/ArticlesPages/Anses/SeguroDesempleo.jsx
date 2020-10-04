@@ -2,7 +2,7 @@ import React, {Suspense} from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
-const Indice = React.lazy(() => import('../../components/indice'));
+const Indice = React.lazy(() => import('../../components/Indice'));
 
 export default function SeguroDesempleo() {
 
@@ -15,10 +15,10 @@ export default function SeguroDesempleo() {
     return (
         <MainDiv page={   
         <>
-            <Helmet description="En tramitero.com te ayudamos a solicitar el fondo de desempleo de manera rápida y sencilla. Entrá ahora y enterate como realizar tu trámite" contextUrl="index" title="Fondo de Desempleo ANSES 2020" />
+            <Helmet description="En tramitero.com te ayudamos a solicitar el fondo de desempleo de manera rápida y sencilla. Entrá ahora y enterate como realizar tu trámite" contextUrl="index" title="ANSES Cobro Fondo de Desempleo 2020" />
             <h1 className="text-center">Fondo de Desempleo</h1>
             <div className="card px-0 my-3">
-                <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como cobrar el Seguro de Desempleo de ANSES en 2020.</p> 
+                <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como se cobra el Seguro de Desempleo de ANSES en 2020.</p> 
                 <div className="card-body">
                 <strong>¿Qué información vas a encontrar?</strong>
                     <ul>
@@ -54,7 +54,7 @@ export default function SeguroDesempleo() {
             </Suspense>
             <h2 ref={titulo1}>¿Cúal es el monto del Fondo de Desempleo?</h2>
             El monto a percibir y el periodo durante el cual serás beneficiado, va a depender de tu edad y un calculo sobre tus últimos 3 años trabajados. La duración de este beneficio es de entre 2 a 12 meses, con la salvedad de que a las personas mayores de 45 años, el beneficio se extendería hasta los 18 meses.
-            <h2 ref={titulo2}>Requisitos para cobrar Fondo de Desempleo</h2>
+            <h2 ref={titulo2}>Fondo de Desempleo Requisitos para acceder</h2>
             Los requisitos que deberás cumplir para acceder a esta prestación son los siguientes: <br/>
             Haber prestado servicio en blanco por al menos 6 meses durante los últimos 3 años. <br />
             Si sos trabajador/a <strong>eventual</strong> o <strong>trabajador/a de temporada</strong> debes haber trabajado con aportes menos de 12 meses en los últimos 3 años pero más de 90 días en el último año.

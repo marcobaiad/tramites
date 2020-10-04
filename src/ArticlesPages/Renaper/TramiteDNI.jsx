@@ -2,7 +2,7 @@ import React, {Suspense} from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
-const Indice = React.lazy(() => import('../../components/indice')); 
+const Indice = React.lazy(() => import('../../components/Indice')); 
 
 export default function TramiteDNI() {
 
@@ -48,11 +48,11 @@ export default function TramiteDNI() {
                 Para realizar la renovación del DNI, es necesario sacar un turno en el <strong>RENAPER</strong>. Ingresá desde <a href="https://turnos.argentina.gob.ar/turnos/seleccionTurno/475" target="_blank" rel="noopener noreferrer">acá</a>. <br/> 
                 Luego vas a elegir tu provincia y la localidad más cercana. 
                 <div className="row justify-content-center my-3">
-                    <img className="img-fluid" loading="lazy" src={require('../../assets/Renaper/DNI/paso 1.JPG')} alt="imagen de ejemplo para sacar turno"/>
+                    <img className="img-fluid" loading="lazy" src={require('../../assets/Renaper/DNI/paso 1.webp')} alt="imagen de ejemplo para sacar turno"/>
                 </div> <br/>
                 Cuando hayas rellenado los campos vas a presionar el botón de CONTINUAR y se desplegará otro menú que indicará si existen turnos disponibles en la sucursal que seleccionaste. <br/>
                 <div className="row justify-content-center my-2">
-                    <img className="img-fluid" loading="lazy" src={require('../../assets/Renaper/DNI/paso 2.JPG')} alt="imagen de ejemplo para sacar turno" /> 
+                    <img className="img-fluid" loading="lazy" src={require('../../assets/Renaper/DNI/paso 2.webp')} alt="imagen de ejemplo para sacar turno" /> 
                 </div> <br/>
                 Deberás seleccionar una fecha y una hora, si todo salió bien, tendrás 5 minutos para completar tus datos personales para confirmar el turno. <br/>
                 Los datos requeridos son los siguientes:

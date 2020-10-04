@@ -3,8 +3,8 @@ import { useHistory } from 'react-router-dom';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
-const imgMontosJubilados = require('../../assets/Anses/Creditos/montoJubilados.JPG');
-const Indice = React.lazy(() => import('../../components/indice'));
+const imgMontosJubilados = require('../../assets/Anses/Creditos/montoJubilados.webp');
+const Indice = React.lazy(() => import('../../components/Indice'));
 
 export default function JubiladosPensionados() {
 
@@ -14,15 +14,11 @@ export default function JubiladosPensionados() {
     const titulo2 = React.useRef(null);
     const titulo3 = React.useRef(null);
 
-    // useEffect(() => {
-    //     Header.current.scrollIntoView();
-    // })
-
 
     return (
         <MainDiv page={
         <>
-            <Helmet description="Préstamo para jubilados y pensionados ANSES. ¿Cómo acceder al crédito de ANSES? En trámitero.com te ayudamos a sacar el crédoto" contextUrl="index" title="Prestamo Jubilados ANSES" />
+            <Helmet description="Préstamo para jubilados y pensionados ANSES. ¿Cómo acceder al crédito de ANSES? En trámitero.com te ayudamos a sacar el crédoto" contextUrl="index" title="ANSES Cuotas de Prestamo Jubilados 2020" />
             <h1 ref={Header} className="text-center">Préstamo ANSES para Jubilados y Pensionados</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como sacar un Crédito Anses para jubilados y pensionados en 2020.</p> 
@@ -68,12 +64,7 @@ export default function JubiladosPensionados() {
             <ol className="my-3">
                 <li>Ingresá a <a href="https://servicioscorp.anses.gob.ar/clavelogon/logon.aspx?system=mianses">Mi ANSES</a> con tu clave de seguridad social.
                 </li>
-                {/* <a href="" target="blank"><img className="img-fluid my-3" src="../img/ASIGNACIONES/mianses.png" alt="Imagen Mi Anses" /></a>
-                        <img className="img-fluid my-3" src="../img/CREDITOS/pasos para solicitar credito.PNG" alt="" /> */}
                 <li>Una vez que hayas ingresado, deberás buscar en el menú de la izquierda la sección "Crédito ANSES" y hacerle click. Luego se desplegaran unas opciones y deberás elegir la opción de "Solicitar Préstamo".
-                    {/* <div className="row justify-content-center my-2">
-                        <img src="" alt=""/>
-                    </div> */}
                 </li>
                 <li>Aparecerá un cuadro que indica los montos y cuotas disponibles.</li>
                 <li>

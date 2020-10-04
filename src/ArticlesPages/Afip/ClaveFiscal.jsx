@@ -1,7 +1,7 @@
 import React from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
-import Indice from '../../components/indice';
+import Indice from '../../components/Indice';
 
 export default function ClaveFiscal() {
     

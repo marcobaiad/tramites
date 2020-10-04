@@ -2,7 +2,7 @@ import React, {Suspense} from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
-const Indice = React.lazy(() => import('../../components/indice'));
+const Indice = React.lazy(() => import('../../components/Indice'));
 
 export default function AsignacionPorEmbazaro() {
 
@@ -15,7 +15,7 @@ export default function AsignacionPorEmbazaro() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="¿Como cobrar asignación por Embarazo? Encontrá todo lo referido con la asignación por Embarazo en tramitero.com" contextUrl="index" title="¿Cuándo corresponde cobrar asignacion por Embarazo? 2020" />
+                <Helmet description="¿Como cobrar asignación por Embarazo? Encontrá todo lo referido con la asignación por Embarazo en tramitero.com" contextUrl="index" title="Asignación Familiar por Embarazo 2020 ¿A quien le corresponde?" />
                 <h1 className="text-center">Asignación por Embarazo ¿Qué es?</h1>
                 <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre la asignación por embarazo en 2020.</p> 
@@ -58,7 +58,7 @@ export default function AsignacionPorEmbazaro() {
                 <div class="alert alert-info border-primary" role="alert">
                     <strong>Importante: </strong> Para acceder a esta prestación, hambas partes (Madre y Padre), deberán encotrarse en alguna de las situaciones mencionadas arriba.
                 </div>
-                <h2 ref={titulo2}>Requisitos para Cobrar Asignación por Embarazo</h2>
+                <h2 ref={titulo2}>Requisitos para Cobrar Asignación Familiar por Embarazo</h2>
                 <ul>
                     <li>Estar cursando un embarazo de más de 12 semanas</li>
                     <li>Cumplir con los contorles Médicos</li>
@@ -84,9 +84,10 @@ export default function AsignacionPorEmbazaro() {
                 Para poder realizar el trámite es necesario que juntes toda la documentación solicitada que detallamos abajo:
                 <ul className="my-3">
                     <li>DNI (original y copia)</li>
-                    <li>Formulario <a href="https://www.anses.gob.ar/sites/default/files/formulario/2018-03/PS%202.67%20SOLICITUD%20ASIGNACION%20POR%20EMBARAZO.pdf" target="_blank" rel="noopener noreferrer">PS 2.67 - Solicitud por Embarazo</a> Firmado por el solicitante y el médico.</li>
+                    <li>Formulario <a href="https://www.anses.gob.ar/sites/default/files/formulario/2018-03/PS%202.67%20SOLICITUD%20ASIGNACION%20POR%20EMBARAZO.pdf" target="_blank" rel="noopener noreferrer">PS 2.67 - Solicitud Asignación por Embarazo</a> Firmado por el solicitante y el médico.</li>
                     <li>En caso de ser trabajadora informal, deberás presentar el comprobante de inscripción al <strong>Programa SUMAR</strong>.</li>
                 </ul>
+                
                 <h2 ref={titulo4}>¿Cómo realizar el trámite?</h2>
                 <div class="alert alert-info border-primary" role="alert">
                     <strong>¡Atención! </strong> por la situación de aislamiento social, el trámite debe realizarse por <a href="" target="_blank" rel="noopener noreferrer">Atención Virtual</a> con clave de seguridad social.
@@ -95,8 +96,13 @@ export default function AsignacionPorEmbazaro() {
                 <ol className="my-3">
                     <li>Presiná en boton de Iniciar Atención que está a la derecha.</li>
                     <li>Elegí el trámite que querés realizar</li>
-                    <li>Elegí cual es tu situación laboral actual</li>
-                    <li>Luego, vas a tener que adjuntar la documentación requedida: Formulario <a href="https://www.anses.gob.ar/sites/default/files/formulario/2018-03/PS%202.67%20SOLICITUD%20ASIGNACION%20POR%20EMBARAZO.pdf" target="_blank" rel="noopener noreferrer">PS 2.67 - Solicitud por Embarazo</a> (rubro 1 y 2) y también el <a href="https://www.anses.gob.ar/sites/default/files/formulario/2019-07/PS%202.72%20reclamo.medio%20de%20pago%20y%20apoderado%20CUNA.pdf" target="_blank" rel="noopener noreferrer">PS 2.72 - Reclamo/ Medio de Pago y Apoderado</a> (rubro 3)</li>
+                    <li>Elegí cual es tu situación laboral actual
+                    <div className="row mx-0 my-2 justify-content-center"><img className="img-fluid" loading="lazy" src={require('../../assets/Anses/Asignacion por Embarazo/Asignacion-por-Embarazo1.webp')} alt="Asignación por Prenatal"/></div>
+                    </li>
+                    <li>Luego, vas a tener que adjuntar la documentación requedida: Formulario <a href="https://www.anses.gob.ar/sites/default/files/formulario/2018-03/PS%202.67%20SOLICITUD%20ASIGNACION%20POR%20EMBARAZO.pdf" target="_blank" rel="noopener noreferrer">PS 2.67 - Solicitud por Embarazo</a> (rubro 1 y 2) y también el <a href="https://www.anses.gob.ar/sites/default/files/formulario/2019-07/PS%202.72%20reclamo.medio%20de%20pago%20y%20apoderado%20CUNA.pdf" target="_blank" rel="noopener noreferrer">PS 2.72 - Reclamo/ Medio de Pago y Apoderado</a> (rubro 3)
+                    <div className="row mx-0 my-2 justify-content-center">Recorcá que cada vez que vayas a adjuntar un archivo, deberás seleccionar el tipo de archivo correcto.<img className="img-fluid" loading="lazy" src={require('../../assets/Anses/Asignacion por Embarazo/Asignacion-por-prenatal.webp')} alt="Asignación por Prenatal"/>
+                    </div>
+                    </li>
                     <li>En caso de elegir CBU, deberás adjuntar también constancia del mismo emitida por tu banco o homebanking.</li>
                     <li>Marcar que aceptas terminos y condiciones y guardar.</li>
                 </ol>

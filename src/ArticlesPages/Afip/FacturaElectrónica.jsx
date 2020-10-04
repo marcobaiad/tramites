@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
-const Indice = React.lazy(() => import('../../components/indice'))
+const Indice = React.lazy(() => import('../../components/Indice'))
 
 export default function FacturaElectronica() {
 

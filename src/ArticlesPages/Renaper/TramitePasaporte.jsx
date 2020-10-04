@@ -2,7 +2,7 @@ import React, {Suspense} from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
-const Indice = React.lazy(() => import('../../components/indice')); 
+const Indice = React.lazy(() => import('../../components/Indice')); 
 
 export default function TramitePasaporte() {
     
@@ -35,11 +35,11 @@ export default function TramitePasaporte() {
                 Para inciar el trámite, es necesario sacar un turno. Ingresá desde <a href="https://turnos.argentina.gob.ar/turnos/seleccionTurno/475" target="_blank" rel="noopener noreferrer">acá</a>. <br/>
                  Luego vas a elegir tu provincia y la localidad más cercana. 
                 <div className="row justify-content-center my-2">
-                    <img className="img-fluid" loading="lazy" src={require('../../assets/Renaper/DNI/paso 1.JPG')} alt=""/>
+                    <img className="img-fluid" loading="lazy" src={require('../../assets/Renaper/DNI/paso 1.webp')} alt=""/>
                 </div> <br/>
                 Cuando hayas rellenado los campos vas a presionar el botón de CONTINUAR, verás que se desplegará otro menú <br/>
                 <div className="row justify-content-center my-2">x
-                    <img className="img-fluid" loading="lazy" src={require('../../assets/Renaper/DNI/paso 2.JPG')} alt=""/> <br/>
+                    <img className="img-fluid" loading="lazy" src={require('../../assets/Renaper/DNI/paso 2.webp')} alt=""/> <br/>
                 </div>
                 El mismo indicará si existen turnos disponibles en la sucursal que seleccionaste. En caso de existir turnos disponibles, deberás seleccionar un día y una hora, si todo salió bien, tendrás 5 minutos para completar tus datos personales para confirmar el turno. <br/>
                 Los datos requeridos son los siguientes:

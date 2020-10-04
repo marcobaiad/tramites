@@ -2,7 +2,7 @@ import React, {Suspense} from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
-const Indice = React.lazy(() => import('../../components/indice'));
+const Indice = React.lazy(() => import('../../components/Indice'));
 
 export default function TarjetaAlimentaria() {
 
@@ -15,7 +15,7 @@ export default function TarjetaAlimentaria() {
     return(
         <MainDiv page={
         <>
-            <Helmet description="Tarjeta Alimentaria ANSES, ¿Cómo solicitar la tarjeta Alimentaria de ANSES? Entrá en tramitero.com y te mostramos como." contextUrl="index" title="Tarjeta Alimentaria" />
+            <Helmet description="Tarjeta Alimentaria ANSES, ¿Cómo solicitar la tarjeta Alimentaria de ANSES? Entrá en tramitero.com y te mostramos como." contextUrl="index" title="ANSES Tarjeta Alimentaria 2020" />
            <h1 className="my-3 pt-3 text-center">Tarjeta Alimentaria</h1>
            <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como acceder a la Tarjeta Alimentaria en 2020.</p> 
@@ -24,7 +24,7 @@ export default function TarjetaAlimentaria() {
                     <ul>
                         <li>Como se tramita</li>
                         <li>A quien le corresponde</li>
-                        <li>Monto de la Tarjeta</li>
+                        <li>Monto de la Tarjeta Alimentaria</li>
                         <li>Que hacer si la pierdo</li>
                     </ul>
                     Continúa leyendo para enterarte de todo.

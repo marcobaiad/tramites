@@ -2,7 +2,7 @@ import React, {Suspense} from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
-const Indice = React.lazy(() => import('../../components/indice'));
+const Indice = React.lazy(() => import('../../components/Indice'));
 
 function IFE() {
 
@@ -37,7 +37,7 @@ function IFE() {
                 <Indice 
                     description1="¿A quién le corresponde cobrar el IFE?" 
                     description2="¿Cómo cobrar el Ingreso Familiar de Emergencia?"
-                    description3="Cuándo cobro el 3er IFE 2020?"
+                    description3="¿Cuándo cobro el 3er IFE 2020?"
                     description3="Calendario de pagos Cuarto IFE 2020"
                     nodo1={titulo1}
                     nodo2={titulo2}
@@ -46,13 +46,14 @@ function IFE() {
                />
             </Suspense>
             <h2 ref={titulo1}>¿A quien le corresponde le IFE?</h2>
-            El DNU (Decreto Nacional de Urgencia) contemplaba para ser beneficiarios del <strong>Ingreso Familiar de emergencia</strong> a las siguientes personas.
-            <ul>
+            El DNU (Decreto Nacional de Urgencia) contemplaba para ser beneficiarios del <strong>Ingreso Familiar de emergencia</strong> a las siguientes personas:
+            <ul className="my-3">
                 <li>Trabajadores no registrados</li>
                 <li>Trabajadores de casas particulares</li>
                 <li>Personas inscriptas en el Monotributo Social</li>
                 <li>Monotributistas clase A y <strong>B</strong></li>
-            </ul>
+            </ul> <br/>
+            Podés corroborar por más información en la <a href="" className="font-weight-bold" target="_blank" rel="noopener noreferrer">página del IFE</a>
             <h2 ref={titulo2}>¿Como cobrar el IFE?</h2>
             El cobro del ife es mediante CBU. En caso de que no dispongas de una, el gobierno dispuso la posibilidad de abrir una <strong>Cuenta DNI</strong> de forma totalmente gratuita en los bancos Provincia de Buenos Aires o Nación.
             <h2 ref={titulo3}>Calendario de Pagos IFE ¿Cuándo cobro el tercer IFE?</h2>
@@ -111,7 +112,8 @@ function IFE() {
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            </div> <br/>
+            Para más información podes consultar la <strong>página del IFE</strong> y los <strong>teléfonos del IFE</strong> desde <a href="https://www.anses.gob.ar/ingreso-familiar-de-emergencia" target="_blank" rel="noopener noreferrer">acá</a>
         </>
         }
         />

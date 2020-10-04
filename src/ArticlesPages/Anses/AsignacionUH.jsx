@@ -2,7 +2,7 @@ import React, {Suspense} from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
-const Indice = React.lazy(() => import('../../components/indice'));
+const Indice = React.lazy(() => import('../../components/Indice'));
 
 export default function AUH() {
 
@@ -13,8 +13,8 @@ export default function AUH() {
     return (
         <MainDiv page={
         <>
-            <Helmet description="¿¿Como saber si me corresponde cobrar AUH? En tramitero.com te ayudamos a realizar el trámite de una manera super rápida y sensilla, entrá ahora!" contextUrl="index" title="AHU 2020" />
-            <h1 className="my-3 text-center">Asignación Universal por Hijo ANSES</h1>
+            <Helmet description="¿¿Como saber si cobro asignación universal? En tramitero.com te ayudamos a realizar el trámite de una manera super rápida y sensilla, entrá ahora!" contextUrl="index" title="Salario Universal por HIjo 2020" />
+            <h1 className="my-3 text-center">Asignación Universal por Hijo ¿Qué es?</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como cobrar Asignación Universal por Hijo en 2020.</p> 
                 <div className="card-body">

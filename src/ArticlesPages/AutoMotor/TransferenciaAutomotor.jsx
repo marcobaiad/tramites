@@ -3,7 +3,7 @@ import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 import { Link } from 'react-router-dom';
 
-const Indice = React.lazy(() => import('../../components/indice')); 
+const Indice = React.lazy(() => import('../../components/Indice')); 
 
 export default function TransferenciaAutomotor() {
 

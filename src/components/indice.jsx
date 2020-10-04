@@ -6,7 +6,7 @@ export default function Indice(props) {
 
     const history = useHistory();
 
-    const { description1, description2, description3, description4, description5, description6, description7, description8, description9, description10, description11, description12, description13, description14, description15, description16, description17, description18, description19, description20, nodo1, nodo2, nodo3, nodo4, nodo5, nodo6, nodo7, nodo8, nodo9, nodo10, nodo11, nodo12, nodo13, nodo14, nodo15, nodo16, nodo17, nodo18, nodo19, nodo20 } = props
+    const { description1, description2, description3, description4, description5, description6, description7, description8, description9, description10, nodo1, nodo2, nodo3, nodo4, nodo5, nodo6, nodo7, nodo8, nodo9, nodo10 } = props
 
     return (
         <div className="indice my-3">

@@ -15,19 +15,19 @@ export default function TurnoAutomotor() {
                     <li>
                         Una vez se haya ingresado, lo primero que debemos hacer es seleccionar el trámite que deseamos realizar. Una vez seleccionado vamos a presionar en CONTINUAR. <br/>
                         <div className="row justify-content-center mx-0 my-2">
-                            <img loading="lazy" className="img-fluid" src={require('../../assets/Cedula Azul/paso 1 cedula azul.JPG')} alt="Paso 1 para trámite de Cedula Azul DNRPA" title="Paso 1 para trámite de Cedula Azul DNRPA"/>
+                            <img loading="lazy" className="img-fluid" src={require('../../assets/Cedula Azul/paso 1 cedula azul.webp')} alt="Paso 1 para trámite de Cedula Azul DNRPA" title="Paso 1 para trámite de Cedula Azul DNRPA"/>
                         </div>
                     </li>
                     <li>
                         Luego deberás completar los siguientes campos con tu número de dominio (patente) y número de chasis.
                         <div className="row justify-content-center mx-0 my-2">
-                            <img loading="lazy" src={require('../../assets/Cedula Azul/paso 2 cedula azul.JPG')} alt="Paso 2 para sacar Cedula azul" title="Paso 2 para sacar Cedula azul" className="img-fluid"/>
+                            <img loading="lazy" src={require('../../assets/Cedula Azul/paso 2 cedula azul.webp')} alt="Paso 2 para sacar Cedula azul" title="Paso 2 para sacar Cedula azul" className="img-fluid"/>
                         </div>
                     </li>
                     <li>
                         Por último deberás indicar el número de CUIL/CUIT de la persona que está solicitando la cédula. 
                         <div className="row justify-content-center mx-0 my-2">
-                            <img loading="lazy" src={require('../../assets/Cedula Azul/paso 3 cedula azul.JPG')} alt="Paso 3 para tramitar la cedual azul por internet" title="Paso 3 para tramitar la cedual azul por internet" className="img-fluid"/>
+                            <img loading="lazy" src={require('../../assets/Cedula Azul/paso 3 cedula azul.webp')} alt="Paso 3 para tramitar la cedual azul por internet" title="Paso 3 para tramitar la cedual azul por internet" className="img-fluid"/>
                         </div>
                         En caso de no estár en la base de datos de La Dirección del Registro de la Propiedad del Automotor, deberás completar los datos detallados a continuación.
                     </li>
