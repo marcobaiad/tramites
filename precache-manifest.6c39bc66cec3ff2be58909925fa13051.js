@@ -1,51 +1,55 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d67c9f32ca8d4130d1ea3eabf2d325d7",
+    "revision": "e5984549cae30e467b413e5e34295073",
     "url": "/index.html"
   },
   {
-    "revision": "78ff8ca9ef08eaff0dfa",
+    "revision": "20911f82ab1ac05a6598",
     "url": "/static/css/3.a36ad7b0.chunk.css"
   },
   {
-    "revision": "e00fdcf5f6e514552bee",
+    "revision": "1d78ad05ca5346df89e6",
     "url": "/static/css/main.109b1558.chunk.css"
   },
   {
-    "revision": "eee811545ac0ad7b92ee",
-    "url": "/static/js/2.f200084c.chunk.js"
+    "revision": "58cd70f81b6f5b71493a",
+    "url": "/static/js/2.29f4e990.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.f200084c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.29f4e990.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "78ff8ca9ef08eaff0dfa",
-    "url": "/static/js/3.1543915b.chunk.js"
+    "revision": "20911f82ab1ac05a6598",
+    "url": "/static/js/3.005e05be.chunk.js"
   },
   {
-    "revision": "8d88f3f46f03f4983ee9",
-    "url": "/static/js/4.632c959e.chunk.js"
+    "revision": "be926a2583c2cdb2f028",
+    "url": "/static/js/4.d5e1fecf.chunk.js"
   },
   {
-    "revision": "e00fdcf5f6e514552bee",
-    "url": "/static/js/main.56f84ff5.chunk.js"
+    "revision": "1d78ad05ca5346df89e6",
+    "url": "/static/js/main.fd5be04c.chunk.js"
   },
   {
-    "revision": "f244b9eaa33a6d1b4b94",
-    "url": "/static/js/runtime-main.40b287e6.js"
+    "revision": "62c944a5d3d609b6c289",
+    "url": "/static/js/runtime-main.a23fc0b0.js"
   },
   {
-    "revision": "3d7f3b938c32585f15e539355a011d75",
-    "url": "/static/media/Asigancion-por-Embarazo.3d7f3b93.png"
+    "revision": "d2e44e514ecfd4c032e5a9c6f19759a7",
+    "url": "/static/media/Asigancion-por-Embarazo.d2e44e51.webp"
   },
   {
-    "revision": "202c510e2b6bf550bcf04799a9dc7cb7",
-    "url": "/static/media/Asignacion-por-Embarazo1.202c510e.png"
+    "revision": "9980776ffcbf6a6df04c8b6e145258af",
+    "url": "/static/media/Asignacion-por-Embarazo1.9980776f.webp"
   },
   {
-    "revision": "0c07d97ebdb797b126918febfc049594",
-    "url": "/static/media/Asignacion-por-prenatal.0c07d97e.jpg"
+    "revision": "df7a4611cc22fab254ddf997c49fc696",
+    "url": "/static/media/Asignacion-por-Nacimiento-y-Adopción.df7a4611.webp"
+  },
+  {
+    "revision": "7f375db7670d27cb0835f26cd9068bce",
+    "url": "/static/media/Asignacion-por-prenatal.7f375db7.webp"
   },
   {
     "revision": "f111e2f3c4cd1286d757256ec9b341af",
@@ -68,20 +72,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/MI AFIP QR.31000781.svg"
   },
   {
-    "revision": "34f4750836c0fd7f3d65d647705e85de",
-    "url": "/static/media/montoJubilados.34f47508.JPG"
+    "revision": "214636c662ce359e565fe2cbdd74cb02",
+    "url": "/static/media/Tabla-de-cuotas-credito-para-Madre-de-7-hijos.214636c6.webp"
   },
   {
-    "revision": "5b5804325c2459dbf1f678c04b1c6ded",
-    "url": "/static/media/montoasignaciones.5b580432.JPG"
+    "revision": "670efed7ebc91b849231aa8ffd3d3456",
+    "url": "/static/media/Tabla-de-cuotas-credito-para-pension-por-invalidez.670efed7.webp"
+  },
+  {
+    "revision": "44157dbb2bf32565e8e14f6e80bbea17",
+    "url": "/static/media/montoJubilados.44157dbb.webp"
+  },
+  {
+    "revision": "aa179cff9c76d848d55378ce9535c1e5",
+    "url": "/static/media/montoasignaciones.aa179cff.webp"
   },
   {
     "revision": "c1be884d84be27b7602039a21583f778",
     "url": "/static/media/paso 1 CETA.c1be884d.webp"
   },
   {
-    "revision": "2e99b632d1e2a55ac0a54804c7cef3c0",
-    "url": "/static/media/paso 1 cedula azul.2e99b632.JPG"
+    "revision": "fa45f0250aa266fc71fa85a5dcce35e3",
+    "url": "/static/media/paso 1 cedula azul.fa45f025.webp"
   },
   {
     "revision": "83e03996051fee90c4eb272b9b8756f9",
@@ -92,12 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/paso 1 ceta2.197dcd9e.webp"
   },
   {
-    "revision": "3d78b9d7678f1059bae7e26902815089",
-    "url": "/static/media/paso 1 turno afip.3d78b9d7.JPG"
-  },
-  {
-    "revision": "290a477db89ac1bdb7311ee42c30cb57",
-    "url": "/static/media/paso 1.290a477d.JPG"
+    "revision": "234dec5f1f1d49d05157e602ee938927",
+    "url": "/static/media/paso 1.234dec5f.webp"
   },
   {
     "revision": "9dca1478f844d1991d50e4d159db690d",
@@ -108,12 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/paso 2 CETA 3.28b12c99.webp"
   },
   {
-    "revision": "ad0f8fab01d9aaf9bfabd78ca67d1eb4",
-    "url": "/static/media/paso 2 VEP.ad0f8fab.JPG"
-  },
-  {
-    "revision": "2264b78c9523eb9693a9bcfdc8e2f721",
-    "url": "/static/media/paso 2 cedula azul.2264b78c.JPG"
+    "revision": "9decb7a097c0b2c2377ee489dda0afb1",
+    "url": "/static/media/paso 2 cedula azul.9decb7a0.webp"
   },
   {
     "revision": "3af0928a1125006bf31049c8191c7694",
@@ -124,8 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/paso 2 ceta.22156cad.webp"
   },
   {
-    "revision": "bd5c0a4a85b8d895ba8a3a8f484164f9",
-    "url": "/static/media/paso 2.bd5c0a4a.JPG"
+    "revision": "02d9a9122f326eff1d3d5123ffa8cebc",
+    "url": "/static/media/paso 2.02d9a912.webp"
   },
   {
     "revision": "91299bb22a73c9735edfc68e4ebfb5a9",
@@ -136,8 +140,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/paso 3 CETA.72761cf4.webp"
   },
   {
-    "revision": "2811a7e634053344c16916fd98b886fc",
-    "url": "/static/media/paso 3 cedula azul.2811a7e6.JPG"
+    "revision": "a9f5b20c8d77245421c9898382bad4bc",
+    "url": "/static/media/paso 3 cedula azul.a9f5b20c.webp"
   },
   {
     "revision": "4e57df0d06cb34c30dcbd77743ec504a",
@@ -150,5 +154,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c65a43725ddb4553fece820a4e8a92cc",
     "url": "/static/media/paso 4 CETA.c65a4372.webp"
+  },
+  {
+    "revision": "b7277c3c594b8c95244f95863e644189",
+    "url": "/static/media/paso-1-turno-afip.b7277c3c.webp"
+  },
+  {
+    "revision": "b0dd2b822f92e1cfadfa50f38a83415a",
+    "url": "/static/media/paso-2-VEP.b0dd2b82.webp"
   }
 ]);

@@ -3,3 +3,68 @@ User-agent: *
 Disallow:
 
 Sitemap: https://www.tramitero.com/sitemap.xml
+
+User-agent: bingbot
+Crawl-delay: 10
+
+User-Agent: MJ12bot
+Crawl-Delay: 10
+
+User-Agent: *   
+Allow: /wp-content/uploads/
+
+
+# Permitir sitemap pero no las bÃºsquedas.
+
+Sitemap: https://www.onepageagency.com/sitemap.xml   
+
+# Permitir Feed general para Google Blogsearch.   
+# Impedir que /permalink/feed/ sea indexado pues el feed de comentarios suele posicionarse antes de los post.
+# Impedir URLs terminadas en /trackback/ que sirven como Trackback URI (contenido duplicado).   
+
+Allow: /feed/$
+
+
+# Evita bloqueos de CSS y JS.
+
+Allow: /*.js$
+Allow: /*.css$
+
+# Lista de bots que deberÃ­as permitir.
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Lista de bots que generan consultas abusivas aunque siguen las pautas del archivo robots.txt
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: Microsoft.URL.Control
+Disallow: /
+
+User-agent: libwww
+Disallow: /
+
+# Slurp (Yahoo!), Noxtrum y el bot de MSN que suelen generar excesivas consultas.
+
+User-agent: noxtrumbot
+Crawl-delay: 50
+
+User-agent: msnbot
+Crawl-delay: 30
+
+User-agent: Slurp
+Crawl-delay: 10
