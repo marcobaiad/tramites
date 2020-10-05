@@ -47,7 +47,7 @@ export default function HomePage() {
                             <span className="sr-only">Cargando...</span>
                         </div>
                     }>
-                        <SeccionHome id='Anses'
+                        <SeccionHome numero="1" id='Anses'
                             titleSeccion="Trámites Anses"
                             firstText="¿Planea hacer un Trámite en ANSES o conoce a alguien que está por hacerlo? Si necesita hacer un trámite relacionado con la ANSES, en esta sección encontrará los más importantes. Nuestros expertos están en la busqueda permanente de cualquier cambio para mantener actualizados todos estos trámites y poder brindar guías de alta calidad, también contamos con un sistema novedoso de formularios inteligentes que serán de mucha ayuda para poder concluir su trámite en la web oficial de dicha entidad."
                             entradas={postAnses}
@@ -58,7 +58,7 @@ export default function HomePage() {
                             <span className="sr-only">Cargando...</span>
                         </div>
                     }>
-                        <SeccionHome id='Afip'
+                        <SeccionHome numero="2" id='Afip'
                             titleSeccion="Trámites Afip"
                             firstText="En esta sección encontrará como realizar los trámites más importantes de AFIP. ¿Necesita hacer un Trámite en AFIP y no está seguro de como realizarlo? Nuestro sistema novedoso de formularios inteligentes le serviran como guía para poder concluir de manera fácil su trámite en la web oficial."
                             entradas={postAfip}
@@ -69,7 +69,7 @@ export default function HomePage() {
                             <span className="sr-only">Cargando...</span>
                         </div>
                     }>
-                        <SeccionHome id='Automotor'
+                        <SeccionHome numero="3" id='Automotor'
                             titleSeccion="Registro Automotor"
                             firstText="¿Estás buscando vender tu auto y no sabes que trámites debés realizar o querés sacar un turno para el registro automotor? Aquí podrás encontrar aquellos trámites a realizar en el RPA automotor
                     Recuerda utilizar nuestro sistema de formularios que te serviran como guía para que puedas concluir tu tramite de manera exitosa."
@@ -81,7 +81,7 @@ export default function HomePage() {
                             <span className="sr-only">Cargando...</span>
                         </div>
                     }>
-                        <SeccionHome id='Renaper'
+                        <SeccionHome numero="4" id='Renaper'
                             titleSeccion="Trámites Renaper"
                             firstText="¿Querés realizar el registro o identificación de tu recién nadido? ¿Querés renovar o sacar tu  DNI? Aquí encontrarás como realizar aquellos trámites relacionados con el Renaper (Registro Nacional de Personas).
                     Le recordamos utilizar nuestro sistema de formularios que le ayudará a concluir dicho trámite de manera mucho más fácil y rápida."
