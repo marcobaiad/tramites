@@ -7,7 +7,7 @@ function CuartoIFE() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="Cuarto IFE: ¿Peligra el cobro de la nueva ronda del IFE? Entrá ahora y enterate de todas las novedades del IFE." contextUrl="index" title="¿Se pagará el 4to IFE?" />            
+                <Helmet description="Cuarto IFE: ¿Peligra el cobro de la nueva ronda del IFE? Entrá ahora y enterate de todas las novedades del IFE." contextUrl="index, follow" title="¿Se pagará el 4to IFE?" />            
                 <h1 className="text-center">¿Que pasará con el Cuarto IFE?</h1>
                 El día 21 del mes corriente (para ser exactos) culminó el calendario de cobro del bono extraordinario para el 3er IFE. <br/>
                 La titular del ANSES <strong>Fernanda Raverta</strong> declaró, "Antes de fin de mes se anunciará cómo sigue el IFE, ya que en Octubre habría que pagarlo de nuevo." <br/>

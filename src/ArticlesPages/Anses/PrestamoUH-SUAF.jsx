@@ -15,7 +15,7 @@ export default function AuhSuaf() {
     return (
         <MainDiv page={
         <>
-            <Helmet description="¿Querés sacar un prestamo ANSES para AUH o SUAF? En tramitero.com te ayudamos a sacar el crédito de ANSES con nuestra guía rápida. Entrá ahora" contextUrl="index" title="Prestamo ANSES para AUH y SUAF" />
+            <Helmet description="¿Querés sacar un prestamo ANSES para AUH o SUAF? En tramitero.com te ayudamos a sacar el crédito de ANSES con nuestra guía rápida. Entrá ahora" contextUrl="index, follow" title="Prestamo ANSES para AUH y SUAF" />
             <h1>Crédito ANSES para AUH y SUAF</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre sacar el préstamo para Asignación Familiar por Hijo y en 2020.</p> 

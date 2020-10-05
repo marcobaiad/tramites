@@ -16,7 +16,7 @@ export default function ClaveFiscal() {
     return (
         <MainDiv page={
         <>
-            <Helmet description="¿Como generar tu Clave Fiscal? En tramitero.com te ayudamos a hacerlo de la manera más rápida y sencilla. Entrá ahora y fijate como hacerlo" contextUrl="index" title="Clave Fiscal AFIP" />
+            <Helmet description="¿Como generar tu Clave Fiscal? En tramitero.com te ayudamos a hacerlo de la manera más rápida y sencilla. Entrá ahora y fijate como hacerlo" contextUrl="index, follow" title="Clave Fiscal AFIP" />
             <h1 className="text-center">Clave Fiscal AFIP</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como obtener la clave Fiscal en 2020.</p> 

@@ -13,7 +13,7 @@ export default function AsignacionFH() {
     return (
         <MainDiv page = {
             <>
-            <Helmet description="¿Como saber si me corresponde cobrar SUAF? ¿Cuando Cobro SUAF? Encontrá toda esta información En tramitero.com. Entrá ahora y enterate de todo" contextUrl="index" title="Anses Cobro Asignaciones Familiares SUAF ¿Cómo cobrar SUAF en 2020?" />
+            <Helmet description="¿Como saber si me corresponde cobrar SUAF? ¿Cuando Cobro SUAF? Encontrá toda esta información En tramitero.com. Entrá ahora y enterate de todo" contextUrl="index, follow" title="Anses Cobro Asignaciones Familiares SUAF ¿Cómo cobrar SUAF en 2020?" />
             <h1 className="mb-5 text-center">Asignación Familiar por Hijo ¿Qué es?</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre el salario SUAF en 2020.</p> 

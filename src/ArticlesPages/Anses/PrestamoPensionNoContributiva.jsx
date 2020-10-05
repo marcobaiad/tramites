@@ -14,7 +14,7 @@ export default function JubiladosPensionados() {
     return (
         <MainDiv page={
         <>
-            <Helmet description="Esta es una guía completa y senclla de como sacar el préstamo ANSES para Pensiones no contributiva. ¿Estás buscando sacar tu crédito?" contextUrl="index" title="Anses Créditos para Pensiones no Contributivas ¿Cómo acceder al préstamo ANSES?" />
+            <Helmet description="Esta es una guía completa y senclla de como sacar el préstamo ANSES para Pensiones no contributiva. ¿Estás buscando sacar tu crédito?" contextUrl="index, follow" title="Anses Créditos para Pensiones no Contributivas ¿Cómo acceder al préstamo ANSES?" />
             <h1 className="text-center">Préstamo ANSES para Pensión no Contributiva</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como sacar un Crédito Anses Pensiones no Contributivas en 2020.</p> 

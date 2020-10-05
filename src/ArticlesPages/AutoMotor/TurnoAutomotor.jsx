@@ -6,7 +6,7 @@ export default function TurnoAutomotor() {
     return(
         <MainDiv page={
             <>
-                <Helmet description="Enterate de ¿cómo sacar un turno en el Registro Automotor? En la web de Tramitero.com te ayudamos a hacerlo." contextUrl="index" title="Turno Automotor" />
+                <Helmet description="Enterate de ¿cómo sacar un turno en el Registro Automotor? En la web de Tramitero.com te ayudamos a hacerlo." contextUrl="index, follow" title="Turno Automotor" />
                 <h1 className="text-center">¿Cómo sacar un turno en el Registro del Automotor?</h1>
                 <ol className="my-3">
                     <li>

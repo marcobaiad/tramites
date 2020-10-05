@@ -13,7 +13,7 @@ export default function CreditoAmpliacion() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="Esta es una guía completa para acceder al crédito del Procrear Ampliación 2020 con los requisitos, montos y cuotas. Entrá ahora y enterate todo." contextUrl="index" title="ProCreAr Ampliacion 2020 ¿Cuales son los requisitos?" />
+                <Helmet description="Esta es una guía completa para acceder al crédito del Procrear Ampliación 2020 con los requisitos, montos y cuotas. Entrá ahora y enterate todo." contextUrl="index, follow" title="ProCreAr Ampliacion 2020 ¿Cuales son los requisitos?" />
                 <h1 className="text-center">Crédito para Ampliación de Viviendas ProCreAr 2020</h1>
                 <div className="card px-0 my-3">
                     <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como acceder al crédito ProCreAr para Ampliación de viviendas en 2020.</p>

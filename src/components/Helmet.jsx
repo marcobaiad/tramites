@@ -8,6 +8,7 @@ function HelmetF(props) {
             <title>{title}</title>
             <meta name="description" content={description} />
             <meta name="robots" content={contextUrl ? contextUrl : 'noindex'} />
+            <meta name="AdsBot-Google" content="index" />
             <link rel="canonical" content={profileUrl}/>
         </Helmet>
     );

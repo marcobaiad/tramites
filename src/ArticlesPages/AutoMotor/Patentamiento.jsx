@@ -12,7 +12,7 @@ function Patentamiento() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="¿Estás por comprar un vehículo nuevo y querés saber como patentarlo? En Tramitero.com te ayudamos a sacar tus dudas con nuestra guía rápida" contextUrl="index" title="Patentamiento DNRPA" />
+                <Helmet description="¿Estás por comprar un vehículo nuevo y querés saber como patentarlo? En Tramitero.com te ayudamos a sacar tus dudas con nuestra guía rápida" contextUrl="index, follow" title="Patentamiento DNRPA" />
                 <h1 className="text-center">Patentamiento DNRPA 0 Km</h1>
                 <div className="card px-0 my-3">
                     <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como patentar un vehículo en 2020. </p> 

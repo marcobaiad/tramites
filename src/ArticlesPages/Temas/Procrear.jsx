@@ -42,7 +42,7 @@ export default function Procrear() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="Esta es una guía completa sobre como acceder al PROCREAR en 2020. Conocé en detalle cada Crédito Personal e Hipotecario del PROCREAR disponible" contextUrl="index" title="¿Cómo acceder al PROCREAR en 2020?"
+                <Helmet description="Esta es una guía completa sobre como acceder al PROCREAR en 2020. Conocé en detalle cada Crédito Personal e Hipotecario del PROCREAR disponible" contextUrl="index, follow" title="¿Cómo acceder al PROCREAR en 2020?"
                 />
                 <h1 className="text-center">Procrear ¿cómo acceder en 2020?</h1>
                 <div className="card px-0 my-3">

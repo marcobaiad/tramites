@@ -13,7 +13,7 @@ export default function TramiteDNI() {
     return(
         <MainDiv page={
             <>
-                <Helmet description="¿Como renovar DNI? En tramitero.com encontrarás los pasos para la renovación de tu DNI. Entrá ahora y termina tu trámite" contextUrl="index" title="Trámite DNI" />
+                <Helmet description="¿Como renovar DNI? En tramitero.com encontrarás los pasos para la renovación de tu DNI. Entrá ahora y termina tu trámite" contextUrl="index, follow" title="Trámite DNI" />
                 <h1 className="text-center">Turno DNI</h1>
                 <div className="card px-0 my-3">
                     <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa para sacar la Cedula Azul en 2020.</p> 

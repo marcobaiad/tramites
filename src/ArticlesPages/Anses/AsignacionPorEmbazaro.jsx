@@ -15,7 +15,7 @@ export default function AsignacionPorEmbazaro() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="¿Como cobrar asignación por Embarazo? Encontrá todo lo referido con la asignación por Embarazo en tramitero.com" contextUrl="index" title="Asignación Familiar por Embarazo 2020 ¿A quien le corresponde?" />
+                <Helmet description="¿Como cobrar asignación por Embarazo? Encontrá todo lo referido con la asignación por Embarazo en tramitero.com" contextUrl="index, follow" title="Asignación Familiar por Embarazo 2020 ¿A quien le corresponde?" />
                 <h1 className="text-center">Asignación por Embarazo ¿Qué es?</h1>
                 <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre la asignación por embarazo en 2020.</p> 

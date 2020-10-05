@@ -15,7 +15,7 @@ export default function InscripcionMonotributo() {
     return (
         <MainDiv page={
         <>
-            <Helmet description="¿Que es el monotributo? ¿Cómo ser monotributista? Enterate como en tramitero.com. Te ayudamos con nuestras guías rápidas, entrá ahora!" contextUrl="index" title="Monotributo y Categorias 2020" />
+            <Helmet description="¿Que es el monotributo? ¿Cómo ser monotributista? Enterate como en tramitero.com. Te ayudamos con nuestras guías rápidas, entrá ahora!" contextUrl="index, follow" title="Monotributo y Categorias 2020" />
             <h1 className="text-center">Monotributo</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre el Monotributo en 2020.</p> 

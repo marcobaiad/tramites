@@ -13,7 +13,7 @@ export default function CedulaAzul() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="Esta es una guía de Trámite para sacar la tarjeta Azul online. Solicita la Cédula Azul desde tu casa con neustra ayuda. Entrá ahora" contextUrl="index" title="Cedula Azul DNRPA" />
+                <Helmet description="Esta es una guía de Trámite para sacar la tarjeta Azul online. Solicita la Cédula Azul desde tu casa con neustra ayuda. Entrá ahora" contextUrl="index, follow" title="Cedula Azul DNRPA" />
                 <h1 className="text-center">Cédula Azul DNRPA</h1>
                 <div className="card px-0 my-3">
                     <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa para sacar la Tarjeta Azul del Automotor en 2020.</p>

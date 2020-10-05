@@ -13,7 +13,7 @@ export default function TituloAutomotor() {
     return(
         <MainDiv page={
             <>
-                <Helmet description="¿Cómo sacar el Duplocado de mi Titulo? ¿Cúanto Cuesta? En Trámitero.com te ayudamos con tu trámite con nuestras guías rápidas y sencillas." contextUrl="index" title="Titulo Duplicado Automotor" />
+                <Helmet description="¿Cómo sacar el Duplocado de mi Titulo? ¿Cúanto Cuesta? En Trámitero.com te ayudamos con tu trámite con nuestras guías rápidas y sencillas." contextUrl="index, follow" title="Titulo Duplicado Automotor" />
                 <h1 className="text-center">Titulo por Duplicado del Automotor</h1>
                 <div className="card px-0 my-3">
                     <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa para sacar la Cedula Azul en 2020.</p> 

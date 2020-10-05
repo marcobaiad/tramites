@@ -15,7 +15,7 @@ export default function AsignacionPorEmbazaro() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="¿Cómo cobrar asignación por Maternidad Down? Encontrá todo lo referido con la asignación por Maternidad Down en tramitero.com" contextUrl="index" title="Asignación por Maternidad Down ¿Cómo realizar el trámite?" />
+                <Helmet description="¿Cómo cobrar asignación por Maternidad Down? Encontrá todo lo referido con la asignación por Maternidad Down en tramitero.com" contextUrl="index, follow" title="Asignación por Maternidad Down ¿Cómo realizar el trámite?" />
                 <h1 className="text-center">Asignación por Maternidad Down ¿Qué es?</h1>
                 <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre la asignación por Maternidad Down de ANSES.</p> 

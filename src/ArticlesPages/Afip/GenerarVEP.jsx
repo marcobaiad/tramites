@@ -15,7 +15,7 @@ export default function GenerarVEP() {
     return(
         <MainDiv page={
             <>
-            <Helmet description="¿Cómo generar el VEP de AFIP? En tramitero.com te ayudamos a hacerlo de la manera más rápida y sencilla. Entrá ahora y termina tu trámite" contextUrl="index" title="Generar VEP de AFIP 2020" />
+            <Helmet description="¿Cómo generar el VEP de AFIP? En tramitero.com te ayudamos a hacerlo de la manera más rápida y sencilla. Entrá ahora y termina tu trámite" contextUrl="index, follow" title="Generar VEP de AFIP 2020" />
                 <h1 className="text-center">VEP Volante Electrónico de Pago ¿Qué es?</h1>
                 <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como Generar el VEP en 2020.</p> 

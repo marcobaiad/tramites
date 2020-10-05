@@ -15,7 +15,7 @@ export default function TarjetaAlimentaria() {
     return(
         <MainDiv page={
         <>
-            <Helmet description="Tarjeta Alimentaria ANSES, ¿Cómo solicitar la tarjeta Alimentaria de ANSES? Entrá en tramitero.com y te mostramos como." contextUrl="index" title="ANSES Tarjeta Alimentaria 2020" />
+            <Helmet description="Tarjeta Alimentaria ANSES, ¿Cómo solicitar la tarjeta Alimentaria de ANSES? Entrá en tramitero.com y te mostramos como." contextUrl="index, follow" title="ANSES Tarjeta Alimentaria 2020" />
            <h1 className="my-3 pt-3 text-center">Tarjeta Alimentaria</h1>
            <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como acceder a la Tarjeta Alimentaria en 2020.</p> 

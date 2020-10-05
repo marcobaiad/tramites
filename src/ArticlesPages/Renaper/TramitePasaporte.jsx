@@ -13,7 +13,7 @@ export default function TramitePasaporte() {
     return(
         <MainDiv page={
             <>
-                <Helmet description="¿Cómo tramitar el pasaporte? En tramitero.com te ayudamos con nuertás guiías super rápidas y sencillas. Entrá ahora y termina tu trámite" contextUrl="index" title="Pasaporte: ¿Cómo tramitarlo?" />
+                <Helmet description="¿Cómo tramitar el pasaporte? En tramitero.com te ayudamos con nuertás guiías super rápidas y sencillas. Entrá ahora y termina tu trámite" contextUrl="index, follow" title="Pasaporte: ¿Cómo tramitarlo?" />
                 <h1 className="text-center">Tramitar Pasaporte</h1>
                 <div className="card px-0 my-3">
                     <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa para sacar la Cedula Azul en 2020.</p> 

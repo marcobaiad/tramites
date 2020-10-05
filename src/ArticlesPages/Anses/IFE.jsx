@@ -15,7 +15,7 @@ function IFE() {
     return (
         <MainDiv page={
         <>
-            <Helmet description="¿Como saber si me corresponde cobrar el IFE? Entrá ahora y enterate de todas las novedades del IFE." contextUrl="index" title="IFE: Ingreso Familiar de Emergencia" />
+            <Helmet description="¿Como saber si me corresponde cobrar el IFE? Entrá ahora y enterate de todas las novedades del IFE." contextUrl="index, follow" title="IFE: Ingreso Familiar de Emergencia" />
             <h1 className="text-center">IFE: Ingreso Familiar de Emergencia Anses</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como cobrar el IFE en 2020.</p> 

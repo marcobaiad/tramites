@@ -14,7 +14,7 @@ export default function JubiladosPensionados() {
     return (
         <MainDiv page={
         <>
-            <Helmet description="Esta es una guía completa y senclla de como sacar el préstamo ANSES para Pensión Universal por Vejez. Entrá y enterate como acceder al crédito" contextUrl="index" title="¿Cómo sacar el Préstamo ANSES para Pensión Universal para Adulto Mayor? 2020" />
+            <Helmet description="Esta es una guía completa y senclla de como sacar el préstamo ANSES para Pensión Universal por Vejez. Entrá y enterate como acceder al crédito" contextUrl="index, follow" title="¿Cómo sacar el Préstamo ANSES para Pensión Universal para Adulto Mayor? 2020" />
             <h1 className="text-center">Préstamo ANSES para Pensión Universal para Adulto Mayor</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como sacar un Crédito Anses para Pensión Universal para Adulto Mayor en 2020.</p> 

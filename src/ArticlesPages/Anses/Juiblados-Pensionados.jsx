@@ -18,7 +18,7 @@ export default function JubiladosPensionados() {
     return (
         <MainDiv page={
         <>
-            <Helmet description="Préstamo para jubilados y pensionados ANSES. ¿Cómo acceder al crédito de ANSES? En trámitero.com te ayudamos a sacar el crédoto" contextUrl="index" title="ANSES Cuotas de Prestamo Jubilados 2020" />
+            <Helmet description="Préstamo para jubilados y pensionados ANSES. ¿Cómo acceder al crédito de ANSES? En trámitero.com te ayudamos a sacar el crédoto" contextUrl="index, follow" title="ANSES Cuotas de Prestamo Jubilados 2020" />
             <h1 ref={Header} className="text-center">Préstamo ANSES para Jubilados y Pensionados</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como sacar un Crédito Anses para jubilados y pensionados en 2020.</p> 

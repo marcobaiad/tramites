@@ -6,7 +6,7 @@ export default function TurnoAfip() {
     return(
         <MainDiv page={
         <>
-        <Helmet description="¿Cómo sacer turno en AFIP? En tramitero.com te ayudamos a hacerlo de la manera más rápida y sencilla. Entrá ahora y termina tu trámite" contextUrl="index" title="Turno AFIP 2020" />
+        <Helmet description="¿Cómo sacer turno en AFIP? En tramitero.com te ayudamos a hacerlo de la manera más rápida y sencilla. Entrá ahora y termina tu trámite" contextUrl="index, follow" title="Turno AFIP 2020" />
             <h1 className="text-center">Turno AFIP</h1>
             <div className="alert alert-info border-info" role="alert">
                 <strong>¡Atención!</strong> debito a la situación sanitaria de público conocimiento, los turnos solo están disponibles en las localidades en las que la cuarentena ya sea un poco más flexible y no se encuentre obligada a cumplir con el aislamiento preventivo y social. 

@@ -13,7 +13,7 @@ export default function CreditoConstruccion() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="¿Cómo acceder al crédito para construcción de Viviendas ProCrear 2020? Encontrá todo lo referido al ProCreAr en tramitero.com y solicitá tu préstamo ahora." contextUrl="index" title=" ProCreAR Construcción Inscripción 2020 ¿Como acceder a éste crédito?" />
+                <Helmet description="¿Cómo acceder al crédito para construcción de Viviendas ProCrear 2020? Encontrá todo lo referido al ProCreAr en tramitero.com y solicitá tu préstamo ahora." contextUrl="index, follow" title=" ProCreAR Construcción Inscripción 2020 ¿Como acceder a éste crédito?" />
                 <h1 className="text-center">Crédito para la Construcción de Vivienda ProCreAr 2020</h1>
                 <div className="card px-0 my-3">
                     <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como acceder al crédito ProCreAr para la construcción de viviendas en 2020.</p>

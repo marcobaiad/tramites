@@ -13,7 +13,7 @@ export default function CreditoComMat() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="Esta es una guía rápida para conocer cuales son los requisitos para acceder al crédito de Sustentabilidade del ProCreAr en 2020. Entrá ahora" contextUrl="index" title="ProCreAr Eficiencia Energética ¿Cómo acceder al crédito de sustentabilidad en 2020" />
+                <Helmet description="Esta es una guía rápida para conocer cuales son los requisitos para acceder al crédito de Sustentabilidade del ProCreAr en 2020. Entrá ahora" contextUrl="index, follow" title="ProCreAr Eficiencia Energética ¿Cómo acceder al crédito de sustentabilidad en 2020" />
                 <h1 className="text-center">Crédito Sustentable para Incremento de la eficiencia Energética ProCreAr</h1>
                 {/* <div className="card px-0 my-3">
                     <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como acceder al del ProCreAr en 2020.</p>

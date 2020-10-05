@@ -15,7 +15,7 @@ export default function AsignacionPorEmbazaro() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="Esta es una guía de trámite sobre  como cobrar asignación por Nacimiento y Adopción en 2020. En tramitero.com te ayudamos a realizar el trámite" contextUrl="index" title="Asignación por Nacimiento ¿A quien le corresponde?" />
+                <Helmet description="Esta es una guía de trámite sobre  como cobrar asignación por Nacimiento y Adopción en 2020. En tramitero.com te ayudamos a realizar el trámite" contextUrl="index, follow" title="Asignación por Nacimiento ¿A quien le corresponde?" />
                 <h1 className="text-center">Anses Asignación por Nacimiento y Adopción ¿Qué es?</h1>
                 <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre la Asignación por Nacimiento y Adopción en 2020.</p> 

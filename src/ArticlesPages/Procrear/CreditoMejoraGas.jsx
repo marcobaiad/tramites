@@ -14,7 +14,7 @@ export default function CreditoComMat() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="Esta es una guía completa de como acceder al crédito ProCreAr para Gas de Red en 2020. Encontrá toda la info relaconada al ProCreAr en tramitero.com" contextUrl="index" title="ProCrear Mejor Hogar Gas Inscripción 2020 ¿Cómo acceder al crédito para Gas de Red?" />
+                <Helmet description="Esta es una guía completa de como acceder al crédito ProCreAr para Gas de Red en 2020. Encontrá toda la info relaconada al ProCreAr en tramitero.com" contextUrl="index, follow" title="ProCrear Mejor Hogar Gas Inscripción 2020 ¿Cómo acceder al crédito para Gas de Red?" />
                 <h1 className="text-center">Crédito para instalación domiciliaria de Gas ProCreAr</h1>
                 <div className="card px-0 my-3">
                     <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como acceder al crédito ProCreAr para instalación de Gas de Red en 2020.</p>

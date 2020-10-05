@@ -35,7 +35,7 @@ export default function HomePage() {
                     <Helmet>
                         <title>Tramiteo.com Tramites en Línea</title>
                         <meta name="description" content="La web que con las mejores guías para realizar los trámites de Argentina. AFIP, ANSES, RENAPER, REGSTRO AUTOMOTOR, etc..." />
-                        <meta name="robots" content="index" />
+                        <meta name="robots" content="index, follow" />
                     </Helmet>
                     <h1 className="text-center">Realizá tus Trámites en Línea</h1>
                     <p>

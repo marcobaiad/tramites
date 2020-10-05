@@ -13,7 +13,7 @@ export default function CreditoComMat() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="Esta es una guía completa para conocer los requisitos y como realizar el trámite para acceder al ProcreAr Compra en 2020 Enterate como en tramitero.com" contextUrl="index" title="ProCreAr Compra de Materiales 2020 ¿Cómo inscribirse?" />
+                <Helmet description="Esta es una guía completa para conocer los requisitos y como realizar el trámite para acceder al ProcreAr Compra en 2020 Enterate como en tramitero.com" contextUrl="index, follow" title="ProCreAr Compra de Materiales 2020 ¿Cómo inscribirse?" />
                 <h1 className="text-center">Crédito para la compra de Materiales</h1>
                 <div className="card px-0 my-3">
                     <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como acceder al crédito Procrear Compra en 2020.</p>

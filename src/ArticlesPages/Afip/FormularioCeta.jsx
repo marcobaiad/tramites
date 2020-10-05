@@ -32,7 +32,7 @@ const FormularioCeta = () => {
     return (
         <MainDiv page={
         <>
-            <Helmet description="¿Cómo hacer el formularo CETA? Con clave Fiscal, sin clave fiscal. En tramitero.com te ayudamos con una guía super rápida. Entrá ahora." contextUrl="index" title="AFIP CETA ¿Cómo hacer el Formulario CETA de AFIP 2020?" />
+            <Helmet description="¿Cómo hacer el formularo CETA? Con clave Fiscal, sin clave fiscal. En tramitero.com te ayudamos con una guía super rápida. Entrá ahora." contextUrl="index, follow" title="AFIP CETA ¿Cómo hacer el Formulario CETA de AFIP 2020?" />
             <h1 className="font-weight-bold py-5 text-center">Formulario CETA ¿qué es?</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como tramitar el Formulario CETA en 2020.</p> 

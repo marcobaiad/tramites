@@ -14,7 +14,7 @@ export default function TransferenciaAutomotor() {
     return(
         <MainDiv page={
             <>
-                <Helmet description="Mirá como realizar rápidamente la transferencia de tu vehículo. Somos lideres en el sector de guías para realizar trámites en linea." contextUrl="index" title="Transferencia Automotor" />
+                <Helmet description="Mirá como realizar rápidamente la transferencia de tu vehículo. Somos lideres en el sector de guías para realizar trámites en linea." contextUrl="index, follow" title="Transferencia Automotor" />
                 <h1 className="text-center">Transferencia de Automotor</h1>
                 <div className="card px-0 my-3">
                     <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa para sacar la Cedula Azul en 2020.</p> 

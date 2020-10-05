@@ -13,7 +13,7 @@ export default function CreditoComMat() {
     return (
         <MainDiv page={
             <>
-                <Helmet description="Esta es una guía completa de como acceder al crédito ProCreAr para refacciones de la vivienda en 2020. Encontrá toda la info en tramitero.com" contextUrl="index" title="ProCrear Refacción 2020 ¿Cómo acceder al crédito para Refacciones?" />
+                <Helmet description="Esta es una guía completa de como acceder al crédito ProCreAr para refacciones de la vivienda en 2020. Encontrá toda la info en tramitero.com" contextUrl="index, follow" title="ProCrear Refacción 2020 ¿Cómo acceder al crédito para Refacciones?" />
                 <h1 className="text-center">Crédito para Refacciones de la vivienda ProCreAr</h1>
                 <div className="card px-0 my-3">
                     <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre el ProCreAr Refaccion 2020 Inscripcion.</p>

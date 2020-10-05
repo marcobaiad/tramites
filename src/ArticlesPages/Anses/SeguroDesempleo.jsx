@@ -15,7 +15,7 @@ export default function SeguroDesempleo() {
     return (
         <MainDiv page={   
         <>
-            <Helmet description="En tramitero.com te ayudamos a solicitar el fondo de desempleo de manera rápida y sencilla. Entrá ahora y enterate como realizar tu trámite" contextUrl="index" title="ANSES Cobro Fondo de Desempleo 2020" />
+            <Helmet description="En tramitero.com te ayudamos a solicitar el fondo de desempleo de manera rápida y sencilla. Entrá ahora y enterate como realizar tu trámite" contextUrl="index, follow" title="ANSES Cobro Fondo de Desempleo 2020" />
             <h1 className="text-center">Fondo de Desempleo</h1>
             <div className="card px-0 my-3">
                 <p className="card-header text-white font-weight-bold bg-info">Esta es una guía completa sobre como se cobra el Seguro de Desempleo de ANSES en 2020.</p> 
