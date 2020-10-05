@@ -15,19 +15,19 @@ const FormularioCeta = () => {
     const titulo6 = React.useRef(null);
     const titulo7 = React.useRef(null);
 
-    const InView = () => {
-        const rect = titulo7.current.getBoundingClientRect();
+    // const InView = () => {
+    //     const rect = titulo7.current.getBoundingClientRect();
 
-        if (rect.top >= 0 && rect.left >= 0 && rect.right <= window.innerWidth && rect.bottom <= window.innerHeight) {
-            setIframeInView(!iframeInView)
-        } else {
-            setIframeInView(iframeInView)
-        }
-    }
+    //     if (rect.top >= 0 && rect.left >= 0 && rect.right <= window.innerWidth && rect.bottom <= window.innerHeight) {
+    //         setIframeInView(!iframeInView)
+    //     } else {
+    //         setIframeInView(iframeInView)
+    //     }
+    // }
 
-    React.useEffect(() => {
-        InView()
-    }, [])
+    // React.useEffect(() => {
+    //     InView()
+    // }, [])
 
     return (
         <MainDiv page={
