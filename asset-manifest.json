@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.109b1558.chunk.css",
-    "main.js": "/static/js/main.3450a07c.chunk.js",
-    "main.js.map": "/static/js/main.3450a07c.chunk.js.map",
+    "main.css": "/static/css/main.c089a76a.chunk.css",
+    "main.js": "/static/js/main.d60dedc9.chunk.js",
+    "main.js.map": "/static/js/main.d60dedc9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.078981f9.js",
     "runtime-main.js.map": "/static/js/runtime-main.078981f9.js.map",
-    "static/js/2.29f4e990.chunk.js": "/static/js/2.29f4e990.chunk.js",
-    "static/js/2.29f4e990.chunk.js.map": "/static/js/2.29f4e990.chunk.js.map",
+    "static/js/2.0577f24d.chunk.js": "/static/js/2.0577f24d.chunk.js",
+    "static/js/2.0577f24d.chunk.js.map": "/static/js/2.0577f24d.chunk.js.map",
     "static/css/3.a36ad7b0.chunk.css": "/static/css/3.a36ad7b0.chunk.css",
     "static/js/3.005e05be.chunk.js": "/static/js/3.005e05be.chunk.js",
     "static/js/3.005e05be.chunk.js.map": "/static/js/3.005e05be.chunk.js.map",
     "static/js/4.257d45ca.chunk.js": "/static/js/4.257d45ca.chunk.js",
     "static/js/4.257d45ca.chunk.js.map": "/static/js/4.257d45ca.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b8a13500293641b3d7b75bcc58624532.js": "/precache-manifest.b8a13500293641b3d7b75bcc58624532.js",
+    "precache-manifest.9af711e4e38de9e40ef5b8f33ac4da12.js": "/precache-manifest.9af711e4e38de9e40ef5b8f33ac4da12.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.a36ad7b0.chunk.css.map": "/static/css/3.a36ad7b0.chunk.css.map",
-    "static/css/main.109b1558.chunk.css.map": "/static/css/main.109b1558.chunk.css.map",
-    "static/js/2.29f4e990.chunk.js.LICENSE.txt": "/static/js/2.29f4e990.chunk.js.LICENSE.txt",
+    "static/css/main.c089a76a.chunk.css.map": "/static/css/main.c089a76a.chunk.css.map",
+    "static/js/2.0577f24d.chunk.js.LICENSE.txt": "/static/js/2.0577f24d.chunk.js.LICENSE.txt",
     "static/media/Asigancion-por-Embarazo.webp": "/static/media/Asigancion-por-Embarazo.d2e44e51.webp",
     "static/media/Asignacion-por-Embarazo1.webp": "/static/media/Asignacion-por-Embarazo1.9980776f.webp",
     "static/media/Asignacion-por-Nacimiento-y-Adopción.webp": "/static/media/Asignacion-por-Nacimiento-y-Adopción.df7a4611.webp",
@@ -53,8 +53,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.078981f9.js",
-    "static/js/2.29f4e990.chunk.js",
-    "static/css/main.109b1558.chunk.css",
-    "static/js/main.3450a07c.chunk.js"
+    "static/js/2.0577f24d.chunk.js",
+    "static/css/main.c089a76a.chunk.css",
+    "static/js/main.d60dedc9.chunk.js"
   ]
 }
