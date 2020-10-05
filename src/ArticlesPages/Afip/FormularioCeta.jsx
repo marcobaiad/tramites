@@ -273,7 +273,7 @@ const FormularioCeta = () => {
                     </ul>
                 </div>
             </div>
-            <div className="d-flex flex-column align-items-center justify-content-center my-5">
+            {/* <div className="d-flex flex-column align-items-center justify-content-center my-5">
                 <h4 className="mb-3 text-center" ref={titulo7}>Video explicativo de como sacar formulario CETA</h4>
                 <br/>
                 {
@@ -288,7 +288,7 @@ const FormularioCeta = () => {
 
                     </div>
                 }
-            </div>
+            </div> */}
         </>}
         />
     )
