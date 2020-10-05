@@ -5,7 +5,7 @@ function HelmetF(props) {
     const { description, profileUrl, contextUrl, title } = props
     return (
         <Helmet>
-            <title>{title} Tramitero.com</title>
+            <title>{title}</title>
             <meta name="description" content={description} />
             <meta name="robots" content={contextUrl ? contextUrl : 'noindex'} />
             <link rel="canonical" content={profileUrl}/>

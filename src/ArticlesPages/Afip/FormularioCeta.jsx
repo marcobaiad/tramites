@@ -288,7 +288,6 @@ const FormularioCeta = () => {
 
                     </div>
                 }
-
             </div>
         </>}
         />

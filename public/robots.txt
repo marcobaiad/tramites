@@ -1,6 +1,7 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /politicas-de-privacidad
+Allow: /
 
 Sitemap: https://www.tramitero.com/sitemap.xml
 
@@ -9,10 +10,6 @@ Crawl-delay: 10
 
 User-Agent: MJ12bot
 Crawl-Delay: 10
-
-User-Agent: *   
-Allow: /wp-content/uploads/
-
 
 # Permitir sitemap pero no las bÃºsquedas.
 
