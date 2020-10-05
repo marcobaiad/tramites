@@ -279,7 +279,7 @@ const FormularioCeta = () => {
                 {
                     iframeInView ?
                         <div className="align-self-center embed-responsive embed-responsive-16by9 w-75 h-75">
-                            <iframe loading="lazy" title="Video de Como saca formulario CETA" className="embed-responsive-item" src="https://www.youtube.com/embed/1otMtAPtkxI" allowFullScreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                            <iframe width="560" height="315" title="¿Cómo sacar Fomulario CETA?" src="https://www.youtube.com/embed/1otMtAPtkxI?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     :
                     <div className="row justify-content-center mx-0">
@@ -288,9 +288,7 @@ const FormularioCeta = () => {
 
                     </div>
                 }
-            </div>
-            <div>
-                Relacionados
+
             </div>
         </>}
         />
