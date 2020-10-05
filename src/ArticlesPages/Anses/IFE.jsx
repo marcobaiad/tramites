@@ -38,7 +38,7 @@ function IFE() {
                     description1="¿A quién le corresponde cobrar el IFE?" 
                     description2="¿Cómo cobrar el Ingreso Familiar de Emergencia?"
                     description3="¿Cuándo cobro el 3er IFE 2020?"
-                    description3="Calendario de pagos Cuarto IFE 2020"
+                    description4="Calendario de pagos Cuarto IFE 2020"
                     nodo1={titulo1}
                     nodo2={titulo2}
                     nodo3={titulo3}

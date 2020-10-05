@@ -71,7 +71,7 @@ export default function AsignacionFH() {
             <h3 className="py-2 text-center">Pasos para la presentación de documentación</h3>
             <div className="row mx-0">
                 <ol className="col-12 col-md-6">
-                    <li>Imprimir el Formulario <a href="">PS 2.73 - Solicitud de Asignaciones Familiares</a> o pedilo en
+                    <li>Imprimir el Formulario <a href="https://www.anses.gob.ar/sites/default/files/formulario/2019-10/PS%20273%20Solicitud%20AAFF%20Decreto%20614.pdf">PS 2.73 - Solicitud de Asignaciones Familiares</a> o pedilo en
                     alguna oficina de ANSES.</li>
                     <li>Completa el formulario con tus datos y los de tus hijos. <strong>(Tener en cuenta que la firmas se
                     completan en la oficina de ANSES).</strong></li>

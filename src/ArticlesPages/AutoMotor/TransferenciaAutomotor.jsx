@@ -95,7 +95,7 @@ export default function TransferenciaAutomotor() {
                         </div> 
                     </li>
                     <li>
-                        Formulario 08. Recordá que podes hacerlo de forma totalmente online. Mirá como hacerlo desde <Link to="">acá</Link> 
+                        Formulario 08. Recordá que podes hacerlo de forma totalmente online. Mirá como hacerlo desde <Link to="/Automotor/turno-registro-automotor">acá</Link> 
                     </li>
                     <li>
                         Presentar la documentación ya mencionada anteriormente, tanto vendedor y como comprador y pagar los aranceles. Ese mismo día el registro proveerá del Formulario 13 para la firma del mismo. En caso de haber hecho el 08 por internet, debés llevarlo impreso. 
@@ -117,7 +117,7 @@ export default function TransferenciaAutomotor() {
                     <li>Sellos e impuestos provinciales. (El valor depende de cada provincia.</li>
                 </ul>
                 <div className="alert alert-primary mt-3 border-info" role="alert">
-                    <strong>Importante: </strong> Si el monto de transacción por el vehículo superase $1800000 debés iniciar un trámite previo en el cual deberás comprobar la procedencia del dinero. Mirá como hacer el trámite <a href="" className="text-success">acá</a>.
+                    <strong>Importante: </strong> Si el monto de transacción por el vehículo superase $1800000 debés iniciar un trámite previo en el cual deberás comprobar la procedencia del dinero.
                 </div>
             </>
         }/>

@@ -61,7 +61,7 @@ export default function AUH() {
             <h2 ref={titulo3}>¿Cómo inicio al trámite para cobrar asignacion?</h2>
             <div className="alert alert-info" role="alert">
                 <strong>A tener en cuenta:</strong> la información del grupo familiar registrada en la base de datos
-                de ANSES debe estar actualizada. Antes de continuar con el trámite, te recomendamos verificar esto desde <a href="">Mi ANSES</a> con tu clave de la Seguridad Social.
+                de ANSES debe estar actualizada. Antes de continuar con el trámite, te recomendamos verificar esto desde <a href="https://servicioscorp.anses.gob.ar/clavelogon/logon.aspx?system=mianses">Mi ANSES</a> con tu clave de la Seguridad Social.
             </div>
             La solicitud de la Asignación Universal por Hijo se realiza únicamente de manera presencial, y sin turno previo, en cualquier dependencia de ANSES.
             El titular del beneficio deberá presentar la Libreta Nacional de Seguridad Social, Salud y Educación o
@@ -88,7 +88,7 @@ export default function AUH() {
             El 80% de la asignación se abonará de manera mensual y el 20% restante, se abonará una sola vez al año, siempre que se cumplan con los siguientes requisitos:
             <ul>
                 <li>
-                    Que los menores de 5 años se encuentren anotados en el <a href="">Programa Sumar</a>
+                    Que los menores de 5 años se encuentren anotados en el <a href="https://www.argentina.gob.ar/salud/sumar">Programa Sumar</a>
                 </li>
                 <li>
                     Que los menores entre 5 y 18 años hayan cumplido con los controles de salud y asistan a un establecimiento educativo formal.
