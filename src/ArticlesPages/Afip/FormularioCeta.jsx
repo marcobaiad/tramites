@@ -16,7 +16,7 @@ const FormularioCeta = () => {
     const titulo7 = React.useRef(null);
 
     const InView = () => {
-        const rect = titulo5.current.getBoundingClientRect();
+        const rect = titulo7.current.getBoundingClientRect();
 
         if (rect.top >= 0 && rect.left >= 0 && rect.right <= window.innerWidth && rect.bottom <= window.innerHeight) {
             setIframeInView(!iframeInView)
