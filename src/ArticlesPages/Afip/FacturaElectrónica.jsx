@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
-const Indice = React.lazy(() => import('../../components/Indice'))
+const Indice = React.lazy(() => import('../../components/Indice'));
 
 export default function FacturaElectronica() {
 
@@ -85,27 +85,27 @@ export default function FacturaElectronica() {
                 <li>
                     Dentro de éste menú vas a seleccionar la opción de <strong>Datos adicionales del Comprobante</strong> donde vas a completar los datos de la siguiente imagen: 
                     <div className="row justify-content-center mx-0 my-3">
-                        <img className="img-fluid" loading="lazy" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 0.webp')} alt=""/>
+                        <img className="img-fluid" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 0.webp')} alt="Factura Electrónica AFIP" width="60%" height="100%"/>
                     </div>
                     Luego presioná en GUARDAR
                 </li>
                 <li>
                     Ahora debés ingresar a <strong>ABM Puntos de Ventas</strong>, para elegir el tipo de factura a emitir, una vez hayas elegído presioná el botón Contiuar.
                     <div className="row justify-content-center mx-0 my-3">
-                        <img className="img-fluid" loading="lazy" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 2.webp')} alt=""/>
+                        <img className="img-fluid" loading="lazy" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 2.webp')} alt="Factura Electrónica AFIP" width="60%" height="100%"/>
                     </div>
                     Luego presioná en GUARDAR
                 </li>
                 <li>
                     Volverá a abrirse la misma pantalla del paso 2 y esta vez tendrás que elegir la opción de <strong>Generar Comprobantes</strong>. Completá los datos requeridos y presioná en CONTINUAR.
                     <div className="row justify-content-center mx-0 my-3">
-                        <img className="img-fluid" loading="lazy" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 3.webp')} alt=""/>
+                        <img className="img-fluid" loading="lazy" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 3.webp')} alt="Factura Electrónica AFIP" width="60%" height="100%"/>
                     </div>
                 </li>
                 <li>
                     Completa los datos de la persona que recibirá la factura y como se efectuó la venta. (De contado, con tarjeta de crédito / débito, cheque, etc.) y presioná CONTINUAR.
                     <div className="row justify-content-center mx-0 my-3">
-                        <img className="img-fluid" loading="lazy" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 4.webp')} alt=""/>
+                        <img className="img-fluid" loading="lazy" src={require('../../assets/AFIP/Factura Electrónica/Factura Electronica AFIP 4.webp')} alt="Factura Electrónica AFIP" width="60%" height="100%"/>
                     </div>
                 </li>
             </ol>
@@ -133,7 +133,7 @@ export default function FacturaElectronica() {
                     Con Clave Fiscal en el menú Comprobantes en línea.
                 </li>
             </ul>
-             {false && 
+             {/* {false && 
              <div>
              <br />
              Consideraciones según tipo de Factura a emitir:
@@ -167,7 +167,7 @@ export default function FacturaElectronica() {
                 </ul>
             </ul>
             </div>
-            }
+            } */}
             <h3 ref={titulo4}>¿Quienes están obligados a emitir por la AFIP este comprobante?</h3>
             Estan alcanzadas todas las categorias del monotributo, Inscriptos en el Impuesto al Valor Agregado, Actividades comprendidas en el anexo de la RG 3749, exportadores por la RG 2758 y quienes comercializan bienes usados no registrables enmarcados en la RG 3411. <br/>
             <strong>¿Quines estan exceptuados?</strong> Aquellas personas que están dentro del Régimen de inclusión Social y Promoción de Trabajo indepentiente.
@@ -183,7 +183,6 @@ export default function FacturaElectronica() {
                     <div className="row justify-content-center mx-0">
                         <br/>
                         <button className="btn btn-info font-weight-bold" onClick={() => setIframeInView(true)}>Click para ver el Video</button>
-
                     </div>
                 }
             </div>
