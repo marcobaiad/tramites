@@ -3,8 +3,6 @@ User-agent: *
 Disallow: /politicas-de-privacidad
 Allow: /
 
-Sitemap: https://www.tramitero.com/sitemap.xml
-
 User-agent: bingbot
 Crawl-delay: 10
 
@@ -13,7 +11,7 @@ Crawl-Delay: 10
 
 # Permitir sitemap pero no las bÃºsquedas.
 
-Sitemap: https://www.onepageagency.com/sitemap.xml   
+Sitemap: https://tramitero.com/sitemap.xml   
 
 # Permitir Feed general para Google Blogsearch.   
 # Impedir que /permalink/feed/ sea indexado pues el feed de comentarios suele posicionarse antes de los post.
