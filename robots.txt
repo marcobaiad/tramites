@@ -11,7 +11,7 @@ Crawl-Delay: 10
 
 # Permitir sitemap pero no las bÃºsquedas.
 
-Sitemap: https://tramitero.com/sitemap-v1.xml   
+Sitemap: https://tramitero.com/sitemap-vuno.xml   
 
 # Permitir Feed general para Google Blogsearch.   
 # Impedir que /permalink/feed/ sea indexado pues el feed de comentarios suele posicionarse antes de los post.
