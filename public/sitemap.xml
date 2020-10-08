@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">   
     <url><loc>https://tramitero.com</loc></url>
-    <url><loc>https://tramitero.com/Procrear</loc></url>
+    <url><loc>https://tramitero.com/procrear</loc></url>
     <url><loc>https://tramitero.com/procrear/credito-para-construccion</loc></url>
     <url><loc>https://tramitero.com/procrear/credito-para-ampliacion</loc></url>
     <url><loc>https://tramitero.com/procrear/credito-para-mejora-gas</loc></url>
     <url><loc>https://tramitero.com/procrear/credito-para-refaccion</loc></url>
     <url><loc>https://tramitero.com/procrear/credito-hogar-sustentable</loc></url>
     <url><loc>https://tramitero.com/procrear/credito-personal-compra-materiales</loc></url>
-    <url><loc>https://tramitero.com/Noticias/Cuarto-IFE</loc></url>
+    <url><loc>https://tramitero.com/noticias/Cuarto-IFE</loc></url>
     <url><loc>https://tramitero.com/automotor/patentamiento-automotor</loc></url>
     <url><loc>https://tramitero.com/automotor/turno-registro-automotor</loc></url>
     <url><loc>https://tramitero.com/automotor/transferencia-automotor</loc></url>
@@ -38,4 +38,5 @@
     <url><loc>https://tramitero.com/afip/factura-electronica</loc></url>
     <url><loc>https://tramitero.com/afip/formulario-ceta</loc></url>
     <url><loc>https://tramitero.com/afip/clave-fiscal</loc></url>
+    <url><loc>https://tramitero.com/politicas-de-privacidad</loc></url>
 </urlset> 
