@@ -55,7 +55,7 @@ export default function AsignacionPorEmbazaro() {
                     <li>Trabajadoras que se encuentren cobrando por ART</li>
                 </ul>
                 <h2>Requisitos para Cobrar Asignación por Maternidad Down</h2>
-                Recordá que es necesario solicitar la extensión de la <a href="/Anses/licencia-por-maternidad">Licencia por Maternidad</a> 15 días antes de la finalización de la misma, mediando cert. de diagnostico de Síndrome de Down de tu bebé.
+                Recordá que es necesario solicitar la extensión de la <a href="/anses/licencia-por-maternidad">Licencia por Maternidad</a> 15 días antes de la finalización de la misma, mediando cert. de diagnostico de Síndrome de Down de tu bebé.
                 <h2>¿Que documentación necesito presentar?</h2>
                 Para poder realizar el trámite es necesario que reunir toda la documentación solicitada que detallamos abajo:
                 <div class="alert alert-info border-primary" role="alert">

@@ -52,7 +52,7 @@ export default function AsignacionPorEmbazaro() {
                 <ul className="my-3">
                     <li>Trabajadores en blanco</li>
                     <li>Trabajadores que estén cobrando por ART</li>
-                    <li>Personas que cobren <a href="/Anses/seguro-de-desempleo">Fondo de Desempleo</a></li>
+                    <li>Personas que cobren <a href="/anses/seguro-de-desempleo">Fondo de Desempleo</a></li>
                     <li>Personas que cobren Pensión Honorifica de Veteranos de Guerra del Atlantico Sur.</li>
                 </ul>
                 <h2 ref={titulo2}>Requisitos para Cobrar Asignación por Embarazo</h2>

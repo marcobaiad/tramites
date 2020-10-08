@@ -107,7 +107,7 @@ export default function ClaveFiscal() {
                 <div className="text-center border col-12 col-md-4 py-2">
                     Podes descargar la app desde google play y desde la App Store de apple escaneando el siguiente código QR<br />
                     {/* <a className="btn bg-grad font-weight-bold my-3" href="https://play.google.com/store/apps/details?id=ar.gob.afip.mobile.android.contribuyentes.mi_afip&hl=es" target="_blank" rel="noopener noreferrer">MI AFIP</a> <br/> */}
-                    <img className="my-1 w-50" src={require('../../assets/AFIP/MI AFIP QR.svg')} alt="código qr para descargar app Mi AFIP para Android y para IOS" />
+                    <img className="my-1 w-50" src={require('../../assets/AFIP//MI AFIP QR.svg')} alt="código qr para descargar app Mi AFIP para Android y para IOS" />
                 </div>
             </div>           
             <h4 ref={titulo3}>Clave Fiscal N° 2</h4>

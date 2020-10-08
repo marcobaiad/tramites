@@ -52,7 +52,7 @@ export default function AsignacionPorEmbazaro() {
                     <li>Trabajadoras registradas y trabajadoras de temporada</li>
                     <li>Monotributistas de cat. A a la H</li>
                     <li>Trabajadoras cobrando por ART</li>
-                    <li>Trabajadoras cobrando <a href="/Anses/seguro-de-desempleo">prestación por desempleo</a>.</li>
+                    <li>Trabajadoras cobrando <a href="/anses/seguro-de-desempleo">prestación por desempleo</a>.</li>
                     <li>Peronas que cobren la Pensión Honorífica de Vetenraos de Guerra del Atlántico Sur.</li>
                 </ul>
                 <h2 ref={titulo2}>Requisitos para Cobrar Prenatal</h2>
@@ -66,7 +66,7 @@ export default function AsignacionPorEmbazaro() {
                     <li>Trabajadores en relación de dependencia o trabajadoras que se encuentran cobrando por ART: La antigüedad se computa por haber estado registrado como monotributista o ser titular de la prestación por desempleo.</li>
                     <li>Trabajadores Monotributistas: 3 meses de aportes consecutivos anteriores a la fecha de concepción. A fin de cobrar esta prestación en su totalidad, la antigüedad se computará si ha cobrado prestación por desempleo o trabajado de forma registrada.
                     </li>
-                    <li>Trabajadores que cobren <a href="/Anses/seguro-de-desempleo">Prestación por Desempleo</a> o Pensión Honorífica de Guerra del Atlántico Sur: no requieren antiguedad.</li>
+                    <li>Trabajadores que cobren <a href="/anses/seguro-de-desempleo">Prestación por Desempleo</a> o Pensión Honorífica de Guerra del Atlántico Sur: no requieren antiguedad.</li>
                     <li>Los Ingresos del grupo familiar o individual, no deben superar los topes máximos vigentes.</li>
                 </ul>
                 <h2 ref={titulo3}>¿Que documentación necesito presentar?</h2>
@@ -83,7 +83,7 @@ export default function AsignacionPorEmbazaro() {
                         En caso de haber llenado el <strong>rubro 2</strong>: El otro progenitor también deberá completar este formulario. <br/>
                         Si estás cobrando por ART: deberás solicitar la firma de tu empleador/ART en el <strong>rubro 10</strong>. <br/>
                         Si sos monotributista o titular de la restación por desempleo o PHVGAS <strong>No debés llenar el rubro 3</strong>. <br/>
-                        Si sos trabajadora registrada también podes realizar la solicitud del prenatal al momento de solicitar la <a href="/Anses/asignacion-por-maternidad" target="_blank" rel="noopener noreferrer">Asignación por Maternidad</a>
+                        Si sos trabajadora registrada también podes realizar la solicitud del prenatal al momento de solicitar la <a href="/anses/asignacion-por-maternidad" target="_blank" rel="noopener noreferrer">Asignación por Maternidad</a>
                     </div>                  
                     </li>
                     <li>

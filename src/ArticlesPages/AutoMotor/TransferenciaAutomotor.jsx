@@ -68,7 +68,7 @@ export default function TransferenciaAutomotor() {
                             Titulo o Asignación de propiedad del automotor y todas las cédulas del mismo (azul/es y verde/s).
                         </li>
                         <li>
-                            <strong>Formulario 08</strong>. Corroborá como trámitarlo digitalmente desde el siguiente link <Link to="/Automotor/08-por-internet" className="font-weight-bold">08 por Internet</Link>.
+                            <strong>Formulario 08</strong>. Corroborá como trámitarlo digitalmente desde el siguiente link <Link to="/automotor/08-por-internet" className="font-weight-bold">08 por Internet</Link>.
                         </li>
                         <li>
                             En caso de prenda del vehículo, deberá presentar C. Documento o Telegrama indicando haber informado de la transferencia al acreedor prendario.
@@ -95,7 +95,7 @@ export default function TransferenciaAutomotor() {
                         </div> 
                     </li>
                     <li>
-                        Formulario 08. Recordá que podes hacerlo de forma totalmente online. Mirá como hacerlo desde <Link to="/Automotor/turno-registro-automotor">acá</Link> 
+                        Formulario 08. Recordá que podes hacerlo de forma totalmente online. Mirá como hacerlo desde <Link to="/automotor/turno-registro-automotor">acá</Link> 
                     </li>
                     <li>
                         Presentar la documentación ya mencionada anteriormente, tanto vendedor y como comprador y pagar los aranceles. Ese mismo día el registro proveerá del Formulario 13 para la firma del mismo. En caso de haber hecho el 08 por internet, debés llevarlo impreso. 

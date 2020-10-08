@@ -74,12 +74,12 @@ export default function GenerarVEP() {
                     <h2 ref={titulo3}>¿Cómo generar un VEP <strong>Con Clave Fiscal</strong>?</h2>
                 <ol className="my-3">
                     <li>
-                        Ingresa con tu <a href="https://tramitero.com/Afip/clave-fiscal">clave fiscal</a> al servicio <strong>Presentación de DDJJ y Pagos</strong>
+                        Ingresa con tu <a href="https://tramitero.com/afip/clave-fiscal">clave fiscal</a> al servicio <strong>Presentación de DDJJ y Pagos</strong>
                     </li>
                     <li>
                         Ahora en el menú de la izquieda vas a buscar la opción de Nuevo Pago y vas a ingresar y llenar los campos requeridos.
                         <div className="row mx-0 justify content-center">
-                            <img className="img-fluid my-2" src={require('../../assets/AFIP/VEP/paso-2-VEP.webp')} alt="Paso 2 para generar mi VEP" title="paso 2 para generar mi VEP"/>
+                            <img className="img-fluid my-2" src={require('../../assets/AFIP//VEP/paso-2-VEP.webp')} alt="Paso 2 para generar mi VEP" title="paso 2 para generar mi VEP"/>
                         </div>
                     </li>
                     <li>

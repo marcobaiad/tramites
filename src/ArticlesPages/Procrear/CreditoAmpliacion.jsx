@@ -69,7 +69,7 @@ export default function CreditoAmpliacion() {
                     </div>
                 </div>
                 <h2 ref={titulo3}>¿Cómo iniciar el trámite?</h2>
-                Para iniciar el trámite se debe llenar el <a href="https://extranet.hipotecario.com.ar/ProCreAr/Ampliacion/datos-iniciales" target="_blank" rel="noopener noreferrer">formulario de inscripción</a>, se podrá incluir un/ cotitular, en caso de participantes con estado civil "cazado/a" el/la conyuge será registrado/a automaticamente como cotitular. <br/>
+                Para iniciar el trámite se debe llenar el <a href="https://extranet.hipotecario.com.ar/procrear/Ampliacion/datos-iniciales" target="_blank" rel="noopener noreferrer">formulario de inscripción</a>, se podrá incluir un/ cotitular, en caso de participantes con estado civil "cazado/a" el/la conyuge será registrado/a automaticamente como cotitular. <br/>
                 El cotitular deberá acreditar unión por alguo de los siguientes vinculos:
                 <ul className="my-2">
                     <li>Matrimonio</li>

@@ -94,10 +94,10 @@ export default function Procrear() {
                         <li>Mayor cuota a devolver</li>
                     </ul>
                 </div>
-                <Entrada tituloEntrada="Crédito para compra de Materiales para arreglos y terminaciones en la vivienda" textEntrada="El objetivo de este crédito es mejorar viviendas (filtraciones, instalaciones de gas, pintura, etc). Este tipo de crédito presenta un 24% de tasa de Interes Fija." linkEntrada="/Procrear/credito-personal-compra-materiales" />
-                <Entrada tituloEntrada="Crédito para Refacción de la Vivienda" textEntrada="El objetivo es mejorar las condiciones habitacionales (instalación de gas, sanitaria, eléctrica, etc.). Tasa de Interes fija del 24%." linkEntrada="/Procrear/credito-para-refaccion" />
-                <Entrada tituloEntrada="Crédito para Incremento de la Eficiencia Energética del Hogar" textEntrada="Éste crédito está orientado a realizar mejoras en la eficiencia energética del hogar, la seguridad y el confort térmico." linkEntrada="/Procrear/credito-hogar-sustentable" />
-                <Entrada tituloEntrada="Crédito para instalacion domiciliaria de gas de red" textEntrada="" linkEntrada="/Procrear/credito-para-mejora-gas" />
+                <Entrada tituloEntrada="Crédito para compra de Materiales para arreglos y terminaciones en la vivienda" textEntrada="El objetivo de este crédito es mejorar viviendas (filtraciones, instalaciones de gas, pintura, etc). Este tipo de crédito presenta un 24% de tasa de Interes Fija." linkEntrada="/procrear/credito-personal-compra-materiales" />
+                <Entrada tituloEntrada="Crédito para Refacción de la Vivienda" textEntrada="El objetivo es mejorar las condiciones habitacionales (instalación de gas, sanitaria, eléctrica, etc.). Tasa de Interes fija del 24%." linkEntrada="/procrear/credito-para-refaccion" />
+                <Entrada tituloEntrada="Crédito para Incremento de la Eficiencia Energética del Hogar" textEntrada="Éste crédito está orientado a realizar mejoras en la eficiencia energética del hogar, la seguridad y el confort térmico." linkEntrada="/procrear/credito-hogar-sustentable" />
+                <Entrada tituloEntrada="Crédito para instalacion domiciliaria de gas de red" textEntrada="" linkEntrada="/procrear/credito-para-mejora-gas" />
                 <h2 className="my-3" ref={titulo3}>Créditos Hipotecarios Procrear</h2>
                 <div class="alert alert-info border-primary col-12 col-md-10" role="alert">
                     <strong>Diferencia con Crédito Personal: </strong> <br/>
@@ -107,8 +107,8 @@ export default function Procrear() {
                         <li>Las cuotas son más bajas</li>
                     </ul>
                 </div>
-                <Entrada tituloEntrada="Crédito para construcción de Viviendas" textEntrada="El objetivo de éste crédito es la construccion de viviendas de no más de 60 m² (materiales y mano de obra)." linkEntrada="/Procrear/credito-para-construccion" />
-                <Entrada tituloEntrada="Crédito para Ampliacion de Viviendas" textEntrada="Ampliar viviendas por no más de 30 m²." linkEntrada="/Procrear/credito-para-ampliacion" />
+                <Entrada tituloEntrada="Crédito para construcción de Viviendas" textEntrada="El objetivo de éste crédito es la construccion de viviendas de no más de 60 m² (materiales y mano de obra)." linkEntrada="/procrear/credito-para-construccion" />
+                <Entrada tituloEntrada="Crédito para Ampliacion de Viviendas" textEntrada="Ampliar viviendas por no más de 30 m²." linkEntrada="/procrear/credito-para-ampliacion" />
                 <EntradaExt tituloEntrada="Crédito para Desarrollo Habitacionales" textEntrada="Posibilita el acceso a una vivienda dentro del plan Procrear." linkEntrada="https://www.argentina.gob.ar/habitat/procrear/desarrollos-habitacionales" />
                 <EntradaExt tituloEntrada="Crédito para desarrollo Urbanístico" textEntrada="El objetivo es brindar acceso a la compra de viviendas nuevas dentro del plan Procrear." linkEntrada="https://www.argentina.gob.ar/habitat/procrear/desarrollosurbanisticos" />
                 <EntradaExt tituloEntrada="Crédito para Lotes con servicios" textEntrada="Adquirir un terreno para la construcción de una vivienda." linkEntrada="https://www.argentina.gob.ar/habitat/procrear/lotesconservicios" />

@@ -86,7 +86,7 @@ export default function CreditoComMat() {
                     <li>Ser dueño o alquilar un inmueble que cuente con algún tipo de déficit cualitativo.</li>
                 </ul>
                 <h2 ref={titulo3}>¿Cómo iniciar el trámite?</h2>
-                Para iniciar el trámite se debe llenar el <a href="https://extranet.hipotecario.com.ar/ProCreAr/MejoramientoMateriales/datos-iniciales" target="_blank" rel="noopener noreferrer">formulario de inscripción</a>, se podrá incluir un/ cotitular, en caso de participantes con estado civil "cazado/a" el/la conyuge será registrado/a automaticamente como cotitular. <br/>
+                Para iniciar el trámite se debe llenar el <a href="https://extranet.hipotecario.com.ar/procrear/MejoramientoMateriales/datos-iniciales" target="_blank" rel="noopener noreferrer">formulario de inscripción</a>, se podrá incluir un/ cotitular, en caso de participantes con estado civil "cazado/a" el/la conyuge será registrado/a automaticamente como cotitular. <br/>
                 El cotitular deberá acreditar unión por alguo de los siguientes vinculos:
                 <ul>
                     <li>Matrimonio</li>

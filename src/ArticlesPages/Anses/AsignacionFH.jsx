@@ -64,7 +64,7 @@ export default function AsignacionFH() {
                 <li>En caso de hijo con discapacidad presentar la acreditación de discapacidad.</li>
             </ul>
             <h2 ref={titulo3}>¿Cómo inicio al trámite para cobrar SUAF?</h2>
-            Antes de iniciar el trámite, recordá que es necesario <a href="https://tramitero.com/Anses/sacar-turno">sacar turno</a> desde la página de ANSES.
+            Antes de iniciar el trámite, recordá que es necesario <a href="https://tramitero.com/anses/sacar-turno">sacar turno</a> desde la página de ANSES.
             <div className="alert alert-info" role="alert">
                 <strong>A tener en cuenta:</strong> Antes de iniciar el trámite, revisá si tus datos personales y vinculos familiares son correctos en MI ANSES.
             </div>

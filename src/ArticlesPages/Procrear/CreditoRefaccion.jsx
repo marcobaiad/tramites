@@ -122,9 +122,9 @@ export default function CreditoComMat() {
                 <h2 ref={titulo3}>¿Cómo iniciar el trámite?</h2>
                 Para iniciar el trámite se debe llenar el formulario según el monto a solicitar <br/>
                 <ul className="my-2">
-                    <li><a className="btn btn-primary my-2" href="https://extranet.hipotecario.com.ar/ProCreAr/MejoramientoRefaccion1/datos-iniciales" target="_blank" rel="noopener noreferrer">Inscripción $100.000</a></li>
-                    <li><a className="btn btn-primary my-2" href="https://extranet.hipotecario.com.ar/ProCreAr/MejoramientoRefaccion2/datos-iniciales" target="_blank" rel="noopener noreferrer">Inscripción $250.000</a></li>
-                    <li><a className="btn btn-primary my-2" href="https://extranet.hipotecario.com.ar/ProCreAr/MejoramientoRefaccion3/datos-iniciales" target="_blank" rel="noopener noreferrer">Inscripción $500.000</a></li>
+                    <li><a className="btn btn-primary my-2" href="https://extranet.hipotecario.com.ar/procrear/MejoramientoRefaccion1/datos-iniciales" target="_blank" rel="noopener noreferrer">Inscripción $100.000</a></li>
+                    <li><a className="btn btn-primary my-2" href="https://extranet.hipotecario.com.ar/procrear/MejoramientoRefaccion2/datos-iniciales" target="_blank" rel="noopener noreferrer">Inscripción $250.000</a></li>
+                    <li><a className="btn btn-primary my-2" href="https://extranet.hipotecario.com.ar/procrear/MejoramientoRefaccion3/datos-iniciales" target="_blank" rel="noopener noreferrer">Inscripción $500.000</a></li>
                 </ul>
                 Debés tener en cuenta que podrás incluir un/ cotitular. En caso de participantes con estado civil "cazado/a" el/la conyuge será registrado/a automaticamente como cotitular. <br/>
                 El cotitular deberá acreditar unión por alguo de los siguientes vinculos:

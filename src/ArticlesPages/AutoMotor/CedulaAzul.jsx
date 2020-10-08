@@ -62,7 +62,7 @@ export default function CedulaAzul() {
                 <div className="row justify-content-arround mx-0">
                     <p className="col-12 col-md-6">Previo a iniciar el trámite, deberás asegurarte de haber reunido toda la documentación necesaria y haber sacado turno desde la pagina oficinal de la <a href="https://www2.jus.gov.ar/dnrpa-site/#!/seleccionarTramite" target="_blank" rel="noopener noreferrer">DNRPA</a>.</p>
                     <div className="text-center col-12 col-md-6">
-                        Enterate como sacar el turno desde el siguiente botón <br /> <a href="https://tramitero.com/Automotor/turno-registro-automotor" target="_blank" rel="noopener noreferrer" className="btn btn-primary my-2">Turno Automotor</a>
+                        Enterate como sacar el turno desde el siguiente botón <br /> <a href="https://tramitero.com/automotor/turno-registro-automotor" target="_blank" rel="noopener noreferrer" className="btn btn-primary my-2">Turno Automotor</a>
                     </div>
                 </div>
                 <ol className="my-3">

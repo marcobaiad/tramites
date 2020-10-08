@@ -145,7 +145,7 @@ export default function CreditoComMat() {
                     <li>Ser dueño o alquilar un inmueble que cuente con algún tipo de déficit cualitativo.</li>
                 </ul>
                 <h2 ref={titulo4}>¿Cómo iniciar el trámite?</h2>
-                Para iniciar el trámite se debe llenar el formulario según el monto a solicitar <a href="https://extranet.hipotecario.com.ar/ProCreAr/ConexionesGas/datos-iniciales" target="_blank" rel="noopener noreferrer">Inscripción $100.000</a>
+                Para iniciar el trámite se debe llenar el formulario según el monto a solicitar <a href="https://extranet.hipotecario.com.ar/procrear/ConexionesGas/datos-iniciales" target="_blank" rel="noopener noreferrer">Inscripción $100.000</a>
                 Debés tener en cuenta que podrás incluir un/ cotitular. En caso de participantes con estado civil "cazado/a" el/la conyuge será registrado/a automaticamente como cotitular. <br/>
                 El cotitular deberá acreditar unión por alguo de los siguientes vinculos:
                 <ul>
