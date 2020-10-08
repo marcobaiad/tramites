@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17558736cc396dddb2fa9dc10c5ab555",
+    "revision": "8053738dfd96878e9a46a21e6a7d2aaf",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/3.a36ad7b0.chunk.css"
   },
   {
-    "revision": "50a2264f22a5395da2f4",
+    "revision": "286e235ba194ff9cb983",
     "url": "/static/css/main.c089a76a.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.257d45ca.chunk.js"
   },
   {
-    "revision": "50a2264f22a5395da2f4",
-    "url": "/static/js/main.d60dedc9.chunk.js"
+    "revision": "286e235ba194ff9cb983",
+    "url": "/static/js/main.dcae1272.chunk.js"
   },
   {
     "revision": "c0ace2b1c997551f4679",
@@ -108,8 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/paso 1.234dec5f.webp"
   },
   {
-    "revision": "9dca1478f844d1991d50e4d159db690d",
-    "url": "/static/media/paso 2 CETA 2.9dca1478.webp"
+    "revision": "8b2ddb971bfc9330590b98d504a345e7",
+    "url": "/static/media/paso 2 CETA 2.8b2ddb97.webp"
   },
   {
     "revision": "28b12c99b7da75cdb995c8a2a37d9739",
