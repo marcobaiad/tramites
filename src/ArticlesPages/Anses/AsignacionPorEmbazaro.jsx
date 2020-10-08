@@ -90,7 +90,7 @@ export default function AsignacionPorEmbazaro() {
                 
                 <h2 ref={titulo4}>¿Cómo realizar el trámite?</h2>
                 <div class="alert alert-info border-primary" role="alert">
-                    <strong>¡Atención! </strong> por la situación de aislamiento social, el trámite debe realizarse por <a href="" target="_blank" rel="noopener noreferrer">Atención Virtual</a> con clave de seguridad social.
+                    <strong>¡Atención! </strong> por la situación de aislamiento social, el trámite debe realizarse por <a href="https://servicioscorp.anses.gob.ar/clavelogon/logon.aspx?system=siexp2" target="_blank" rel="noopener noreferrer">Atención Virtual</a> con clave de seguridad social.
                 </div>
                 Una vez hayas ingresado con tu clave, los pasos son los siguientes:
                 <ol className="my-3">
