@@ -2,41 +2,29 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Relacionados(props) {
-    // const {  } = props;
+    const { tituloRel1, tituloRel2, tituloRel3, tituloRel4, textRel1, textRel2, textRel3, textRel4, pathToRel1, pathToRel2, pathToRel3, pathToRel4 } = props;
+
+    const ArtRel = (props) => {
+
+        const { tituloRel, textRel, pathToRel } = props
+
+        return(
+            <article className="card mx-2 my-2 border-info">
+                <Link className="text-decoration-none text-dark" target="_blank" to={pathToRel} >
+                    <div class="card-body">
+                        <h4 class="card-title">{tituloRel}</h4>
+                        <p class="card-text">{textRel}</p>
+                    </div>
+                </Link>
+            </article>
+        )
+    }
     return (
         <>
-            <article className="card mx-2 my-2 border-info">
-                <Link className="text-decoration-none text-dark" to="/anses/seguro-de-desempleo" >
-                    <div class="card-body">
-                        <h4 class="card-title">Fondo de Desempleo</h4>
-                        <p class="card-text">¿Cómo acceder al Fondo de Desempleo? ¿Cuanto cobró de Fondo de Desempleo? Entrá y enterate como acceder a esta prestación.</p>
-                    </div>
-                </Link>
-            </article>
-            <article className="card mx-2 my-2 border-info">
-                <Link className="text-decoration-none text-dark" to="/anses/tarjeta-alimentaria" >
-                    <div class="card-body">
-                        <h4 class="card-title">Tarjeta Alimentaria</h4>
-                        <p class="card-text">¿A quien le corresponde? ¿Cómo saber el saldo de mi Tarjeta Alimentar? Esto y mucho más podrás encontrar acá en Ttramitero.com.</p>
-                    </div>
-                </Link>
-            </article>
-            <article className="card mx-2 my-2 border-info">
-                <Link className="text-decoration-none text-dark" to="/anses/prestamos-AHU-y-SUAF" >
-                    <div class="card-body">
-                        <h4 class="card-title">Préstamo Anses para Asignaciones</h4>
-                        <p class="card-text">¿Cuáles son los requisitos? ¿Como acceder al Crédito ANSES AHU Y SUAF?.</p>
-                    </div>
-                </Link>
-            </article>
-            <article className="card mx-2 my-2 border-info">
-                <Link className="text-decoration-none text-dark" to="/anses/prestamos-Jubilados-y-Pensionados" >
-                    <div class="card-body">
-                        <h4 class="card-title">Préstamo para Jubilados y Pensionados </h4>
-                        <p class="card-text">¿Qué documentación necesito? ¿Cómo realizar el trámite? Con nuestra guía super sencilla, te ayudamos a sacar el crédito ANSES.</p>
-                    </div>
-                </Link>
-            </article>
+            { tituloRel1 && <ArtRel tituloRel={tituloRel1} textRel={textRel1} pathToRel={pathToRel1} />}
+            { tituloRel2 && <ArtRel tituloRel={tituloRel2} textRel={textRel2} pathToRel={pathToRel2} />}
+            { tituloRel3 && <ArtRel tituloRel={tituloRel3} textRel={textRel3} pathToRel={pathToRel3} />}
+            { tituloRel4 && <ArtRel tituloRel={tituloRel4} textRel={textRel4} pathToRel={pathToRel4} />}
         </>
     );
 }

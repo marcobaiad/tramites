@@ -2,6 +2,7 @@ import React from 'react';
 import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 import Indice from '../../components/Indice';
+import Relacionados from '../../components/Relacionados';
 
 export default function ClaveFiscal() {
     
@@ -117,7 +118,14 @@ export default function ClaveFiscal() {
            <h2 ref={titulo6}>¿Como elevar el nivel de clave?</h2>
            Si ya dispones de una clave fiscal pero necesitas una de mayor nivel, podrás realizar la operación desde la app <strong>MI AFIP</strong> en la sección de herramientas la en la opción Solicitud y/o recupero de Clave. <br/>
            En caso de querer hacerlo de forma personal, podrás elevar tu clave de dos formas: deberás asistir a uno de los puestos de autogestión de blanqueo de clave fiscal con identificación de huella digital. O en su defecto asistir a una dependencia de AFIP (previo debés hacer sacado un turno) y presentar el <strong><a href="https://www.argentina.gob.ar/sites/default/files/formulario-206m.pdf" target="_blank" rel="noopener noreferrer">F. 206/M - Multinota</a></strong>. <br/>
-           En caso de querer una clave de nivel 4 es necesario realizar los pasos mencionados <div className="btn btn-link px-0 mx-0 my-0 pt-0 pb-2" onClick={() => titulo5.current.scrollIntoView()}>aquí</div>
+           En caso de querer una clave de nivel 4 es necesario realizar los pasos mencionados <div className="btn btn-link px-0 mx-0 my-0 pt-0 pb-2" onClick={() => titulo5.current.scrollIntoView()}>aquí</div> <br/>
+           <h5 className="font-weight-bold my-4">Temas Relacionados</h5>
+            <Relacionados 
+                tituloRel1="Factura Electrónica" textRel1="¿Cómo habilitar la emisión de Factura Electrónica? ¿Cuáles son los requisitos? ¿Qué documentación necesito?" pathToRel1="/afip/factura-electronica" 
+                tituloRel2="Generar VEP de AFIP" textRel2="¿Cómo generar el VEP? ¿Como pagar mi VEP? Entrá y enterate como pagar tu VEP por HomeBanking" pathToRel2="/afip/generar-vep" 
+                tituloRel3="Inscripción al Monotributo" textRel3="¿Cúales son las categorías del monotributo? ¿Cómo ser monotributista? ¿Que obra social puedo elegir? Entrá ahora." pathToRel3="/afip/Inscripcion-monotributo" 
+                tituloRel4="¿Cómo sacar turno en AFIP?" textRel4="Entrá y corroborá como sacar turno en afip para cualquier trámite." pathToRel4="/afip/turnos-afip" 
+            />
         </>}
         />
     )

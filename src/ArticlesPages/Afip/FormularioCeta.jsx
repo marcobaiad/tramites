@@ -1,7 +1,9 @@
 import React, { Suspense } from 'react';
-import Indice from '../../components/Indice';
 import MainDiv from '../../components/MainDiv';
-import Helmet from '../../components/Helmet'; 
+import Helmet from '../../components/Helmet';
+
+const Indice = React.lazy(() => import('../../components/Indice'));
+const Relacionados = React.lazy(() => import('../../components/Relacionados'));
 
 const FormularioCeta = () => {
 
@@ -50,9 +52,11 @@ const FormularioCeta = () => {
                 </div>
             </div>
             <p>El <strong>Certificado de Transferencia de Automotores</strong>, es un formulario de <a href="https://afip.gob.ar" target="_blank" rel="noopener noreferrer">AFIP</a> que se necesita a la hora de hacer la transferencia de un auto. <strong ref={titulo5}>¿Quien tiene que hacer el formulario CETA?</strong> El vendendor es el que deberá tramitar este certificado. Están alcanzadas: personas humanas, las suceciones indivisas (herederos) y personas jurídicas, que recidan en el país o en el exterior y quieran realizar la transferencia parcial o total de su dominio.</p>
-            <Suspense fallback={<div className="spinner-border text-primary" role="status">
-                        <span className="sr-only">Cargando...</span>
-                    </div>}>
+            <Suspense fallback={
+                <div className="spinner-border text-primary" role="status">
+                    <span className="sr-only">Cargando...</span>
+                </div>}
+            >
                 <Indice 
                     description1="¿Cuándo es necesario sacar el Formulario?" 
                     description2="¿Cómo se hace el formulario Z en 2020?"
@@ -289,6 +293,19 @@ const FormularioCeta = () => {
                     </div>
                 }
             </div> */}
+            <h5 className="my-4 font-weight-bold">Temas Relacionados</h5>
+            <Suspense fallback={
+                <div className="spinner-border text-primary" role="status">
+                    <span className="sr-only">Cargando...</span>
+                </div>
+            }>
+                <Relacionados 
+                    tituloRel1="Cédula Azul" textRel1="¿Cómo sacar la Cédula Azul? ¿Cuáles son los requisitos? ¿Qué documentación necesito?" pathToRel1="/automotor/tramite-cedula-azul" 
+                    tituloRel2="Patentar un Auto 0km" textRel2="¿Cómo Patentar un Auto en 0km 2020? ¿Cómo realizar el trámite? Entrá y enterate como se hace" pathToRel2="/automotor/patentamiento-automotor" 
+                    tituloRel3="Duplicado Titulo Automotor" textRel3="¿Cómo sacar el duplicado del titulo automtor? ¿Te robaron o perdiste el tutilo de tu auto? Entrá y enterate como sacarlo de nuevo." pathToRel3="/automotor/titulo-automotor" 
+                    tituloRel4="¿Cómo sacar turno en el Automotor?" textRel4="Entrá y corroborá como sacar turno en el Registro Automotor para cualquier trámite." pathToRel4="/automotor/turno-registro-automotor" 
+                />
+            </Suspense>
         </>}
         />
     )

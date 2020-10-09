@@ -20,7 +20,12 @@ function CuartoIFE() {
                 <br/> Dejamos conocer que pensas en los comentarios de Facebook.
                 <div>
                 <h4 className="my-3">Temas Relacionados</h4>
-                <Relacionados />
+                <Relacionados 
+                    tituloRel1="Fondo de Desempleo" textRel1="¿Cómo acceder al Fondo de Desempleo? ¿Cuanto cobró de Fondo de Desempleo? Entrá y enterate como acceder a esta prestación." pathToRel1="/anses/seguro-de-desempleo" 
+                    tituloRel2="Tarjeta Alimentaria" textRel2="¿A quien le corresponde? ¿Cómo saber el saldo de mi Tarjeta Alimentar? Esto y mucho más podrás encontrar acá en Ttramitero.com." pathToRel2="/anses/tarjeta-alimentaria"
+                    tituloRel3="Préstamo Anses para Asignaciones" textRel3="¿Cuáles son los requisitos? ¿Como acceder al Crédito ANSES AHU Y SUAF?" pathToRel3="/anses/prestamos-AHU-y-SUAF"
+                    tituloRel4="Préstamo para Jubilados y Pensionados" textRel4="¿Qué documentación necesito? ¿Cómo realizar el trámite? Con nuestra guía super sencilla, te ayudamos a sacar el crédito ANSES." pathToRel4="/anses/prestamos-Jubilados-y-Pensionados"
+                />
                 </div>
             </>
         } />

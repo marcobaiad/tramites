@@ -3,6 +3,7 @@ import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
 const Indice = React.lazy(() => import('../../components/Indice'));
+const Relacionados = React.lazy(() => import('../../components/Relacionados'));
 
 export default function InscripcionMonotributo() {
 
@@ -154,6 +155,19 @@ export default function InscripcionMonotributo() {
                 <li>Regimen Simplificado Especial</li>
                 <li>Monotributo Simplificado</li>
             </ol> 
+            <h5 className="my-4 font-weight-bold">Temas Relacionados</h5>
+            <Suspense fallback={
+            <div className="spinner-border text-primary" role="status">
+                <span className="sr-only">Cargando...</span>
+            </div>
+            }>
+                <Relacionados 
+                    tituloRel1="Clave Fiscal" textRel1="¿Cómo sacar Clave Fiscal nivel 3? ¿Cuáles son los requisitos? ¿Qué documentación necesito?" pathToRel1="/afip/clave-fiscal" 
+                    tituloRel2="Generar VEP de AFIP" textRel2="¿Cómo generar el VEP? ¿Como pagar mi VEP? Entrá y enterate como pagar tu VEP por HomeBanking" pathToRel2="/afip/generar-vep" 
+                    tituloRel3="Factura Electrónica" textRel3="¿Cómo emitir Factura Electrónica? ¿Qué necesito? ¿Cómo habilitar los punto de ventas? Entrá ahora y enterate como." pathToRel3="/afip/factura-electrónica" 
+                    tituloRel4="¿Cómo sacar turno en AFIP?" textRel4="Entrá y corroborá como sacar turno en afip para cualquier trámite." pathToRel4="/afip/turnos-afip" 
+                />
+            </Suspense>
         </>
         }/>
     )

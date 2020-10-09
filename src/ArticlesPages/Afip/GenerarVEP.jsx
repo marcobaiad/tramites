@@ -3,6 +3,7 @@ import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
 const Indice = React.lazy(() => import('../../components/Indice'));
+const Relacionados = React.lazy(() => import('../../components/Relacionados'));
 
 export default function GenerarVEP() {
 
@@ -89,7 +90,19 @@ export default function GenerarVEP() {
                         Elegí el medio de pago para realizar el pago y listo.
                     </li>
                 </ol>
-
+            <h5 className="my-4 font-weight-bold">Temas Relacionados</h5>
+            <Suspense fallback={
+            <div className="spinner-border text-primary" role="status">
+                <span className="sr-only">Cargando...</span>
+            </div>
+            }>
+                <Relacionados 
+                    tituloRel1="Inscripción al Monotributo" textRel1="¿Cómo inscribirme en el monotributo? ¿Cuáles son los requisitos? ¿Qué documentación necesito? Entrá y enterate todo" pathToRel1="/afip/inscripcion-monotributo" 
+                    tituloRel2="Habilitar emisión de Factura Electrónica" textRel2="¿Cómo habilitar la factura electrónica en 2020? ¿Cuáles son los pasos? Entrá y enterate como se hace" pathToRel2="/afip/factura-electronica" 
+                    tituloRel3="Clave Fiscal Nivel 3 (y todos los niveles)" textRel3="¿Cómo sacar el mi clave fiscal? ¿Que puedo hacer con cada nivel? Entrá y enterate como sacar tu clave ahora." pathToRel3="/afip/clave-fiscal" 
+                    tituloRel4="¿Cómo sacar turno en AFIP?" textRel4="Entrá y corroborá como sacar turno en AFIP para cualquier trámite." pathToRel4="/afip/turno-afip" 
+                />
+            </Suspense>
             </>
 
         }/>
