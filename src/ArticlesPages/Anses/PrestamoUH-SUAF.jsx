@@ -86,7 +86,7 @@ export default function AuhSuaf() {
             </div>
             }>
                 <Relacionados 
-                    tituloRel1="Crédito ANSES para Jubilados y Pensionados" textRel1="¿Cómo acceder al crédito ANSES para Jubilados y Pensionados? ¿Cuáles son los requisitos? ¿Qué documentación necesito?" pathToRel1="/anses/prestamo-jubilados-y-pensionadossionados" 
+                    tituloRel1="Crédito ANSES para Jubilados y Pensionados" textRel1="¿Cómo acceder al crédito ANSES para Jubilados y Pensionados? ¿Cuáles son los requisitos? ¿Qué documentación necesito?" pathToRel1="/anses/prestamo-jubilados-y-pensionados" 
                     tituloRel2="Crédito ANSES para Pensión no Contributiva" textRel2="¿Cómo realizar el trámite? ¿Qué documentación necesito?" pathToRel2="/anses/prestamo-pension-no-contributiva" 
                     tituloRel3="Fondo de Desempleo" textRel3="¿Cómo cobrar Fondo de Desempleo? ¿Cómo realizar el trámite? ¿A quien le corresponde? Entrá ahora y enterate todo sobre el Fondo de Desempleo." pathToRel3="/anses/seguro-de-desempleo" 
                     tituloRel4="Tarjeta Alimentaria ANSES" textRel4="¿A quien le corresponde la Tarjeta Alimentaria? ¿Cómo hacer el trámite? Entrá y corroborá como solicitar tu tarjeta." pathToRel4="/anses/tarjeta-alimentaria" 

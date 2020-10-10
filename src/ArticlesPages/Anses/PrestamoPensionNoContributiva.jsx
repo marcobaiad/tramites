@@ -85,7 +85,7 @@ export default function JubiladosPensionados() {
             </div>
             }>
                 <Relacionados 
-                    tituloRel1="Crédito ANSES para Jubilados y Pensionados" textRel1="¿Cómo acceder al crédito ANSES para Jubilados y Pensionados? ¿Cuáles son los requisitos? ¿Qué documentación necesito?" pathToRel1="/anses/prestamo-jubilados-y-pensionadossionados" 
+                    tituloRel1="Crédito ANSES para Jubilados y Pensionados" textRel1="¿Cómo acceder al crédito ANSES para Jubilados y Pensionados? ¿Cuáles son los requisitos? ¿Qué documentación necesito?" pathToRel1="/anses/prestamo-jubilados-y-pensionados" 
                     tituloRel2="Crédito ANSES para Pensión no Contributiva" textRel2="¿Cómo realizar el trámite? ¿Qué documentación necesito?" pathToRel2="/anses/prestamo-pension-no-contributiva" 
                     tituloRel3="Prestamo Pensión Universal por Vejez" textRel3="¿Cómo acceder al crédito para Pensión Universal? ¿Cómo realizar el trámite? Entrá ahora y enterate todo el préstamo para pensión universal." pathToRel3="/anses/prestamo-pension-universal-por-vejez" 
                     tituloRel4="Tarjeta Alimentaria ANSES" textRel4="¿A quien le corresponde la Tarjeta Alimentaria? ¿Cómo hacer el trámite? Entrá y corroborá como solicitar tu tarjeta." pathToRel4="/anses/tarjeta-alimentaria" 
