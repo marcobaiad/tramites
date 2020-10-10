@@ -64,7 +64,7 @@ export default function App() {
     <>
       <Route component={Header} />
       <Switch>
-        <Route path='/noticias/Cuarto-IFE' exact={true} component={CuartoIFE} />
+        <Route path='/noticias/Cuarto-ife' exact={true} component={CuartoIFE} />
         <Route path='/procrear/credito-para-construccion' exact={true} component={CreditoConstruccion} />
         <Route path='/procrear/credito-para-ampliacion' exact={true} component={CreditoAmpliacion} />
         <Route path='/procrear/credito-para-mejora-gas' exact={true} component={CreditoMejoraGas} />
@@ -91,12 +91,12 @@ export default function App() {
         <Route path='/anses/asignacion-por-embarazo' exact={true} component={AsignacionPorEmbarazo} />
         <Route path='/anses/asignacion-familiar-por-hijo' exact={true} component={AsignacionFH} />
         <Route path='/anses/asignacion-universal-por-hijo' exact={true} component={AsignacionUH} />
-        <Route path='/anses/prestamos-jubilados-y-pensionados' exact={true} component={JubiladosPensionados} />
-        <Route path='/anses/prestamos-AUH-y-SUAF' exact={true} component={PrestamoUHSUAF} />
-        <Route path='/anses/prestamos-pension-no-contributiva' exact={true} component={PrestamoPensionNoContributiva} />
-        <Route path='/anses/prestamos-pension-universal-por-vejez' exact={true} component={PrestamoPensionUniversal} />
+        <Route path='/anses/prestamo-jubilados-y-pensionados' exact={true} component={JubiladosPensionados} />
+        <Route path='/anses/prestamo-auh-y-suaf' exact={true} component={PrestamoUHSUAF} />
+        <Route path='/anses/prestamo-pension-no-contributiva' exact={true} component={PrestamoPensionNoContributiva} />
+        <Route path='/anses/prestamo-pension-universal-por-vejez' exact={true} component={PrestamoPensionUniversal} />
         <Route path='/afip/turnos-afip' exact={true} component={TurnoAfip} />
-        <Route path='/afip/Inscripcion-monotributo' exact={true} component={InscripcionMonotributo} />
+        <Route path='/afip/inscripcion-monotributo' exact={true} component={InscripcionMonotributo} />
         <Route path='/afip/generar-vep' exact={true} component={GenerarVEP} />
         <Route path='/afip/factura-electronica' exact={true} component={FacturaElectronica} />
         <Route path='/afip/formulario-ceta' exact={true} component={FormularioCeta} />

@@ -3,6 +3,7 @@ import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
 const Indice = React.lazy(() => import('../../components/Indice'));
+const Relacionados = React.lazy(() => import('../../components/Relacionados'));
 
 export default function AUH() {
 
@@ -127,6 +128,19 @@ export default function AUH() {
             <div className="text-center">
                 <a href="https://www.anses.gob.ar/sites/default/files/cartilla/2020-09/Montos%20AAFF%20Septiembre%202020.pdf" className="btn btn-primary my-3" target="_blank" rel="noopener noreferrer">Monto Asignaciones</a>
             </div>
+            <h5 className="my-4 font-weight-bold">Temas Relacionados</h5>
+            <Suspense fallback={
+            <div className="spinner-border text-primary" role="status">
+                <span className="sr-only">Cargando...</span>
+            </div>
+            }>
+                <Relacionados 
+                    tituloRel1="Crédito ANSES para AHU y SUAF" textRel1="¿Cómo sacar el crédito ANSES para asignación Familiar/Universal por Hijo? ¿Cuáles son los requisitos? ¿Qué documentación necesito?" pathToRel1="/anses/prestamo-auh-y-suaf" 
+                    tituloRel2="Asignación Universal Por Hijo" textRel2="¿Cómo cobrar Asignación Universal por Hijo? ¿Qué documentación necesito? ¿Cómo hacer el trámite?" pathToRel2="/anses/asignacion-universal-por-hijo" 
+                    tituloRel3="Fondo de Desempleo" textRel3="¿Cuando me corresponde Fondo de Desempleo? ¿Cuánto me corresponde cobrar? Entrá ahora y enterate todo sobre el Fondo de Desempleo." pathToRel3="/anses/seguro-de-desempleo" 
+                    tituloRel4="Tarjeta Alimentaria ANSES" textRel4="¿A quien le corresponde la Tarjeta Alimentaria? ¿Cómo hacer el trámite? Entrá y corroborá como solicitar tu tarjeta." pathToRel4="/anses/tarjeta-alimentaria" 
+                />
+            </Suspense>
         </>
         }
         />

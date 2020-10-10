@@ -2,15 +2,13 @@ import React from 'react';
 
 export default function SeccionHome(props) {
     
-    const {titleSeccion, firstText, id, entradas } = props
+    const { id, entradas } = props
 
     return(
-        <section key={id} id={id} className="my-3">
-            <h2>{titleSeccion}</h2>
-            <p>{firstText}</p>
+        <div key={id} id={id} className="my-3">
             <div className="row mx-0 flex-wrap justify-content-start">
                 {entradas}
             </div>
-        </section>
+        </div>
     )
 }

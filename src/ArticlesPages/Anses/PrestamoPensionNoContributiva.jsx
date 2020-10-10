@@ -3,6 +3,7 @@ import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
 const Indice = React.lazy(() => import('../../components/Indice'));
+const Relacionados = React.lazy(() => import('../../components/Relacionados'));
 
 export default function JubiladosPensionados() {
 
@@ -78,6 +79,18 @@ export default function JubiladosPensionados() {
             <div className="alert alert-info border-primary" role="alert">
                 <strong>A tener en cuenta:</strong> ANSES aclara que si no recibe el dinero luego de los 5 días hábiles estipulados, puede deberse a una demora por la alta demanda de estos créditos. <br/> En caso de haber pasado 10 días hábiles (2 semanas) y aún no haber recibido el crédito es conveniente realizar el reclamo vía Mi ANSES o en forma telefónica/presencial.
             </div>
+            <Suspense fallback={
+            <div className="spinner-border text-primary" role="status">
+                <span className="sr-only">Cargando...</span>
+            </div>
+            }>
+                <Relacionados 
+                    tituloRel1="Crédito ANSES para Jubilados y Pensionados" textRel1="¿Cómo acceder al crédito ANSES para Jubilados y Pensionados? ¿Cuáles son los requisitos? ¿Qué documentación necesito?" pathToRel1="/anses/prestamo-jubilados-y-pensionadossionados" 
+                    tituloRel2="Crédito ANSES para Pensión no Contributiva" textRel2="¿Cómo realizar el trámite? ¿Qué documentación necesito?" pathToRel2="/anses/prestamo-pension-no-contributiva" 
+                    tituloRel3="Prestamo Pensión Universal por Vejez" textRel3="¿Cómo acceder al crédito para Pensión Universal? ¿Cómo realizar el trámite? Entrá ahora y enterate todo el préstamo para pensión universal." pathToRel3="/anses/prestamo-pension-universal-por-vejez" 
+                    tituloRel4="Tarjeta Alimentaria ANSES" textRel4="¿A quien le corresponde la Tarjeta Alimentaria? ¿Cómo hacer el trámite? Entrá y corroborá como solicitar tu tarjeta." pathToRel4="/anses/tarjeta-alimentaria" 
+                />
+            </Suspense>
         </>}
         />
     )

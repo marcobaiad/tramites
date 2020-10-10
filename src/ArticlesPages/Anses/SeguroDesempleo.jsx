@@ -3,6 +3,7 @@ import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
 const Indice = React.lazy(() => import('../../components/Indice'));
+const Relacionados = React.lazy(() => import('../../components/Relacionados'));
 
 export default function SeguroDesempleo() {
 
@@ -85,6 +86,18 @@ export default function SeguroDesempleo() {
                 <li>Una vez ingreses deberás elegir la opción "Solicitar la Prestación por Desempleo"</li>
                 <li>Adjuntar datos y confirmar</li>
             </ol>
+            <Suspense fallback={
+            <div className="spinner-border text-primary" role="status">
+                <span className="sr-only">Cargando...</span>
+            </div>
+            }>
+                <Relacionados 
+                    tituloRel1="Asignación Universal por Hijo" textRel1="¿A quien le corresponde AUH? ¿Cuáles son los requisitos? ¿Cómo realizar el trámite?" pathToRel1="/anses/asignacion-universal-por-hijo" 
+                    tituloRel2="Asignación Familiar por Hijo" textRel2="¿Cómo realizar el trámite? ¿Qué documentación necesito? ¿Cuanto cobro?" pathToRel2="/anses/asignacion-familiar-por-hijo" 
+                    tituloRel3="IFE: Ingreso Familiar de Emergencia" textRel3="¿A quien le corresponde? ¿Cómo realizar el trámite? Entrá ahora y enterate todo sobre el IFE." pathToRel3="/anses/ingreso-familiar-de-emergenia" 
+                    tituloRel4="Tarjeta Alimentaria ANSES" textRel4="¿A quien le corresponde la Tarjeta Alimentaria? ¿Cómo hacer el trámite? Entrá y corroborá como solicitar tu tarjeta." pathToRel4="/anses/tarjeta-alimentaria" 
+                />
+            </Suspense>
         </>}
         />
     )

@@ -3,7 +3,7 @@ import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
 const Indice = React.lazy(() => import('../../components/Indice'));
-
+const Relacionados = React.lazy(() => import('../../components/Relacionados'));
 const imgMontoAsignaciones = require('../../assets/Anses/Creditos/montoasignaciones.webp')
 
 export default function AuhSuaf() {
@@ -80,6 +80,18 @@ export default function AuhSuaf() {
                 <strong>A tener en cuenta:</strong> la cuota del crédito <strong>NO</strong> puede superar el 20% de tu ingreso mensual.
             </div>
             <img className="img-fluid" src={imgMontoAsignaciones} alt="Tabla de monto y cuotas para crédito ANSES para AUH y SUAF" title="Tabla de monto y cuotas para crédito ANSES para AUH y SUAF"/>
+            <Suspense fallback={
+            <div className="spinner-border text-primary" role="status">
+                <span className="sr-only">Cargando...</span>
+            </div>
+            }>
+                <Relacionados 
+                    tituloRel1="Crédito ANSES para Jubilados y Pensionados" textRel1="¿Cómo acceder al crédito ANSES para Jubilados y Pensionados? ¿Cuáles son los requisitos? ¿Qué documentación necesito?" pathToRel1="/anses/prestamo-jubilados-y-pensionadossionados" 
+                    tituloRel2="Crédito ANSES para Pensión no Contributiva" textRel2="¿Cómo realizar el trámite? ¿Qué documentación necesito?" pathToRel2="/anses/prestamo-pension-no-contributiva" 
+                    tituloRel3="Fondo de Desempleo" textRel3="¿Cómo cobrar Fondo de Desempleo? ¿Cómo realizar el trámite? ¿A quien le corresponde? Entrá ahora y enterate todo sobre el Fondo de Desempleo." pathToRel3="/anses/seguro-de-desempleo" 
+                    tituloRel4="Tarjeta Alimentaria ANSES" textRel4="¿A quien le corresponde la Tarjeta Alimentaria? ¿Cómo hacer el trámite? Entrá y corroborá como solicitar tu tarjeta." pathToRel4="/anses/tarjeta-alimentaria" 
+                />
+            </Suspense>
         </>}
         />
     )

@@ -3,6 +3,7 @@ import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
 const Indice = React.lazy(() => import('../../components/Indice'));
+const Relacionados = React.lazy(() => import('../../components/Relacionados'));
 
 export default function AsignacionPorEmbazaro() {
 
@@ -80,6 +81,19 @@ export default function AsignacionPorEmbazaro() {
                     <li>Ingresá  número de CUIL de la persona que va a realizar el trámite y presioná el botón CONTINUAR para que el turno sea asignado.</li>
                     <li>Solo resta presentar toda la documentación requerida el día asígnado y eso es todo.</li>
                 </ol>
+                <h5 className="my-4 font-weight-bold">Temas Relacionados</h5>
+                <Suspense fallback={
+                <div className="spinner-border text-primary" role="status">
+                    <span className="sr-only">Cargando...</span>
+                </div>
+                }>
+                    <Relacionados 
+                        tituloRel1="Crédito ANSES para AHU y SUAF" textRel1="¿Cómo sacar el crédito ANSES para asignación Familiar por Hijo? ¿Cuáles son los requisitos? ¿Qué documentación necesito?" pathToRel1="/anses/prestamo-auh-y-suaf" 
+                        tituloRel2="Asignación Familiar Por Hijo" textRel2="¿Cómo cobrar Asignación Familiar por Hijo? ¿Qué documentación necesito? ¿Cómo hacer el trámite?" pathToRel2="/anses/asignacion-familiar-por-hijo" 
+                        tituloRel3="Fondo de Desempleo" textRel3="¿Cuando me corresponde Fondo de Desempleo? ¿Cuánto me corresponde cobrar? Entrá ahora y enterate todo sobre el Fondo de Desempleo." pathToRel3="/anses/seguro-de-desempleo" 
+                        tituloRel4="Tarjeta Alimentaria ANSES" textRel4="¿A quien le corresponde la Tarjeta Alimentaria? ¿Cómo hacer el trámite? Entrá y corroborá como solicitar tu tarjeta." pathToRel4="/anses/tarjeta-alimentaria" 
+                    />
+                </Suspense>
             </>
         }/>
     );

@@ -1,11 +1,11 @@
 const posts = {
         Anses: [{
-            pathPost: "/anses/prestamos-Jubilados-y-Pensionados",
+            pathPost: "/anses/prestamo-jubilados-y-pensionadossionados",
             titleCard: "Prestamos para Jubilados y Pensionados",
             textLink: "Prestamo Jubilados y Pensionados",
             textCard: "El crédito ANSES para jubilados y pensionados: es una linea de créditos a tasa fija, mucho menor a la de cualquier banco del país. Una vez aceptada la solicitud del mismo será acreditado por cuenta bancaria en un plazo no mayor a 5 días hábiles. El sistema de amortización, es el sistema frances. Si estás interesado en pedir un prestamo, la primera opción a evaluar debería ser esta",
         }, {
-            pathPost: "/anses/prestamos-AUH-y-SUAF",
+            pathPost: "/anses/prestamo-auh-y-suaf",
             titleCard: "Anses Prestamos AUH y SUAF",
             textLink: "Prestamos AUH y SUAF",
             textCard: "El préstamo ANSES para asignación universal por hijo y asignación familiar por hijo: es una linea de créditos a tasa fija, mucho menor a la de cualquier banco del país. Una vez aceptada la solicitud del mismo será acreditado por cuenta bancaria en un plazo no mayor a 5 días hábiles. El sistema de amortización, es el sistema frances. Si estás interesado en pedir un prestamo y cumplís con los requisitos, la primera opción a evaluar debería ser esta.",
