@@ -1,0 +1,2 @@
+(this.webpackJsonptramites=this.webpackJsonptramites||[]).push([[4],{72:function(t,e,a){"use strict";a.r(e),a.d(e,"default",(function(){return s}));var n=a(0),r=a.n(n);function s(t){var e=t.id,a=t.entradas;return r.a.createElement("div",{key:e,id:e,className:"my-3"},r.a.createElement("div",{className:"row mx-0 flex-wrap justify-content-start"},a))}}}]);
+//# sourceMappingURL=4.6456c68f.chunk.js.map
