@@ -35,7 +35,7 @@ const posts = {
             textLink: "IFE",
             textCard: "El IFE es un bono mensual de $10000 anunciado por el Gobierto Argentino de Alberto Fernandez como medida preventiva al contexto historico acontecido este 2020. Con esta ayuda de ANSES, el gobierto busca alcanzar a no menos de 8 millones de Argentinos, para ayudarlos en el marco de la pandemia",
         }, {
-            pathPost: "/Procrear",
+            pathPost: "/procrear",
             titleCard: "Todo sobre el ProCreAr",
             textLink: "ProCreAr",
             textCard: "Requisitos para acceder a los créditos del Procrear en 2020. Construscción, Refacción, Ampliación, Desarrollo Urbanistico, Sustentabilidad, Gas, etc. ¿Cómo inscribirse y acceder a los créditos del ProCreAr? Entrá ahora y enterate como se hace.",
@@ -126,7 +126,7 @@ const posts = {
             textCard: "La Cédula Azul es el permiso que se debe trámitar para autorizar a otras personas a conducir un vehículo ajeno. En caso de disponer de esta cédula, no será necesario que la persona autorizada lleve la tarjeta verde del titular. El objetivo de este permiso, es ayudar a mejorar la seguridad vial mediante la identificación de las personas que manejan un rodado y restringir la utilización de vehiculos solo a los individuos que estén autorizados por le propietario.",
         }],
         Noticias: [{
-            pathPost: "/Noticias/cuarto-IFE",
+            pathPost: "/Noticias/cuarto-ife",
             titleCard: "Cuarto IFE ¿En duda el pago del 4to IFE?",
             textLink: "¿Se pagará el 4to IFE?",
             textCard: '"Estamos evaluando si existe un cuarto pago del IFE o vamos a construir otras políticas sociales de acompañamiento con otras perspectivas", explicó Fernanda Raverta. Teniendo en cuenta que la fecha de cobro de las asignaciones ya están dadas, ¿Creés que se va a pagar el 4to IFE?',
