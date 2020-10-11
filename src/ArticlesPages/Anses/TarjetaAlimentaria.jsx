@@ -12,6 +12,10 @@ export default function TarjetaAlimentaria() {
     const titulo4 = React.useRef(null);
     const titulo5 = React.useRef(null);
 
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+    
     return(
         <MainDiv page={
         <>

@@ -15,20 +15,24 @@ export default function HomePage() {
     const [postRenaper, setPostRenaper] = useState([]);
 
     const DataPost = () => {
-        const postDataAnses = posts.Anses.map(a => <CardArticle CardArticlesData={a} />)
+        const filterAnses = posts.Anses.filter(entrue => entrue.showHome == true);
+        const filterAfip = posts.Afip.filter(entrue => entrue.showHome == true);
+        const filterAutomotor = posts.Automotor.filter(entrue => entrue.showHome == true);
+        const filterRenaper = posts.Renaper.filter(entrue => entrue.showHome == true);
+        const postDataAnses = filterAnses.map(a => <CardArticle CardArticlesData={a} />)
         setPostAnses(postDataAnses)
-        const postDataAfip = posts.Afip.map(a => <CardArticle CardArticlesData={a} />)
+        const postDataAfip = filterAfip.map(a => <CardArticle CardArticlesData={a} />)
         setPostAfip(postDataAfip)
-        const postDataRenaper = posts.Renaper.map(a => <CardArticle CardArticlesData={a} />)
+        const postDataRenaper = filterRenaper.map(a => <CardArticle CardArticlesData={a} />)
         setPostRenaper(postDataRenaper)
-        const postDataAutomotor = posts.Automotor.map(a => <CardArticle CardArticlesData={a} />)
+        const postDataAutomotor = filterAutomotor.map(a => <CardArticle CardArticlesData={a} />)
         setPostAutomotor(postDataAutomotor)
     }
-
+    
     useEffect(() => {
         DataPost();
     }, [])
-
+    
     return (
         <MainDiv page={
             <>

@@ -26,8 +26,9 @@ export default function FacturaElectronica() {
     }
 
     React.useEffect(() => {
-        InView()
-    }, [])
+        InView();
+        window.scrollTo(0, 0);
+    }, []);
     
 
     return (

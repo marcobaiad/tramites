@@ -18,6 +18,7 @@ import AsignacionUH from './ArticlesPages/Anses/AsignacionUH';
 import TarjetaAlimentar from './ArticlesPages/Anses/TarjetaAlimentaria';
 import SeguroDesempleo from './ArticlesPages/Anses/SeguroDesempleo';
 import IFE from './ArticlesPages/Anses/IFE';
+import Anses from './ArticlesPages/Temas/Anses';
 
 // Procrear
 import CreditoConstruccion from './ArticlesPages/Procrear/CreditoConstruccion';
@@ -64,7 +65,7 @@ export default function App() {
     <>
       <Route component={Header} />
       <Switch>
-        <Route path='/noticias/Cuarto-ife' exact={true} component={CuartoIFE} />
+        <Route path='/noticias/cuarto-ife' exact={true} component={CuartoIFE} />
         <Route path='/procrear/credito-para-construccion' exact={true} component={CreditoConstruccion} />
         <Route path='/procrear/credito-para-ampliacion' exact={true} component={CreditoAmpliacion} />
         <Route path='/procrear/credito-para-mejora-gas' exact={true} component={CreditoMejoraGas} />
@@ -95,6 +96,7 @@ export default function App() {
         <Route path='/anses/prestamo-auh-y-suaf' exact={true} component={PrestamoUHSUAF} />
         <Route path='/anses/prestamo-pension-no-contributiva' exact={true} component={PrestamoPensionNoContributiva} />
         <Route path='/anses/prestamo-pension-universal-por-vejez' exact={true} component={PrestamoPensionUniversal} />
+        <Route path='/anses' exact={true} component={Anses} />
         <Route path='/afip/turnos-afip' exact={true} component={TurnoAfip} />
         <Route path='/afip/inscripcion-monotributo' exact={true} component={InscripcionMonotributo} />
         <Route path='/afip/generar-vep' exact={true} component={GenerarVEP} />

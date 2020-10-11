@@ -11,7 +11,10 @@ export default function JubiladosPensionados() {
     const titulo2 = React.useRef(null);
     const titulo3 = React.useRef(null);
 
-
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+    
     return (
         <MainDiv page={
         <>

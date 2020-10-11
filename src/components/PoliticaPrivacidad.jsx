@@ -1,6 +1,11 @@
 import React from 'react';
 
 function PoliticaPrivacidad() {
+
+    React.useEffect(() => {
+        window.scrollBy(0, 0)
+    }, []);
+
     return (
         <div className="container mx-5 px-5">
             <strong>POLÍTICA DE PRIVACIDAD</strong> <br/> 

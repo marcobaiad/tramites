@@ -37,11 +37,11 @@ export default function Header() {
     const LinkPost = (props) => {
         const { pathPost, text } = props
         return <Links pathPost={pathPost} colorText="text-white" text={text} />
-        // return <Link onClick={() => buttonMenu.current.click()} className="dropdown-item" to={pathPost}>{text}</Link>
     }
 
     const DataLinks = () => {
-        const LinksDataAnses = posts.Anses.map((fild, l)=> <LinkPost key={l} pathPost={fild.pathPost} text={fild.textLink} />)
+        const FilterLinkAnses = posts.Anses.filter(entrue => entrue.showHome);        
+        const LinksDataAnses = FilterLinkAnses.map((fild, l)=> <LinkPost key={l} pathPost={fild.pathPost} text={fild.textLink} />)
         setLinksAnses(LinksDataAnses)
         const LinksDataAfip = posts.Afip.map((fild, l)=> <LinkPost key={l} pathPost={fild.pathPost} text={fild.textLink} />)
         setLinksAfip(LinksDataAfip)
@@ -62,11 +62,11 @@ export default function Header() {
         : 
         showDrop.current.classList.remove("show")
         for (let post of allPost) {
-            let titulo = post.titleCard.toLowerCase();
+            let titulo = post.textLink.toLowerCase();
             if (titulo.indexOf(texto) !== -1) {
                 postFiltrados.push(post);
                 setValueFilter(postFiltrados.map(p => <Link className="dropdown-item" onClick={formReset} to={p.pathPost}>{p.titleCard}</Link>))
-                setPostfilter(post.titleCard)
+                setPostfilter(post.textLink)
             }
         }
     }
@@ -136,7 +136,7 @@ export default function Header() {
                         :
                         <CollapseMenu buttonMenu={buttonMenu} />
                     }
-                    <form className={`form-inline my-2 my-lg-0 mr-0 mr-md-4 ${!mobilOn && "w-50" }`} ref={showDiv}>
+                    <form className={`form-inline my-2 my-lg-0 mr-0 mr-md-4 searchform`} ref={showDiv}>
                         <input className="form-control w-100" type="search" onChange={HandlerChange} placeholder="Buscar" aria-label="Buscar" />
                         <div className="dropdown w-100 show" id="showDiv">                            
                             <div className="dropdown-menu w-100"  ref={showDrop} aria-labelledby="dropdownMenu1">

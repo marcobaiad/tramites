@@ -21,3 +21,9 @@ input::-webkit-calendar-picker-indicator {
     overflow: scroll !important;
     max-height: 150px;
 }
+@media (min-width: 768px) {
+    .searchform {
+        width: 50%;
+    }
+
+}

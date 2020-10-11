@@ -13,6 +13,10 @@ export default function AsignacionPorEmbazaro() {
     const titulo4 = React.useRef(null);
     const titulo5 = React.useRef(null);
 
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+
     return (
         <MainDiv page={
             <>
@@ -31,7 +35,7 @@ export default function AsignacionPorEmbazaro() {
                         Continúa leyendo para terminar tu trámite de manera fácil y sencila.
                     </div>
                 </div>
-                La <strong>asignación por Maternidad Down</strong> es una ayuda que reciben las las trabajadoras en relación de dependencia durante 180 días en en reemplazo de su sueldo, cuando su hijo nace con sindrome de Down.
+                La <strong>asignación por Maternidad Down</strong> es una ayuda que reciben las trabajadoras en relación de dependencia durante 180 días en en reemplazo de su sueldo, cuando su hijo nace con sindrome de Down.
                 <Suspense fallback={
                     <div className="spinner-border text-primary" role="status">
                         <span className="sr-only">Cargando...</span>

@@ -3,6 +3,11 @@ import MainDiv from '../../components/MainDiv';
 import Helmet from '../../components/Helmet';
 
 export default function TurnoAutomotor() {
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+    
     return(
         <MainDiv page={
             <>

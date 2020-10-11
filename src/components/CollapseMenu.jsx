@@ -16,11 +16,11 @@ export default function CollapseMenu(props) {
     const LinkPost = (props) => {
         const { pathPost, text, func } = props
         return <Links func={func} pathPost={pathPost} text={text} />
-        // return <Link onClick={() => buttonMenu.current.click()} className="dropdown-item" to={pathPost}>{text}</Link>
     }
 
     const DataLinks = () => {
-        const LinksDataAnses = posts.Anses.map((fild, l) => <LinkPost func={() => buttonMenu.current.click()} key={l} pathPost={fild.pathPost} text={fild.textLink} />)
+        const FilterLinkAnses = posts.Anses.filter(entrue => entrue.showHome);        
+        const LinksDataAnses = FilterLinkAnses.map((fild, l) => <LinkPost func={() => buttonMenu.current.click()} key={l} pathPost={fild.pathPost} text={fild.textLink} />)
         setLinksAnses(LinksDataAnses)
         const LinksDataAfip = posts.Afip.map((fild, l) => <LinkPost func={() => buttonMenu.current.click()} key={l} pathPost={fild.pathPost} text={fild.textLink} />)
         setLinksAfip(LinksDataAfip)

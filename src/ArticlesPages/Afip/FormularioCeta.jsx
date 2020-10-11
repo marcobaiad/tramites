@@ -31,6 +31,10 @@ const FormularioCeta = () => {
     //     InView()
     // }, [])
 
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+
     return (
         <MainDiv page={
         <>
