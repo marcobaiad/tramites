@@ -1,23 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c089a76a.chunk.css",
-    "main.js": "/static/js/main.65a230a2.chunk.js",
-    "main.js.map": "/static/js/main.65a230a2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a0e84698.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a0e84698.js.map",
-    "static/js/2.cb16481b.chunk.js": "/static/js/2.cb16481b.chunk.js",
-    "static/js/2.cb16481b.chunk.js.map": "/static/js/2.cb16481b.chunk.js.map",
-    "static/css/3.a36ad7b0.chunk.css": "/static/css/3.a36ad7b0.chunk.css",
-    "static/js/3.64a724e8.chunk.js": "/static/js/3.64a724e8.chunk.js",
-    "static/js/3.64a724e8.chunk.js.map": "/static/js/3.64a724e8.chunk.js.map",
-    "static/js/4.6456c68f.chunk.js": "/static/js/4.6456c68f.chunk.js",
-    "static/js/4.6456c68f.chunk.js.map": "/static/js/4.6456c68f.chunk.js.map",
+    "main.css": "/static/css/main.361e363e.chunk.css",
+    "main.js": "/static/js/main.ec1412da.chunk.js",
+    "main.js.map": "/static/js/main.ec1412da.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.295f7fc9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.295f7fc9.js.map",
+    "static/js/2.3867a299.chunk.js": "/static/js/2.3867a299.chunk.js",
+    "static/js/2.3867a299.chunk.js.map": "/static/js/2.3867a299.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6d0df4fe55b4832288fe4ad538ebf826.js": "/precache-manifest.6d0df4fe55b4832288fe4ad538ebf826.js",
+    "precache-manifest.aceb32927ca9d2fb9485dd7505bb884b.js": "/precache-manifest.aceb32927ca9d2fb9485dd7505bb884b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/3.a36ad7b0.chunk.css.map": "/static/css/3.a36ad7b0.chunk.css.map",
-    "static/css/main.c089a76a.chunk.css.map": "/static/css/main.c089a76a.chunk.css.map",
-    "static/js/2.cb16481b.chunk.js.LICENSE.txt": "/static/js/2.cb16481b.chunk.js.LICENSE.txt",
+    "static/css/main.361e363e.chunk.css.map": "/static/css/main.361e363e.chunk.css.map",
+    "static/js/2.3867a299.chunk.js.LICENSE.txt": "/static/js/2.3867a299.chunk.js.LICENSE.txt",
     "static/media/Asigancion-por-Embarazo.webp": "/static/media/Asigancion-por-Embarazo.d2e44e51.webp",
     "static/media/Asignacion-por-Embarazo1.webp": "/static/media/Asignacion-por-Embarazo1.9980776f.webp",
     "static/media/Asignacion-por-Nacimiento-y-Adopción.webp": "/static/media/Asignacion-por-Nacimiento-y-Adopción.df7a4611.webp",
@@ -52,9 +46,9 @@
     "static/media/paso-2-VEP.webp": "/static/media/paso-2-VEP.b0dd2b82.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.a0e84698.js",
-    "static/js/2.cb16481b.chunk.js",
-    "static/css/main.c089a76a.chunk.css",
-    "static/js/main.65a230a2.chunk.js"
+    "static/js/runtime-main.295f7fc9.js",
+    "static/js/2.3867a299.chunk.js",
+    "static/css/main.361e363e.chunk.css",
+    "static/js/main.ec1412da.chunk.js"
   ]
 }
